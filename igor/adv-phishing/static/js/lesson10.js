@@ -74,6 +74,11 @@ var Lesson10 = {
 			// Pause the video if more than 50% of the video is out of the viewport
 			if (visibleHeight < videoHeight / 2) {
 			  opt.player.pause(); // Pause the video
+				/**
+				 * on scrolling, this event is happening, 
+				 * it is not some mistake player to be paused that much time,
+				 * but if event ocures then errors will be. If the player is paused should not be paused again.
+				 */
 			  console.log("Video paused");
 			}
 		  }

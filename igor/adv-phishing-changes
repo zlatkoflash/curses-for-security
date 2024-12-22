@@ -1,10 +1,22 @@
 Hi @Zlatko Derkoski, when you will be reviewing Advanced course code, please take into account
 • overall code quality and performance
+Zlatko:
+HTML perfect
+CSS in the style for different section different CSS, global CSS should be, but, if is done like this it should continue like this.
+JS is nice, Igor style, for me is clear, but If somebody tell me to edit I will. Usually the scripts should not be edited by other developer.
+
 • if code is understandable and if there are comments explaining the logic, if variables have understandable naming convention
 • modularity and re-usability
+Zlatko:The code for me is clear, if need help for Igor, and the next course have simillar elements and structure I can create it.
+
+
 • not so important, but still - code formatting
 Once you have the code, feel free to create empty repository on github, create a branch and PR with Advanced course, and comment on the PR - I think perhaps it will be the easiest way to comment the code. Or maybe you have another smart alternative.
+Zlatko: the branch is created. When you will have time, send me the email and I will share permission.
 
 
+
+Zlatko:
 top header menu on roll over no bold: underline, the first item that have dropdown no need for effect.
 The tips are done with slider, i think should be space between the slides.
+I am not sure from where 
