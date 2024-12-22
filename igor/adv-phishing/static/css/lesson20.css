@@ -1,0 +1,250 @@
+﻿#lesson20 .accordion {
+	padding-top:17px;
+}
+
+#lesson20 h3 { /* accordion headers */
+	font-size:28px;
+	line-height:1.21;
+	font-family:Inter;
+	color:#1e1e1e;
+	font-weight:600;
+	padding:21px 70px 21px 20px;
+}
+
+#lesson20 p,
+#lesson20 ul {
+	padding-bottom:10px;
+}
+
+#lesson20 p,
+#lesson20 li {
+	font-size:18px;
+	line-height:1.5;
+	color:#555;
+}
+
+#lesson20 p.p-add {
+	font-weight:500;
+	padding-top:28px;
+}
+
+#lesson20 img.rimg {
+	display:block;
+	max-width:90%;
+	margin:0 0 40px 40px;
+	border-radius:4px;
+	padding: 10px;
+}
+
+#lesson20 .examp .wrap {
+	margin-top:32px;
+	background-color:#f9f9f9;
+	border:1px solid #e7e7e7;
+	border-radius:12px;
+	padding: 24px 40px 24px 50px;
+}
+
+#lesson20 .examp .wrap .txt {
+	padding-left:130px;
+}
+
+#lesson20 .examp .wrap img.examp-ico {
+	position:absolute;
+	top:0; left:0;
+}
+
+#lesson20 .examp .wrap .txt h3 { /* real life example */
+	font-family:Inter;
+	font-size:20px;
+	font-weight:600;
+	line-height:1.21;
+	color:#1e1e1e;
+	padding-left:0;
+	padding-bottom:15px;
+}
+
+#lesson20 .examp .wrap .txt p {
+	padding-bottom:15px;
+}
+
+#lesson20 .examp .wrap .d-but {
+	text-align:right;
+}
+
+#lesson20 .examp .wrap button {
+	font-family:'Nunito Sans';
+	background-color:#fff;
+	border:1px solid #f1f1f1;
+	border-radius:24px;
+	cursor:pointer;
+	padding:6px 14px;
+}
+#lesson20 .examp .wrap button:hover {
+	border-color:#e0e0e0;
+}
+#lesson20 .examp .wrap button span {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 10px;
+	font-size:16px;
+	font-weight:600;
+	color:#555;
+}
+#lesson20 .examp .wrap button span.i-but-gt {
+	background-image: url(../img/i-but-gt-dark.png);
+    vertical-align: middle;
+    width: 8px;
+    height: 14px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#lesson20 .examp .wrap button span.i-but-up {
+	background-image: url(../img/i-but-up-dark.png);
+    vertical-align: middle;
+    width:14px;
+    height:8px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* expand */
+#lesson20 .expand {
+	height:0;
+	overflow:hidden;
+}
+#lesson20 .expand.active {
+	border-top:1px solid #e7e7e7;
+	padding-top:25px;
+	margin-top:20px;
+}
+
+#lesson20 .expand .col-exp-txt {
+	width:100%;
+	padding-left:130px;
+}
+
+
+#lesson20 .expand img.imghead {
+	max-width:100%;
+	margin-bottom:12px;
+}
+
+#lesson20 .expand h4 {
+	font-family:Inter;
+	font-size:20px;
+	line-height:1.21;
+	font-weight:600;
+	color:#1e1e1e;
+	padding-bottom:15px;
+}
+
+#lesson20 .expand p {
+	padding-bottom:20px;
+}
+
+#lesson20 .expand hr {
+	height:1px;
+	background-color:#e7e7e7;
+	margin:5px 0 23px 0;
+}
+
+#lesson20 .expand .col-exp-txtleft {
+	width:45%;
+}
+#lesson20 .expand .col-exp-txtright {
+	width:55%;
+	text-align:right;
+}
+
+/* responsive */
+@media screen and (max-width:1200px) {
+	#lesson20 img.rimg {
+		max-width:400px;
+		margin:0 0 30px 30px;
+	}
+
+	#lesson20 .examp .wrap {
+		padding-top:20px;
+	}
+	
+	#lesson20 .expand .col-exp-txtleft {
+		width:100%;
+	}
+	#lesson20 .expand .col-exp-txtright {
+		width:100%;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	#lesson20 img.rimg {
+		max-width:300px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	#lesson20 p,
+	#lesson20 li {
+		font-size:16px;
+	}
+
+	#lesson20 img.rimg {
+		float:none;
+		margin:0 auto 20px auto;
+	}
+
+	#lesson20 .examp .wrap {
+		padding:20px;
+	}
+	
+	#lesson20 h3 {
+		font-size:24px;
+		padding:12px 40px 12px 20px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	#lesson20 h3 {
+		font-size:20px;
+	}
+
+	#lesson20 .examp .wrap .txt {
+		padding-left:0;
+	}
+
+	#lesson20 .examp .wrap .txt h3	{
+		font-size:18px;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+	#lesson20 .examp .wrap img.examp-ico {
+		position:relative;
+		width:43px;
+	}
+
+	#lesson20 .examp .wrap .d-but {
+		text-align:left;
+	}
+
+	
+	#lesson20 .expand .col-exp-txt {
+		padding-left:0;
+	}
+
+	#lesson20 .expand h4 {
+		font-size:18px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	#lesson20 .examp .wrap {
+		padding-top:16px;
+	}
+}
+
+@media screen and (max-width:360px) {
+	#lesson20 img.rimg {
+		max-width:95%;
+	}
+}

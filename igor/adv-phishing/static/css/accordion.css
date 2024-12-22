@@ -1,0 +1,80 @@
+﻿/* accordion */
+.ui-accordion .ui-accordion-header {
+	display:block;
+	background-color:#fff;
+	cursor:pointer;
+	outline:none;
+	border:1px solid #e7e7e7;
+	border-radius:12px;
+	margin-top:13px;
+}
+.ui-accordion .ui-accordion-header:after {
+	display:block;
+	content:"";
+	position:absolute;
+	top:0; right:24px;
+	width:48px; height:100%;
+	background-image:url(../img/i-acc-header.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size:48px 48px;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active:after {
+	background-image:url(../img/i-acc-header-active.png);
+}
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	display:none;
+}
+
+.ui-accordion .ui-accordion-header.ui-accordion-header-active {
+	border-radius:12px 12px 0 0;
+}
+
+.ui-accordion > div.ui-accordion-content {
+	background-color:#f1f1f1;
+	padding:40px 44px;
+	border-radius:0 0 12px 12px;
+}
+
+.ui-accordion ul {
+	list-style:disc;
+	padding-left:30px;
+}
+.ui-accordion ul li {
+	position: relative;
+/*
+	padding-left: 26px;
+	background: url(../img/i-li-v.png) left 6px;
+	background-repeat: no-repeat;
+*/
+}
+
+@media screen and (max-width: 1024px) {
+	.ui-accordion > div.ui-accordion-content {
+        padding:20px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.ui-accordion .ui-accordion-header:after {
+		width:32px;
+		background-size:32px 32px;
+		background-image:url(../img/i-acc-header32.png);
+		right:12px;
+	}
+	.ui-accordion .ui-accordion-header.ui-state-active:after {
+		background-image:url(../img/i-acc-header-active32.png);
+	}
+
+	.ui-accordion > div.ui-accordion-content > .row > .col-6 {
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.ui-accordion > div.ui-accordion-content {
+        padding:16px;
+	}
+}

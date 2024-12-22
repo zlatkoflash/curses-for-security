@@ -1,0 +1,321 @@
+﻿/* progress */
+.row-sect--phishmaster .row-results-mobile {
+	display:none;
+}
+
+.row-sect--phishmaster .quiz-progress .quiz-round span,
+.row-sect--phishmaster .quiz-progress .level span {
+	font-size:14px;
+	font-weight:400;
+	line-height:1.5;
+	color:#7f7f7f;
+}
+
+.row-sect--phishmaster .quiz-progress .level .txt {
+	display:inline-block;
+	vertical-align:top;
+}
+
+.row-sect--phishmaster .quiz-progress .level .txt span.beginner,
+.row-sect--phishmaster .quiz-progress .level .txt span.intermed,
+.row-sect--phishmaster .quiz-progress .level .txt span.expert {
+	display:none;
+	font-weight:600;
+	color:#1c7b82;
+}
+
+.row-sect--phishmaster .quiz-progress .level.beginner .txt span.beginner {
+	display:inline-block;
+}
+.row-sect--phishmaster .quiz-progress .level.intermed .txt span.intermed {
+	display:inline-block;
+}
+.row-sect--phishmaster .quiz-progress .level.expert .txt span.expert {
+	display:inline-block;
+}
+
+.row-sect--phishmaster .quiz-progress .level .priz {
+	display:inline-block;
+	height:24px;
+	overflow:hidden;
+	vertical-align:top;
+	padding-left:12px;
+}
+
+.row-sect--phishmaster .quiz-progress .level .priz.level-0 img {
+	margin-top:0;
+}
+.row-sect--phishmaster .quiz-progress .level .priz.level-1 img {
+	margin-top:-25px;
+}
+.row-sect--phishmaster .quiz-progress .level .priz.level-2 img {
+	margin-top:-50px;
+}
+.row-sect--phishmaster .quiz-progress .level .priz.level-3 img {
+	margin-top:-75px;
+}
+
+.row-sect--phishmaster .quiz-progress .rects {
+	font-size:1px;
+	padding-top:6px;
+}
+
+.row-sect--phishmaster .quiz-progress .rects span {
+	display: inline-block;
+	height: 6px;
+	border-radius: 50px;
+	background-color: #e7e7e7;
+	margin-right: 3px;
+}
+.row-sect--phishmaster .quiz-progress .rects span:last-child {
+	margin-right: 0;
+}
+.row-sect--phishmaster .quiz-progress .rects span.bad {
+	background-color: #f57979;
+}
+.row-sect--phishmaster .quiz-progress .rects span.ok {
+	background-color: #1c7b82;
+}
+
+/* responsive */
+@media screen and (max-width:1024px) {
+	.row-sect--phishmaster .row-title-progress .col-6 {
+		width:100%;
+	}
+	
+	.row-sect--phishmaster .row-results-desktop {
+		display:none;
+	}
+	.row-sect--phishmaster .row-results-mobile {
+		display:block;
+		padding-top:13px;
+	}
+	.row-sect--phishmaster .quiz-progress .rects { padding-top: 27px; }
+	.row-sect--phishmaster .quiz-progress .rects span { height: 4px; }
+	
+	.row-sect--phishmaster .quiz-progress .quiz-round span,
+	.row-sect--phishmaster .quiz-progress .quest-n span {
+		font-weight:500;
+	}
+	
+	.row-sect--phishmaster .row-results-mobile .col-line {
+		height:1px;
+		background-color:#e7e7e7;
+		margin-top:13px;
+	}
+}
+
+@media screen and (max-width:340px) {
+	.row-sect--phishmaster .quiz-progress .level span.ltxt {
+		display:none;
+	}
+}
+
+/* quiz */
+.row-sect--phishmaster .wrap-quiz {
+	margin-top:34px;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .col-block {
+	padding:24px 24px;
+	background-color:#f9f9f9;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .row-answers {
+	padding-top:46px;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .col-left {
+	float:left;
+	width:52%
+}
+.lesson .row-sect--phishmaster .wrap-quiz .col-left.width100 {
+	width:100%;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .col-right {
+	float:right;
+	width:45%;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .question-box {
+	font-family:'Nunito Sans';
+	font-size:30px;
+	line-height:1.2;
+	font-weight:800;
+	color:#1f1f1f;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .answer {
+	background-color:#fff;
+	border-radius:8px;
+	padding:9px 10px 9px 75px;
+	margin-bottom:10px;
+	border:1px solid #fff;
+	cursor:pointer;
+	transition:all 1s;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .answer:hover {
+	border-color:#e7e7e7;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .answer:last-child {
+	margin-bottom:0;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .answer.ok {
+	border-color:#27acb6;
+	background-color:#e9f7f8;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .answer.bad {
+	border-color:#ff5656;
+	background-color:#ffeeee;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .answer .big-text {
+	display:block;
+	position:absolute;
+	top:10px; left:10px;
+	width:50px;
+	height:50px;
+	background-color:#f1f1f1;
+	border-radius:6px;
+	line-height:50px;
+	font-family:'Nunito Sans';
+	font-size:30px;
+	font-weight:800;
+	color:#1c7b82;
+	text-align:center;
+	transition:all 1s;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .answer.bad .big-text {
+	background-color:#ff5656;
+	color:#fff;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .answer.ok .big-text {
+	background-color:#27acb6;
+	color:#fff;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .answer .text {
+	display:flex;
+	align-items:center;
+	min-height:50px;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .answer .text span {
+	font-size:16px;
+	font-weight:600;
+	color:#545454;
+	line-height:1.4;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .col-right div.image {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border:1px solid #e1e7e5;
+	border-radius:8px;
+	background-color:#fff;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .col-right div.image img {
+	max-width:90%;
+}
+
+/* responsive */
+@media screen and (max-width:1024px) {
+	.lesson .row-sect--phishmaster .wrap-quiz .col-block {
+		padding:20px 20px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.lesson .row-sect--phishmaster .wrap-quiz .row-answers {
+		padding-top:20px;
+	}
+
+	.lesson .row-sect--phishmaster .wrap-quiz .col-left {
+		float:none;
+		width:100%;
+	}
+	.lesson .row-sect--phishmaster .wrap-quiz .col-right {
+		float:none;
+		width:100%;
+	}
+	
+	.lesson .row-sect--phishmaster .wrap-quiz .col-right div.image {
+		margin-bottom:25px;
+	}
+}
+
+@media screen and (max-width:560px) {
+	.lesson .row-sect--phishmaster .wrap-quiz .question-box {
+		font-size:24px;
+	}
+
+	.lesson .row-sect--phishmaster .wrap-quiz .col-block {
+		background-color: #fff;
+		border:0 none;
+		padding:0 !important;
+	}
+
+	.lesson .row-sect--phishmaster .wrap-quiz .row-answers {
+		padding-top:20px;
+	}
+
+	.lesson .row-sect--phishmaster .wrap-quiz .answer {
+		min-height:56px;
+		padding:7px 7px 7px 56px;
+		background-color:#f9f9f9;
+		border-radius:8px;
+	}
+	.lesson .row-sect--phishmaster .wrap-quiz .answer .big-text {
+		width:40px;
+		height:40px;
+		line-height:40px;
+		top: 8px;
+		left: 8px;
+		background-color:#e7e7e7;
+	}
+	.lesson .row-sect--phishmaster .wrap-quiz .answer .text {
+		min-height:40px;
+	}
+	.lesson .row-sect--phishmaster .wrap-quiz .answer .text {
+		font-size:14px;
+		font-weight:500;
+	}
+}
+
+@media screen and (max-width:389px) {
+	.lesson .row-sect--phishmaster .wrap-quiz .col-block {
+		padding:10px 10px;
+	}
+}
+
+/* messages */
+.lesson .row-sect--phishmaster .wrap-quiz .d-messages {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	position: absolute;
+	top:0; left:0;
+	height:100%; width:100%;
+	pointer-events:none;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .d-messages .msg {
+	max-width:500px;
+}
+
+.lesson .row-sect--phishmaster .wrap-quiz .d-messages .msg h2 {
+	font-family:'Nunito Sans';
+	font-size:30px;
+	line-height:1.2;
+	font-weight:800;
+	color:#1f1f1f;
+	padding:8px 0 15px 0;
+}
+.lesson .row-sect--phishmaster .wrap-quiz .d-messages .msg p {
+	font-size:14px;
+	line-height:1.5;
+	font-weight:400;
+	color:#5e5e5e;
+	padding-bottom:30px;
+}

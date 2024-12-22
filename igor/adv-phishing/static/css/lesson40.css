@@ -1,0 +1,492 @@
+﻿.lesson#lesson40 .lesson-header {
+	padding-bottom: 83px;
+}
+
+.lesson#lesson40 .lesson-header h1 {
+	padding-bottom:22px;
+}
+
+#lesson40 .row-sect--gtxt h2 {
+	padding-bottom: 18px;
+}
+
+#lesson40 .col-txt-howlinks {
+	width:40%;
+	padding-right:70px;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.5;
+	color:#7c7c7c;
+}
+#lesson40 .col-txt-howlinks p {
+	font:inherit;
+	color:inherit;
+}
+
+#lesson40 .col-howlinks {
+	width:60%;
+	border:1px solid #e1e7e5;
+	border-radius:12px;
+	background-color:#fff;
+	padding:42px 0;
+}
+
+#lesson40 .howlinks {
+	width:658px;
+	margin:0 auto;
+}
+
+#lesson40 .howlinks .r1 { height:35px; }
+#lesson40 .howlinks .r2 { height:40px; }
+#lesson40 .howlinks .r3 { height:18px; }
+
+#lesson40 .howlinks img.url-r1,
+#lesson40 .howlinks img.url-r2,
+#lesson40 .howlinks img.url-r3,
+#lesson40 .howlinks img.url-r4 {
+	display:block;
+	max-width:100%;
+}
+
+#lesson40 .howlinks .titem {
+	display:inline-block;
+	position:absolute;
+	font-family:'Inter';
+	font-size:13px;
+	font-weight:500;
+	color:#000;
+	line-height:1.2;
+	text-align:center;
+	top:0;
+}
+
+#lesson40 .howlinks .r1c1 { left:0.6%; width:13%; }
+#lesson40 .howlinks .r1c2 { left:16%; width:12%; }
+#lesson40 .howlinks .r1c3 { left:29.2%; width:21%; }
+#lesson40 .howlinks .r1c4 { left:51%; width:11%; }
+#lesson40 .howlinks .r1c5 { left:61.5%; width:12%; }
+#lesson40 .howlinks .r1c6 { left:74.7%; width:22%; }
+
+#lesson40 .howlinks .r2c1 { left:calc(21% - 35px); width:14%; min-width:70px; }
+#lesson40 .howlinks .r2c2 { left:28.7%; width:32%; }
+#lesson40 .howlinks .r2c3 { left:73.2%; width:26%; }
+
+#lesson40 .howlinks .r3c1 { left:16.6%; width:45%; }
+#lesson40 .howlinks .r3c2 { left:64%; width:34%; }
+
+/* responsive */
+@media screen and (max-width:1440px) {
+	#lesson40 .col-howlinks {
+		padding: 99px 0;
+	}
+
+	#lesson40 .howlinks {
+		width: 594px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	#lesson40 .col-howlinks {
+		padding: 125px 0;
+    }
+	
+	#lesson40 .howlinks {
+		width: 530px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+	#lesson40 .col-txt-howlinks,
+	#lesson40 .col-howlinks {
+		width:100%;
+		padding-right:0;
+	}
+
+	#lesson40 .col-howlinks {
+		margin-top:25px;
+        padding:50px 0;
+	}
+	
+	#lesson40 .howlinks { width:658px; }
+}
+
+@media screen and (max-width:768px) {
+	#lesson40 .howlinks {
+		width: 530px;
+    }
+	
+	#lesson40 p,
+	#lesson40 .col-txt-howlinks p {
+		font-size:16px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	#lesson40 .col-howlinks {
+		padding:75px 0 20px 0;
+    }
+	
+	#lesson40 .howlinks {
+		width:96%;
+    }
+
+	#lesson40 .howlinks .titem {
+		font-size: 12px;
+		font-weight:500;
+	}
+
+	#lesson40 .howlinks .r1 {
+		height:0;
+	}
+	
+	#lesson40 .howlinks .r1 .titem {
+		font-size: 12px;
+		font-weight:500;
+		-webkit-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		transform-origin:top left;
+		text-align:left; width:70px;
+	}
+	
+	#lesson40 .howlinks .r1c1 { left:5.3%; }
+	#lesson40 .howlinks .r1c2 { left:18.1%; }
+	#lesson40 .howlinks .r1c3 { left:36%; }
+	#lesson40 .howlinks .r1c4 { left:53%; }
+	#lesson40 .howlinks .r1c5 { left:65%; }
+	#lesson40 .howlinks .r1c6 { left:84%; }
+}
+
+#lesson40 .col-whatcould {
+	margin-top:70px;
+}
+
+#lesson40 .col-whatcould p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #7c7c7c;
+}
+
+#lesson40 .col-tbl-whatcould {
+	background-color:#f9f9f9;
+	border-radius:12px;
+	border:1px solid #e1e7e5;
+	padding:22px 24px 24px 24px;
+	margin-top:35px;
+	margin-bottom:35px;
+}
+
+#lesson40 .httpline {
+	font-size:1px;
+}
+#lesson40 .col-tbl-whatcould span {
+	display:inline-block;
+	font-family:'Inter';
+	font-size:24px;
+	line-height:1.1;
+	font-weight:600;
+	color:#1e1e1e;
+	padding:4px 8px;
+	border-radius:6px;
+	margin:2px 0;
+}
+
+#lesson40 .col-tbl-whatcould span.white {
+	background-color:transparent;
+	padding-left:0;
+	padding-right:0;
+}
+
+#lesson40 .col-tbl-whatcould span.http { background-color:rgba(147,214,216,0.4); }
+#lesson40 .col-tbl-whatcould span.subitem2 { background-color:rgba(157,200,240,0.4); }
+#lesson40 .col-tbl-whatcould span.subitem1 { background-color:rgba(181,176,240,0.4); }
+#lesson40 .col-tbl-whatcould span.domname { background-color:rgba(255,188,188,0.4); }
+#lesson40 .col-tbl-whatcould span.path { background-color:rgba(248,203,110,0.4); }
+
+#lesson40 .col-tbl-whatcould .explainer {
+	border:1px solid #e1e7e5;
+	border-radius:8px;
+	margin-top:22px;
+	background-color:#fff;
+}
+
+#lesson40 .col-tbl-whatcould .explainer .item {
+	border-bottom:1px solid #e1e7e5;
+	padding:16px 0;
+}
+#lesson40 .col-tbl-whatcould .explainer .item:last-child {
+	border-bottom:0 none;
+}
+#lesson40 .col-tbl-whatcould .explainer .item span {
+	display:inline-block;
+	font-size:18px;
+	color:#545454;
+}
+#lesson40 .col-tbl-whatcould .explainer .item span.ltxt {
+	width:30%;
+	padding:4px 0 4px 16px;
+}
+
+#lesson40 .col-tbl-whatcould .explainer .item span.rtxt {
+	max-width: calc(100% - 32px);
+}
+
+/* responsive */
+@media screen and (max-width:1024px) {
+	#lesson40 .col-tbl-whatcould {
+		padding:20px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	#lesson40 .col-whatcould p {
+		font-size:16px;
+	}
+	
+	#lesson40 .col-tbl-whatcould .explainer .item {
+		padding:8px 0 14px 0;
+	}
+	#lesson40 .col-tbl-whatcould .explainer .item span.ltxt {
+		width: 100%;
+	}
+	#lesson40 .col-tbl-whatcould .explainer .item span.rtxt {
+		margin-left:16px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	#lesson40 .col-tbl-whatcould span {
+		font-size:18px;
+	}
+	#lesson40 .col-tbl-whatcould .explainer .item span {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:389px) {
+	#lesson40 .col-tbl-whatcould {
+		padding:10px;
+	}
+}
+
+#lesson40 .col-cybersq {
+	margin-top:70px;
+}
+
+#lesson40 .col-cybersq p {
+	font-size:18px;
+	color:#7c7c7c;
+}
+#lesson40 .col-cybersq p.p1,
+#lesson40 .col-cybersq p.p2 {
+	padding-bottom:15px;
+}
+#lesson40 .col-cybersq p strong {
+	font-weight:700;
+	color:inherit;
+}
+#lesson40 .col-cybersq p span.bstrong {
+	font-weight:700;
+	color:#3a90e1;
+}
+
+#lesson40 .col-cybersq ul {
+	list-style:disc;
+	padding-left:30px;
+	padding-top:15px;
+	padding-bottom:8px;
+}
+#lesson40 .col-cybersq ul li {
+	font-size:18px;
+	line-height:1.5;
+	font-weight:400;
+	color:#555555;
+	padding-bottom:10px;
+}
+#lesson40 .col-cybersq ul li strong {
+	font-weight:700;
+}
+
+/* responsive */
+@media screen and (max-width:768px) {
+	#lesson40 .col-cybersq p,
+	#lesson40 .col-cybersq ul li {
+		font-size:16px;
+	}
+}
+
+#lesson40 .col-subdoms {
+	margin-top:70px;
+}
+
+#lesson40 .col-subdoms p {
+	font-size:18px;
+	color:#7c7c7c;
+}
+#lesson40 .col-subdoms p.p1 {
+	padding-bottom:15px;
+}
+
+#lesson40 .col-subdoms div.info {
+	background-color:rgba(0,0,0,0.05);
+	border-radius:12px;
+	margin:14px 0;
+	text-align:center;
+	height:67px;
+	line-height:67px;
+}
+#lesson40 .col-subdoms div.info .info-wrap {
+	display:inline-block;
+}
+#lesson40 .col-subdoms div.info img {
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:-2px;
+}
+#lesson40 .col-subdoms div.info div.reload {
+	position:absolute;
+	right:30px;
+	top:0px;
+	height:67px;
+}
+
+#lesson40 .col-subdoms div.info span {
+	display:inline-block;
+	font-size:25.78px;
+	line-height:1.5;
+	color:#4c4c4c;
+	vertical-align:middle;
+}
+#lesson40 .col-subdoms div.info span.green {
+	font-weight:600;
+	color:#00af63;
+	padding-left:6px;
+	padding-right:8px;
+}
+
+#lesson40 .col-subdoms div.info span.vdelim {
+	padding-right:8px;
+}
+
+#lesson40 .col-subdoms p.p3 {
+	font-weight:500;
+	color:#555555;
+}
+
+#lesson40 .col-subdoms ul {
+	list-style:disc;
+	padding-left:30px;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+#lesson40 .col-subdoms ul li {
+	font-size:18px;
+	line-height:1.5;
+	font-weight:400;
+	color:#555555;
+}
+
+/* responsive */
+@media screen and (max-width:1024px) {
+	#lesson40 .col-subdoms div.info span {
+		font-size:22px;
+	}
+	#lesson40 .col-subdoms div.info div.reload {
+		display:none;
+	}
+}
+
+@media screen and (max-width:768px) {
+	#lesson40 .col-subdoms div.info span {
+		font-size:16px;
+	}
+
+	#lesson40 .col-subdoms p,
+	#lesson40 .col-subdoms ul li {
+		font-size:16px;
+	}
+}
+
+@media screen and (max-width:550px) {
+	#lesson40 .col-subdoms div.info {
+		height:40px;
+		line-height:40px;
+	}
+
+	#lesson40 .col-subdoms div.info img {
+		width:12px;
+		margin-top:0;
+	}
+	
+	#lesson40 .col-subdoms div.info span {
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	#lesson40 .col-subdoms div.info {
+		height:60px;
+		line-height:22px;
+	}
+
+	#lesson40 .col-subdoms div.info .info-wrap {
+		width: 237px;
+		text-align: left;
+		margin-top:8px;
+	}
+	
+	#lesson40 .col-subdoms div.info span.vdelim { display:none; }
+}
+
+#lesson40 .col-moreurl {
+	margin-top:70px;
+}
+
+#lesson40 .col-moreurl p {
+	font-size:18px;
+	color:#7c7c7c;
+}
+
+#lesson40 .col-moreurl ul.num {
+	list-style:decimal;
+	padding-left:30px;
+	padding-top:15px;
+	padding-bottom:0;
+}
+#lesson40 .col-moreurl ul li {
+	font-size:18px;
+	line-height:1.5;
+	font-weight:400;
+	color:#7c7c7c;
+	padding-bottom:15px;
+}
+#lesson40 .col-moreurl ul li:last-child {
+	padding-bottom:0;
+}
+#lesson40 .col-moreurl ul li strong {
+	display:inline-block;
+	max-width:100%;
+	font-weight:700;
+}
+
+#lesson40 .col-moreurl span.bstrong {
+	display:inline-block;
+	max-width:100%;
+	font-weight:700;
+	color:#3a90e1;
+}
+
+#lesson40 .col-moreurl p.p2,
+#lesson40 .col-moreurl p.p3,
+#lesson40 .col-moreurl p.p4,
+#lesson40 .col-moreurl p.p5 {
+	padding-top:15px;
+}
+
+@media screen and (max-width:768px) {
+	#lesson40 .col-moreurl p,
+	#lesson40 .col-moreurl ul li {
+		font-size:16px;
+	}
+}

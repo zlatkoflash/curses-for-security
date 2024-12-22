@@ -1,0 +1,208 @@
+﻿<!-- Quiz (see static/spot-quiz/css/quiz.css) -->
+<div class="lesson gamespot" id="lesson31">
+	<!-- If these values are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 3</p>
+							<h1>Phishing games</h1>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-sect--gamespot">
+					<!--
+						When creating a template in other languages,
+						you need to translate values "Safe", "Unsafe", "+1 Point", "-1 Life"
+					-->
+					<input type="hidden" class="inp-safe" value="Safe">
+					<input type="hidden" class="inp-unsafe" value="Unsafe">
+					<input type="hidden" class="inp-point" value="+1 Point">
+					<input type="hidden" class="inp-life" value="-1 Life">
+
+					<div class="col-12 col-block">
+						<div class="row row-title-progress">
+							<div class="col-6">
+								<h2>Spot The Phishing Scam</h2>
+							</div>
+
+							<div class="col-6">
+								<div class="quiz-progress">
+									<div class="results">
+										<div class="row row-results-desktop">
+											<div class="col-x left quiz-round">
+												<span>Test</span>
+												<span class="n">1</span>
+												<span>of</span>
+												<span class="cnt">2</span>
+											</div>
+											<div class="col-x right quiz-q-lives">
+												<div class="quest-n" title="Your result">
+													<span class="n">1</span><span>/</span><span class="cnt">10</span>
+												</div>
+												<div class="lives" title="Lives Left">
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-12 rects">
+												<!-- spans -->
+											</div>
+										</div>
+										<div class="row row-results-mobile">
+											<div class="col-x left quiz-round">
+												<span>Test</span>
+												<span class="n">1</span>
+												<span>of</span>
+												<span class="cnt">2</span>
+											</div>
+											<div class="col-x right quiz-q-lives">
+												<div class="quest-n" title="Your result">
+													<span class="n">1</span><span>/</span><span class="cnt">10</span>
+												</div>
+												<div class="lives" title="Lives Left">
+												</div>
+											</div>
+											<div class="col-12 col-line"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /row -->
+
+						<div class="wrap-quiz">
+							<div class="row">
+								<div class="col-12 col-block">
+									<div class="quiz-pages">
+										<!-- see spot-quiz/quiz.js -->
+									</div>
+									
+									<div class="pop-msg msg-endround">
+										<span class="close">&times;</span>
+										<h4>Round Summary</h4>
+										<div class="row">
+											<div class="col-7">
+												<div class="item"><span class="i-item i-ans">&nbsp;</span>Answers:</div>
+												<div class="item"><span class="i-item i-corr">&nbsp;</span>Correct Answers:</div>
+												<div class="item"><span class="i-item i-time">&nbsp;</span>Time:</div>
+												<div class="item"><span class="i-item i-compl">&nbsp;</span>Completed:</div>
+											</div>
+											<div class="col-5 r">
+												<div class="item nans">2</div>
+												<div class="item ncorr">1</div>
+												<div class="item time">12:34</div>
+												<div class="item compl">20%</div>
+											</div>
+											<div class="col-12 col-but">
+												<button class="but-next" onclick="SpotQuiz.hide_popups()">
+													<span>Close</span>
+												</button>
+											</div>
+										</div>
+									</div>
+									
+									<div class="pop-msg msg-endlives">
+										<h4>Game Over!</h4>
+										<img src="./static/spot-quiz/img/game-over.png">
+										<p>You ran out of lives!</p>
+										<div class="col-but">
+											<button class="but-prev" title="Main page" onclick="SpotQuiz.exit()">
+												<span class="i-but-lt">&nbsp;</span>
+												<span>Back</span>
+											</button>
+											<button class="but-next" onclick="SpotQuiz.start()">
+												<span class="i-but-reload">&nbsp;</span>
+												<span>Play Again</span>
+											</button>
+										</div>
+									</div>
+
+									<div class="msg-endquiz">
+										<div class="d-top">
+											<div class="d-stars">
+											</div>
+											<h4 class="great">Amazing Result!</h4>
+											<h4 class="good">Nice Work!</h4>
+											<h4 class="bad">You Can Better</h4>
+											<p>Your current score is <span class="score">0</span>%.</p>
+										</div>
+										
+										<div class="txt">
+											<p class="strong">
+												Congratulations on successfully completing your security training with us!
+											</p>
+											
+											<p>
+												Your dedication to enhancing your knowledge and skills in cybersecurity
+												is commendable.<br>
+												With your newly acquired expertise, you're now better
+												equipped to safeguard your organization's digital assets and mitigate
+												potential risks.
+											</p>
+											<p>
+												We encourage you to continue applying the best practices and insights
+												gained from the training in your day-to-day activities.
+											</p>
+										</div>
+										<div class="col-but">
+											<button class="but-prev" title="Main page" onclick="SpotQuiz.exit()">
+												<span class="i-but-lt">&nbsp;</span>
+												<span>Back</span>
+											</button>
+											<button class="but-next" onclick="SpotQuiz.start()">
+												<span class="i-but-reload">&nbsp;</span>
+												<span>Play Again</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 col-butnext txtright">
+									<button class="but-next" title="Next question" onclick="SpotQuiz.butNext()">
+										<span>Next</span>
+										<span class="i-but-gt">&nbsp;</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /row-sect--gamespot -->
+				
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(30)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<!--
+							<div class="col-6 right txtright">
+								<button class="but-next but-next-lesson" title="Next lesson" onclick="Course.goLesson(32)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+							-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

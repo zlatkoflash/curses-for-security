@@ -1,0 +1,648 @@
+<!--
+data-cntans - count of answers on the page.
+We use a bit mask to denote the answers. For example, data-ans="13".
+The number 13 in binary is 1101. This means that:
+answer #1 is unsafe, #2 is safe, #3 is unsafe and #4 is unsafe.
+The correct answer is specified by the data_ans attribute in the yn_menu item.
+Eg:
+data_ans="0" - user should press 'Safe'
+data_ans="1" - user should press 'Unsafe'
+-->
+<div class="quiz-m quiz-q0" data-cntans="2">
+	<!-- Ebay -->
+<style>
+/* top */
+.quiz-q0 .top .from {
+	font-family:'Nunito Sans';
+	font-size:18px;
+	line-height:1.36;
+	color:#313234;
+	padding-bottom:15px;
+}
+.quiz-q0 .top .profile {
+	padding-right:15px;
+}
+.quiz-q0 .top .inbox {
+	font-family:'Nunito Sans';
+	font-size:11px;
+	font-weight:600;
+	line-height:1.17;
+	color:#666666;
+	background-color:#e0e0e0;
+	border-radius:4px;
+	vertical-align:middle;
+	margin-left:4px;
+	padding: 2px 5px;
+}
+.quiz-q0 .top .inbox .x {
+	font-weight:800;
+}
+.quiz-q0 .top .date span {
+	font-family:'Nunito Sans';
+	font-size:11px;
+	font-weight:600;
+	line-height:1.17;
+	color:#666666;
+	vertical-align:middle;
+}
+.quiz-q0 .top .date img {
+	vertical-align:middle;
+}
+
+.quiz-q0 .top .sender {
+	font-family:'Nunito Sans';
+	font-size:11px;
+	font-weight:600;
+	line-height:1.5;
+	color:#666666;
+}
+.quiz-q0 .top .sender strong {
+	font-size:16px;
+	font-weight:800;
+	color:#555;
+}
+
+/* mid */
+.quiz-q0 .mid {
+	padding:20px 40px;
+}
+
+.quiz-q0 .mid-boxgrey {
+	background-color:#f9f9f9;
+	padding:10px 100px;
+	border-top:1px solid #eceff1;
+}
+
+.quiz-q0 .mid-boxwhite {
+	background-color:#fff;
+	padding:20px 40px;
+}
+</style>
+	<div class="top">
+		<div class="row">
+			<div class="col-x from">
+				Message from eBay Member Regarding Item #290296109659
+				<span class="inbox">
+					Inbox
+					<span class="x">&times;</span>
+				</span>
+			</div>
+			<div class="col-x right top-r">
+				<img class="sect-top-r" src="./static/spot-quiz/img/sect-top-r.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-x profile">
+				<img src="./static/spot-quiz/img/profile.png">
+			</div>
+			<div class="col-x sender">
+				<strong>eBay</strong>
+				<span class="w9999">&lt;service-xgbe4vszne3@3673.contact.ebay.com.database.sadsad213.com&gt;</span>
+				<span class="w1440">&lt;service-xgbe4vszne3@3673.contact.ebay.com.database.sadsad213.com&gt;</span>
+				<span class="w1024">&lt;service-4vszne3@3673.contact.ebay.com.database.sadsad213.com&gt;</span>
+				<span class="w768">&lt;service-4vszne3@3673.contact.ebay.com.database.sadsad213.com&gt;</span>
+				<span class="w600">&lt;service@3673...ebay.com.database.sadsad213.com&gt;</span>
+				<span class="w540">&lt;service@3673...<wbr>sadsad213.com&gt;</span>
+				<br>
+				to biddy@allyoubead.com <img src="./static/spot-quiz/img/pages/down-arr.png">
+				<div class="yel_lighting yel_lighting1" data-id="1"></div>
+				<div class="yn_menu dn_menu yn_menu1" data-id="1" data-ans="1"></div>
+
+				<div class="pointsmsg pointsmsg1" data-id="1"></div>
+				<div class="lifemsg lifemsg1" data-id="1"></div>
+
+				<div class="d_buble d_buble_top d_buble1" data-id="1">
+					<h2>Solution</h2>
+					The sender contains the name &#39;ebay.&#39; But when you look closer,
+					you notice that the domain after
+					the @ symbol is actually sadsad213 and not ebay.
+				</div>
+			</div>
+			<div class="col-x right date">
+				<span>February 16, 2025, 10:32PM</span>
+				<img class="mailtools" src="./static/spot-quiz/img/sect-mailtools.png">
+			</div>
+		</div>
+	</div>
+	<div class="mid">
+		<div class="mid-boxgrey">
+			<div class="mid-boxwhite">
+				<div class="row row-ebay">
+					<div class="col-x">
+						<img src="./static/spot-quiz/img/pages/ebay.png">
+					</div>
+					<div class="col-x r">
+						eBay sent this message to biddy@allyoubead.com (biddybidbidbid).<br>
+						Your registered email is included to show this message originated from eBay.
+						<span class="a">Learn more.</a>
+					</div>
+				</div>
+				<div class="row row-color-line">
+					<div class="col-3 red"></div>
+					<div class="col-3 blue"></div>
+					<div class="col-3 yellow"></div>
+					<div class="col-3 green"></div>
+				</div>
+				<div class="boxyellow">
+					<h3>This member has a question for you.</h3>
+					<p>
+						<img class="left" src="./static/spot-quiz/img/pages/yellowboxicon.png">
+							Do not respond to the sender if this message requests that you complete the
+							transaction outside of eBay. This type of offer is against eBay policy, may
+							be fraudulent, and is not covered by buyer protection programs.
+							<span class="a">Learn more.</a>
+					</p>
+				</div>
+				
+				<div class="txt">
+					<strong>Dear biddybidbidbid,</strong>
+					<span class="w9999">
+						I want to buy it. Do you still have it? Please reply asap with details. Thank you, Don
+					</span>
+					<span class="w1440">
+						I want to buy it. Do you still have it? Please reply asap with details. Thank you, Don
+					</span>
+					<span class="w1024">
+						I want to buy it. Do you still have it? Please reply asap with<br>
+						details. Thank you, Don
+					</span>
+					<span class="w768">
+						I want to buy it. Do you still have it?<br>
+						Please reply asap with details.<br>
+						Thank you, Don
+					</span>
+					<span class="w600">
+						I want to buy it. Do you still have it?<br>
+						Please reply asap with details.<br>
+						Thank you, Don
+					</span>
+					<span class="w540">
+						I want to buy it. Do you still<br>
+						have it?<br>
+						Please reply asap with details.<br>
+						Thank you, Don
+					</span>
+					<div class="block-r">
+						Answer the question:<br>
+						<span class="resp">Respond</span>
+					</div>
+				</div>
+				
+				<div class="wrap-light-2">
+					<div class="yel_lighting yel_lighting2" data-id="2">
+						<div class="tip">
+							<span class="w9999">
+								http://contact.ebay.com.login-section-eovyu3nk3ta.database.sadsad213.com/us/ws/eBayISAPI.php?SignIn&SSL=1&UserId=2
+							</span>
+							<span class="w1440">
+								http://contact.ebay.com.login-section.database.sadsad213.com/us/ws/eBayISAPI.php?SignIn&SSL=1&UserId=2
+							</span>
+							<span class="w1024">
+								http://contact.ebay.com.login.sadsad213.com/us/ws/eBayISAPI.php?SignIn&SSL=1&UserId=2
+							</span>
+							<span class="w768">
+								http://contact.ebay.com.login.sadsad213.com/us/ws/eBayISAPI.php?SignIn&SSL=1&UserId=2
+							</span>
+							<span class="w600">
+								http://contact.ebay.com.login.sadsad213.com/ISAPI.php?SignIn&SSL=1&UserId=2
+							</span>
+							<span class="w540">
+								http://contact.ebay.com.login.<wbr>sadsad213.com<wbr>/ISAPI.php?SignIn&<wbr>amp;SSL=1&amp;UserId=2
+							</span>
+						</div>
+					</div>
+					<div class="yn_menu yn_menu2" data-id="2" data-ans="1"></div>
+
+					<div class="pointsmsg pointsmsg2" data-id="2"></div>
+					<div class="lifemsg lifemsg2" data-id="2"></div>
+
+					<div class="d_buble d_buble_bot d_buble2" data-id="2">
+						<h2>Solution</h2>
+						When you hover over a link with your mouse, you need to pay attention to 
+						the last part of the domain name
+						(usually before the last dot). In this case it is sadsad213 and not ebay.
+					</div>
+				</div>
+				
+				<div class="topaz">
+					<h2>Item and User Details</h2>
+					<h3>100 Gold Topaz Crackle Glass 6mm Round Beads SALE!</h3>
+					<table>
+						<tr>
+							<td class="turl">Item URL:</td>
+							<td class="hurl">http://cgi.ebay.com/<wbr>ebaymotors/ws/<wbr>eBay|SAP|<wbr>.dll?ViewItem<wbr>&item=290296109659</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<style>
+.quiz-q0 .row-ebay .r {
+	padding:5px 0 0 12px;
+	font-size:12px;
+	font-weight:500;
+	color:#6f6e70;
+	line-height:1.3;
+}
+.quiz-q0 span.a {
+	color:#3a90e1;
+	text-decoration:underline;
+}
+
+.quiz-q0 .row-color-line { padding-top:8px; }
+.quiz-q0 .row-color-line div.col-3 { height:2px; }
+.quiz-q0 .row-color-line .red { background-color:#e53238; }
+.quiz-q0 .row-color-line .blue { background-color:#0064d2; }
+.quiz-q0 .row-color-line .yellow { background-color:#f5af02; }
+.quiz-q0 .row-color-line .green { background-color:#86b817; }
+
+.quiz-q0 .boxyellow {
+	border:1px solid #ffbb2e;
+	border-radius:6px;
+	margin-top:24px;
+	padding-bottom:10px;
+}
+.quiz-q0 .boxyellow h3 {
+	background-color:#f9d680;
+	font-family:'Nunito Sans';
+	font-size:16px;
+	font-weight:700;
+	color:#242325;
+	line-height:1.4;
+	padding:3px 0 3px 8px;
+}
+
+.quiz-q0 .boxyellow img {
+	margin: 0 6px 0 10px;
+}
+.quiz-q0 .boxyellow p {
+	font-size:11px;
+	font-weight:500;
+	padding: 5px 10px 0 0;
+	margin-top: 5px;
+}
+
+.quiz-q0 .txt {
+	font-family:'Nunito Sans';
+	font-size:14.3px;
+	font-weight:600;
+	color:#414042;
+	line-height:1.3;
+	letter-spacing:0.1px;
+}
+.quiz-q0 .txt strong {
+	display:block;
+	font-weight:800;
+	padding:20px 0 15px 0;
+}
+
+.quiz-q0 .txt .block-r {
+	position:absolute;
+	top:21px; right:0;
+	border:1px solid #f0f0f0;
+	padding:14px 14px;
+	color:#414042;
+	font-size:14px;
+	font-weight:700;
+	text-align:center;
+}
+.quiz-q0 .txt .block-r span.resp {
+	display:inline-block;
+	background-color:#f5af02;
+	color:#000;
+	font-size:18px;
+	font-weight:700;
+	border-radius:4px;
+	padding:10px 0;
+	width:136px;
+	margin-top:10px;
+}
+
+.quiz-q0 .topaz {
+	padding-top:20px;
+}
+
+.quiz-q0 .topaz h2 {
+	font-size:16px;
+	color:#414042;
+	font-weight:700;
+	line-height:1.75;
+	border-bottom: 2px solid #cfcfcf;
+}
+
+.quiz-q0 .topaz h3 {
+	color:#304793;
+	font-size:16px;
+	font-weight:600;
+	padding-top:15px;
+}
+
+.quiz-q0 .topaz td {
+	font-size:14px;
+	font-weight:400;
+	line-height:1.35;
+	color:#414042;
+}
+
+.quiz-q0 .topaz td.hurl {
+	padding-left:5px;
+	color:#3a90e1;
+	text-decoration:underline;
+}
+
+/* yel_lighting, yn_menu, pointsmsg, lifemsg */
+.quiz-q0 .yel_lighting1 {
+	position: absolute;
+	left:0; top:0;
+	width:calc(100% + 22px); height:27px;
+	margin-left:-11px;
+	margin-top:-2px;
+}
+
+.quiz-q0 .yn_menu1 {
+	position:absolute;
+	left:77px; top:24px;
+}
+
+.quiz-q0 .pointsmsg1 {
+	position:absolute;
+	top:150px;
+	left:100px;
+}
+
+.quiz-q0 .lifemsg1 {
+	position:absolute;
+	top:0;
+	left:100px;
+}
+
+.quiz-q0 .wrap-light-2 {
+	padding-top:30px;
+}
+
+.quiz-q0 .yel_lighting2 {
+	left:0; top:0;
+	padding:10px 10px;
+}
+.quiz-q0 .yel_lighting2 .tip {
+	background-color:#242732;
+	color:#fff;
+	font-size:11px;
+	line-height:1;
+	padding:11px 11px;
+	border-radius:4px;
+}
+.quiz-q0 .yel_lighting2 .tip:before {
+	content:"";
+	display:block;
+	position:absolute;
+	top:-6px; right:50px;
+	width:12px; height:6px;
+	background-image:url(./static/spot-quiz/img/pages/tip-up.png);
+}
+.quiz-q0 .yel_lighting2 .tip span {
+	font:inherit;
+	color:inherit;
+}
+
+.quiz-q0 .yn_menu2 {
+	position:absolute;
+	left:77px; top:76px;
+}
+
+.quiz-q0 .pointsmsg2 {
+	position:absolute;
+	top:80px;
+	left:100px;
+}
+
+.quiz-q0 .lifemsg2 {
+	position:absolute;
+	top:-100px;
+	left:100px;
+}
+
+/* bubbles */
+.quiz-q0 .d_buble1 {
+	width:349px;
+	top:30px;
+	left:77px;
+}
+
+.quiz-q0 .d_buble2 {
+	width:349px;
+	bottom:63px;
+	left:77px;
+}
+
+/* responsive */
+.quiz-q0 .w1440,
+.quiz-q0 .w1024,
+.quiz-q0 .w768,
+.quiz-q0 .w600,
+.quiz-q0 .w540 {
+ 	display:none;
+}
+
+@media screen and (max-width:1440px) {
+	.quiz-q0 .mid-boxgrey {
+		padding-left:30px;
+		padding-right:30px;
+	}
+	
+	.quiz-q0 .w9999 { display:none; }
+	.quiz-q0 .w1440 { display:inline-block; }
+}
+
+@media screen and (max-width:1200px) {
+	.quiz-q0 .mid {
+		padding:10px 0;
+	}
+	
+	.quiz-q0 .mid-boxgrey {
+		padding-left: 10px;
+		padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+	.quiz-q0 img.mailtools { display:none; }
+
+	.quiz-q0 .w1440 { display:none; }
+	.quiz-q0 .w1024 { display:inline-block; }
+	
+	.quiz-q0 .row-ebay .r {
+		width: 480px;
+	}
+	
+	.quiz-q0 .topaz {
+		padding-top: 10px;
+	}
+	.quiz-q0 .topaz h3 {
+		font-size: 14px;
+		line-height:1.2;
+		padding-top:10px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.quiz-q0 .mid-boxwhite {
+		padding: 20px 15px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.quiz-q0 img.sect-top-r { display:none; }
+	
+	.quiz-q0 .w1024 { display:none; }
+	.quiz-q0 .w768 { display:inline-block; }
+	
+	.quiz-q0 .row-ebay .r {
+		width:330px;
+		font-size:10px;
+    }
+	
+	.quiz-q0 .boxyellow p {
+		font-size: 9px;
+	}
+	.quiz-q0 .boxyellow img {
+		width:21px;
+		margin-bottom:56px;
+	}
+	
+	.quiz-q0 .wrap-light-2 {
+		padding-top: 0px;
+	}
+	
+	.quiz-q0 .d_buble1 {
+		left:15px;
+		width:215px;
+	}
+
+	.quiz-q0 .d_buble2 {
+		left:2px;
+		width:253px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.quiz-q0 .w768 { display:none; }
+	.quiz-q0 .w600 { display:inline-block; }
+	
+	.quiz-q0 .row-ebay .r {
+		width: 270px;
+    }
+	
+	.quiz-q0 .boxyellow h3 {
+		font-size:12px;
+		font-weight:800;
+	}
+	
+	.quiz-q0 .txt {
+		font-size:13px;
+	}
+
+}
+
+@media screen and (max-width:550px) {
+	.quiz-q0 .w600 { display:none; }
+	.quiz-q0 .w540 { display:inline-block; }
+
+	.quiz-q0 .top .from {
+		font-size: 15px;
+	}
+	
+	.quiz-q0 .top .inbox { display:none; }
+
+	.quiz-q0 .row-ebay img { width:60px; }
+	.quiz-q0 .row-ebay .r { width:200px; }
+	
+	.quiz-q0 .profile img { width:29px; }
+	.quiz-q0 .date { display:none; }
+	
+	.quiz-q0 .txt {
+		font-size:12px;
+	}
+	
+	.quiz-q0 .txt .block-r {
+		font-size: 10px;
+		padding: 10px;
+	}
+	.quiz-q0 .txt .block-r span.resp {
+		padding: 5px 0;
+		width:90px;
+		font-size:12px;
+	}
+	
+	.quiz-q0 .topaz h2 {
+		font-size: 14px;
+	}
+	.quiz-q0 .topaz h3 {
+		font-size: 12px;
+	}
+	.quiz-q0 .topaz td {
+		font-size:12px;
+	}
+	
+	.quiz-q0 .yn_menu1 {
+		left:-17px;
+	}
+	.quiz-q0 .yn_menu2 {
+		left:3px;
+	}
+	.quiz-q0 .pointsmsg1 {
+		left:auto;
+		right:0;
+	}
+	.quiz-q0 .pointsmsg2 {
+		left:auto;
+		right:0;
+	}
+	.quiz-q0 .lifemsg1 {
+		left:auto;
+		right:0;
+	}
+}
+
+@media screen and (max-width:460px) {
+	.quiz-q0 .mid-boxgrey {
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #fff;
+    }
+	.quiz-q0 .mid-boxwhite {
+		padding: 0px 0px;
+    }
+
+	.quiz-q0 .row-ebay .r {
+		width: 156px;
+    }
+	.quiz-q0 .txt {
+		font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+	.quiz-q0 .row-ebay .r {
+		width: 100%;
+		padding-left:0;
+    }
+}
+
+@media screen and (max-width:350px) {
+	.quiz-q0 .top .profile img {
+		display:none;
+	}
+	.quiz-q0 .top .profile {
+		width:4px;
+	}
+
+	.quiz-q0 .boxyellow img {
+        width: 21px;
+        margin-bottom:81px;
+    }
+}
+</style>		
+</div>

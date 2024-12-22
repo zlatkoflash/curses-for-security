@@ -1,0 +1,643 @@
+﻿<div class="lesson techniques" id="lesson20">
+	<!-- If these values ​​are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 2</p>
+							<h1>Phishing techniques</h1>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Phishing techniques text -->
+				<div class="row row-sect--txt">
+					<div class="col-12">
+						<p>
+							Phishing is one of the most widespread and dangerous cyberattacks today.
+							It targets human psychological vulnerabilities, turning any employee in a
+							potential backdoor to company assets. Phishing makes everyone a target.
+							It’s not surprising then that cybercriminals invent more and more
+							sophisticated phishing techniques day-by-day.
+						</p>
+						<p>
+							Read about the cutting-edge tricks of phishing attacks – and check your
+							ability to recognize them.
+						</p>
+					</div>
+				</div>
+
+				<!-- Phishing techniques (accordion) -->
+				<div class="row row-sect--accordion">
+					<div class="col-12">
+						<div class="accordion">
+							<h3 class="l20-acc-1">Smishing</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish1.png" />
+
+										<p>Smishing is a very simple but profitable form of phishing conducted
+										via SMS. A usual scenario describes receiving an SMS from an unknown
+										girl inviting you for a date. The SMS will also have a link to her
+										photos in a social media profile but to see them you'll first
+										need to sign in with your credentials. Of course, the link is
+										thoroughly phished. Another popular smishing scenario is the
+										&ldquo;problem with your banking account or credit card.&rdquo; In this
+										case, the link goes to a phished bank page.</p>
+
+										<p>Although smishing scenarios can vary, the pattern is always the same:
+										luring users into clicking a link where they are asked to input their
+										credentials.</p>
+										<p class="p-add">Additional attack options inlcude:</p>
+
+										<ul>
+											<li>Premium SMS: Replying to the message subscribes the victim to
+											a paid service.</li>
+											<li>App installation: Depending on the OS version &amp; type, the
+											user can be tricked into downloading apps that take control over
+											their phone.</li>
+										</ul>
+									</div>
+
+									<div class="col-12 examp">
+										<div class="wrap">
+											<div class="txt">
+												<img class="examp-ico" src="./static/img/020/les2-phish-ico.png">
+												<h3>Real life example</h3>
+												<p>A typical SMS-based attack happened at the end of 2018, when
+												criminals used SMS phishing to rob cardless ATMs.</p>
+												<div class="d-but">
+													<button class="but-show" onclick="Lesson20.showPop(1)">
+														<span>Show example</span>
+														<span class="i-but-gt">&nbsp;</span>
+													</button>
+												</div>
+											</div>
+
+											<div class="expand pop1">
+												<div class="row">
+													<div class="col-x col-exp-txt">
+														<h4>Cybercriminals Using SMS Phishing Attack to Rob Cardless ATM</h4>
+														<p>Cybercriminals have devised a new way of hacking cardless ATMs using 
+														SMS-based phishing attacks.</p>
+														<p>It has become a new trend with many financial institutions to offer
+														cardless ATM transactions, thereby allowing customers to withdraw cash
+														using only their mobile phones. This definitely makes things easier for
+														the customer, but it does make things easy for cybercriminals too. They
+														add a new number to the customers’ accounts leveraging account credentials
+														that they had stolen through phishing and then use that added device to
+														rob customers of their money from the cardless ATMs.</p>
+
+														<img class="imghead" src="./static/img/020/realexamples/1.jpg">
+
+														<p>Brian Krebs, in a post in his very popular website KrebsOnSecurity,
+														writes, “Thieves are combining SMS-based phishing attacks with new
+														“cardless” ATMs to rapidly convert phished bank account credentials into
+														cash. Recent arrests in Ohio shed light on how this scam works.”</p>
+														<p>He adds, “In May 2018, Cincinnati, Ohio-based financial institution
+														Fifth Third Bank began hearing complaints from customers who were receiving
+														text messages on their phones that claimed to be from the bank, warning 
+														recipients that their accounts had been locked…The text messages contained
+														a link to unlock their accounts and led customers to a Web site that
+														mimicked the legitimate Fifth Third site. That phishing site prompted
+														visitors to enter their account credentials — including usernames,
+														passwords, one-time passcodes and PIN numbers — to unlock their accounts.”</p>
+														<p>In this incident, cybercriminals stole credentials of around 125 Fifth
+														Third Bank customers, mostly in or around Cincinnati area and then used this
+														stolen data to withdraw $68,000, in less than two weeks, from 17 cashless
+														ATMs in Illinois, Michigan, and Ohio. The court documents also show that the
+														hack and ATM robbing incidents continued through October 2018 and the hackers
+														got away with an additional $40,000 until four men suspected of perpetrating
+														the crime were arrested.</p>
+														<p>Krebs also recollects another incident that happened in January 2017-
+														“In January 2017, KrebsOnSecurity told the story of a California woman who
+														saw nearly $3,000 drained from her account via a cardless ATM operated by
+														Chase Bank. In that incident, the thieves didn’t even need to know her ATM
+														PIN; the thieves were able to use a phone number and mobile device they
+														controlled and associate it with her Chase account simply by supplying her
+														username and password.”</p>
+														<p>He notes, “As the January 2017 story illustrates, cardless ATM scams aren’t
+														new, but they are becoming more prevalent as more banks turn to cardless ATM
+														technology as a convenience for customers,”, and adds, “This time last year,
+														cardless ATMs were offered mainly by the big banks, and then only at some of
+														their ATMs. Now, many smaller regional and local banks have upgraded their
+														cash machines to enable the new technology.”</p>
+														<p>Cardless ATMs are of course a new trend, people are just beginning to use
+														it and the majority are just beginning to hear of it. But it would soon be a
+														very popular thing, which means cybercriminals too would be targeting cardless
+														ATMs in many ways, in the times to come. The best thing to do, to prevent your
+														money from getting stolen from cardless ATMs, is to refrain from responding to
+														requests for personal or financial information via email, text messages or in
+														any other way over your phone. Whenever you have a doubt about a call, email
+														or message seeking information about your account, contact your bank directly
+														and re-confirm things.</p>
+														<div class="d-but">
+															<button class="but-hide" onclick="Lesson20.hidePop(1)">
+																<span>Hide example</span>
+																<span class="i-but-up">&nbsp;</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div><!-- /pop1 -->
+										</div>
+									</div>
+								</div>
+							</div><!-- /1 -->
+
+							<h3 class="l20-acc-2">OTP bypass phishing</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish2.png" />
+										<p>OTP (One-Time-Password) is a part of two-factor authentication that
+										many people use to secure their accounts. Besides the login and password,
+										you need an OTP that is usually sent to you by SMS. The process looks
+										super secure, but cybercriminals have invented a way to bypass this
+										protection via phishing tricks.</p>
+
+										<p>Perhaps you received an email with a link to your account that
+										features two-factor authentication. You click on it, and the real
+										website login page pulls up. You get the OTP and successfully log in –
+										nothing looks suspicious, but don’t be so sure. True, the website you
+										logged into was not a phished one, but clicking the link in the email
+										redirected all your traffic to the attacker’s server. There your browser
+										cookie was extracted and passed onto the attacker. Using that cookie,
+										the attacker can easily impersonate you and log into your account.</p>
+
+										<p>OTP phishing is certainly not new, that’s why it’s time to give you an
+										overview of the different technical attack methods.</p>
+									</div>
+								</div>
+							</div><!-- /2 -->
+
+							<h3 class="l20-acc-3">Attachment based phishing</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish3.png" />
+										<p>Many users encounter phishing as a link in an attached file. Very often
+										it’s a .pdf that contains nothing else but the malicious link. Click on it
+										takes you to a phished webpage that will try to lure out your login
+										credentials.</p>
+										<p>Nowadays, many people are aware that a .pdf can bring about trouble.
+										But what about other files, for example, .eml voice records? Can they be
+										dangerous?</p>
+										<p>Just imagine receiving an .eml file with a message that says, “New voice
+										record received”. Of course, you want to know what is inside, so you open
+										the file and land on a Microsoft login page which prompts you to enter your
+										credentials. Many people find it logical as Microsoft takes care of their
+										security. Unfortunately, their credentials fall right into the 
+										cybercriminal’s hands.</p>
+										<p>The attachment could also be an HTML file disguised as a web-form from
+										your bank. In reality, it contains a script that opens a phishing page with
+										a web-form in your browser. In all cases, the impact is the same – the
+										cybercriminals get your credentials.</p>
+									</div>
+
+									<div class="col-12 examp">
+										<div class="wrap">
+											<div class="txt">
+												<img class="examp-ico" src="./static/img/020/les2-phish-ico.png">
+												<h3>Real life example</h3>
+												<p>One phishing campaign that was underway in 2019 sent out files
+												disguised as a voicemail received through RingCentral.</p>
+												<div class="d-but">
+													<button class="but-show" onclick="Lesson20.showPop(3)">
+														<span>Show example</span>
+														<span class="i-but-gt">&nbsp;</span>
+													</button>
+												</div>
+											</div>
+											<div class="expand pop3">
+												<div class="row">
+													<div class="col-x col-exp-txt">
+														<h4>CRA income tax phishing scam still going strong, police warn</h4>
+														<p>We have received reports of suspicious, possibly malicious
+														spam/phishing emails. Please look at the samples below and
+														inspect the emails and links for non-ringcentral domains. These
+														emails are not being sent from RingCentral and our Fraud team is
+														aware of this issue.</p>
+														<p>If you receive such emails, do not click on any links or
+														download any possible attachments. Please immediately delete the
+														email.</p>
+														<p>Keep in mind that a text message notification from RingCentral
+														will never contain any attachments. Voice mail attachments from
+														RingCentral will only be .mp3 files and fax attachments will only
+														be PDF files. We also don’t send multiple attachments in a single
+														notification email.</p>
+													</div>
+												</div>
+												<hr>
+												<div class="row">
+													<div class="col-x col-exp-txt">
+														<div class="row">
+															<div class="col-x col-exp-txtleft">
+																<p>This email is not from RingCentral. As you can see the domain
+																is from mindspring (email address may vary, likely spoofed) and
+																is probably being used as a phishing technique. Please do not
+																click on the link and delete this message.</p>
+															</div>
+															<div class="col-x col-exp-txtright">
+																<img class="imghead" src="./static/img/020/realexamples/3-1.png">
+															</div>
+														</div>
+													</div>
+												</div>
+												<hr>
+												<div class="row">
+													<div class="col-x col-exp-txt">
+														<div class="row">
+															<div class="col-x col-exp-txtleft">
+																<p>Here is another example of an email that is NOT from
+																RingCentral and should be deleted immediately.</p>
+															</div>
+															<div class="col-x col-exp-txtright">
+																<img class="imghead" src="./static/img/020/realexamples/3-2.png">
+															</div>
+														</div>
+														<div class="d-but">
+															<button class="but-hide" onclick="Lesson20.hidePop(3)">
+																<span>Hide example</span>
+																<span class="i-but-up">&nbsp;</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div><!-- /pop3 -->
+										</div>
+									</div>
+								</div>
+							</div><!-- /3 -->
+							
+							<h3 class="l20-acc-4">Machine learning on the cybercriminals’ service</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish4.png" />
+										<p>What if you find in your Gmail a letter from someone you know on a
+										topic you’re interested in with a .pdf attachment? Chances are, you will
+										click on the attached file. Then a Google login page will open and ask
+										you to input your credentials. It looks trustful, because it even has
+										google.com in the address bar, though looking a bit strange, something
+										like this: “data:text/html,https://accounts.google.com”.</p>
+										
+										<p>In reality, this is a sham. The page is phished, the .pdf is an image
+										with an embedded link, and the sender’s name and discussion topic was
+										picked up from a hacked machine belonging to one of your contacts. How?
+										A malicious algorithm digs into the contact books of already hacked
+										machines and automatically creates and sends new phishing emails with
+										correspondent names and topics. That’s how the automated spear-phishing
+										with machine learning (ML) works.</p>
+										
+										<p>Phishers use ML and AI (artificial intelligence) in many scenarios.
+										It lets them extract plenty of information about users from the Internet
+										space, especially social networks. Previously, an attacker had to
+										personally gather information about a victim, spending a lot of time
+										digging for clues. Nowadays, an algorithm can do that for a fraction of
+										the time, then create and send a spear-phishing email with the gathered
+										information. This automation increases the number of potential victims
+										exponentially.</p>
+									</div>
+								</div>
+							</div><!-- /4 -->
+
+							<h3 class="l20-acc-5">QR code phishing</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish5.png" />
+										<p>Have you ever used a QR code? Most everyone uses it today, but only
+										a narrow circle of security experts is aware of the potential risks it
+										hides. Truth is, anyone can create their own QR code in seconds –
+										including cyber criminals. They can forge a QR code of some trustful
+										organization with a URL leading to their malicious website. So, you
+										may think you are inputting your credentials on your bank’s website
+										but in reality, you are giving them away to the cybercriminals, and
+										they empty your account. This attack is even harder to detect, because
+										the URL address used in QR codes comes in short form so you can’t check
+										where it leads before the website is downloaded.</p>
+										
+										<p>Another cunning attack uses QR codes to steal credentials from
+										instant messengers like WhatsApp. The attackers use a malicious
+										application that runs a server between the user and the WhatsApp web
+										interface. The application opens a real WhatsApp page prompting the
+										victim to log in via QR code. If you do that, the app intercepts your
+										login data on its server and extracts it in a text file. And voila –
+										the attacker can now log into your account, read your messages, and
+										impersonate you in correspondence.</p>
+									</div>
+								</div>
+							</div><!-- /5 -->
+
+							<h3 class="l20-acc-6">VISHING (Voice Phishing)</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish6.png" />
+										<p>This type of phishing might well be the oldest one – deceiving
+										users to extract secret data via phone dates back to the 1990s. The
+										point is simple: scammers call you pretending to represent your
+										bank and try to obtain your account and card data with cunning
+										questions. Nowadays, vishing has stepped up a notch, using not only
+										human scammers but bots and robots as well. This is a real technical
+										leap for cybercriminals because it lets them attack a huge number of
+										potential victims with almost no effort, 24/7. Today, bots can
+										impersonate humans very plausibly, and this ability is skyrocketing
+										with the continuous progress in ML and AI technologies.</p>
+									</div>
+									
+									<div class="col-12 examp">
+										<div class="wrap">
+											<div class="txt">
+												<img class="examp-ico" src="./static/img/020/les2-phish-ico.png">
+												<h3>Real life example</h3>
+												<p>Multiple cases of fraudulent communication have been
+												observed wherein the adversary claims to represent the Canada
+												Revenue Agency (CRA) requesting personal information. In many
+												cases, threatening or coercive language is used to scare
+												individuals into paying fictitious debt to the adversaries’
+												account (which the attacker forges to look like a CRA account).</p>
+												<div class="d-but">
+													<button class="but-show" onclick="Lesson20.showPop(6)">
+														<span>Show example</span>
+														<span class="i-but-gt">&nbsp;</span>
+													</button>
+												</div>
+											</div>
+											<div class="expand pop6">
+												<div class="row">
+													<div class="col-x col-exp-txt">
+														<h4>CRA income tax phishing scam still going strong, police warn</h4>
+														<p>Police in Ontario are still being flooded with calls after warning
+														the public last month of the so-called Canada Revenue Agency (CRA)
+														phishing scam.</p>
+														<p>Ontario Provincial Police said the scam, which is running “rampant”
+														throughout the province has bogged down provincial communications
+														centres with calls from the public informing officers of the scam.</p>
+														<p>The CRA scams began emerging in 2013 and have since become a popular
+														tool for defrauding people over the phone or by email.</p>
+														<img class="imghead" src="./static/img/020/realexamples/6.jpg">
+														<p>In the phone scam, someone claiming to be from the CRA calls and, in
+														a conversation that starts out calmly enough, tells the potential victim
+														that they have made an error on their tax return or neglected to file
+														it. The phone number may seem legitimate to those with caller ID, police
+														have warned. The fraudster then asks for financial or banking
+														information in order to settle an alleged debt to the government.</p>
+														<p>More recently, scammers have requested potential victims to pay off
+														their “debt” with iTunes gift cards.</p>
+														<p>“Some of our communications centres are receiving upwards to 100 or
+														more calls per day from people wanting to advise that they received one
+														of these scam-related calls,” Sgt. Peter Leon said in a statement. “And
+														although your intentions are appreciated, it is these calls which are
+														at times restricting the OPP’s ability to take calls for service from
+														the public that require a police response.”</p>
+														<p>CRA scams tend to get worse right before, during and immediately
+														after Canadians file their tax returns each spring. Fraudsters have
+														also used legitimate-looking emails, sending a notice of a tax refund
+														and then asking for personal information in order to collect the
+														money.</p>
+														<div class="d-but">
+															<button class="but-hide" onclick="Lesson20.hidePop(6)">
+																<span>Hide example</span>
+																<span class="i-but-up">&nbsp;</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- /6 -->
+							
+							<h3 class="l20-acc-7">Phishing Kits</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish7.png" />
+										<p>There are many phishing tools that require no technical expertise to
+										get them to run. On the Darknet, scammers can buy something called
+										“multi-brand phishing kit” – a software that lets them create very
+										plausible clones of famous online shops. This scam works in combination
+										with Search Engine phishing, where the scammer simply needs to deploy a
+										malicious website and advertise it to get the site in the first hits of
+										search engines. To entice victims, the scammer then announces a
+										“big sale” on the website with unbelievably low prices for the most
+										popular goods, like fancy smartphones and laptops. (They steal pictures
+										and descriptions of the goods from the legitimate online shop). To buy
+										anything, the users are required to input their credit card numbers and
+										other personal data and… the story gets a sad ending.</p>
+									</div>
+								</div>
+							</div><!-- /7 -->
+							
+							<h3 class="l20-acc-8">Sextortion</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish8.png" />
+										<p>What if you find an email in your inbox beginning with the phrase
+										“Your password is…” followed by your real password for some account? The
+										message further continues with a statement that your PC is hacked, and
+										you’ve been recorded watching an adult website. Now your computer is under
+										the hacker’s total control, he says, and if you won’t pay a ransom
+										immediately the video will be sent to all contacts from your address
+										book.</p>
+										<p>In reality, this message is a bluff. No one hacked your machine. But
+										then, how did the crook find out your password? It’s not an enigma. He
+										took it from the stolen database of an online shop or other web resource
+										where you signed up at one time. Such databases are widely sold on the
+										Darknet. All you need to do is change the stolen password – and forget
+										about it all.</p>
+									</div>
+								</div>
+							</div><!-- /8 -->
+							
+							<h3 class="l20-acc-9">IDN spoofing phishing attacks</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish9.png" />
+										<p>IDN stands for Internationalized Domain Name and refers to domain
+										names written in languages other than English. This attack is possible
+										because letters from different languages may sometimes look similar.
+										For example, the Cyrillic “р” and “г” look similar to the Latin “p”
+										and “r”. These letters are called homographs. Cybercriminals can
+										easily spoof a website by simply using homographs in the URL. For
+										example, if an attacker wants to spoof the Apple website, they can
+										simply substitute the English “p” for its Russian homograph “р” in
+										apple.com, thus creating a web-domain that looks absolutely the same.
+										Moreover, the attacker can even legitimately get an SSL certificate
+										for this site. Thus, your browser’s address bar will show
+										https://www.apple.com, exactly the same as the real URL of the Apple
+										website, and you will be lead to give away your credentials to the
+										criminals.</p>
+									</div>
+								</div>
+							</div><!-- /9 -->
+							
+							<h3 class="l20-acc-10">Subdomain takeover</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish10.png" />
+										<p>Cybercriminals can take over a subdomain of a legitimate company
+										website. How? Imagine you have a service on a subdomain registered on
+										Amazon S3. After a while, you decide you don’t want to use the service
+										anymore but don’t care about removing the DNS entry connected with the
+										Amazon S3 Bucket – a feature that contains the subdomain name.
+										Cybercriminals have learned to use this carelessness to their advantage.
+										They register this vacant S3 bucket for themselves and use it for
+										malicious purposes like phishing. But as the DNS remains linked to your
+										subdomain address, one day you may be surprised to find that your
+										inactive subdomain is not only alive but also serves for criminal
+										purposes.</p>
+									</div>
+								</div>
+							</div><!-- /10 -->
+							
+							<h3 class="l20-acc-11">Phishing via exploiting web-application vulnerabilities</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish11.png" />
+										<p>Sometimes web-applications may have security flaws that can be used for
+										phishing. One example is the Open Redirect vulnerability. It allows
+										attackers to add to the website URL an external link that redirects users
+										to a phishing webpage. Most users will notice only the first, legitimate
+										part of the URL – and have a false sense that the site is secure.</p>
+										<p>XSS (Cross-Site-Scripting) is one of the most popular attacks on
+										web-applications as it can be used for phishing in more than one way. For
+										starters, an attacker can add a malicious JavaScript to the website URL to
+										redirect users to a phishing page. Exploiting XSS, the attacker can also
+										embed the phishing page right onto the website or provide content
+										injections. In case of the latter, malicious data is injected into the
+										legitimate content, and users think it trustworthy. This could easily be
+										a web-form that asks for login credentials – which will end up in the
+										hands of the attacker.</p>
+									</div>
+								</div>
+							</div><!-- /11 -->
+							
+							<h3 class="l20-acc-12">Pharming Phishing</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish12.png" />
+										<p>In a pharming attack, your traffic to a specific legitimate website is
+										redirected to a phishing webpage. For example, you may type “google.com”
+										into your browser but open a phishing website instead. How is this
+										possible? For starters, this attack is not possible unless your computer
+										has been infected with malware that changed the “hosts” file on your
+										workstation. This malware’s function is to set wrong correspondence
+										between the IP addresses and the specific domain name, thus redirecting
+										the traffic.</p>
+										<p>In our example, the malware has changed the real IP address of
+										google.com to the IP address of the attacker’s website. Of course,
+										cybercriminals can use the same technique for any domain name, including
+										your bank or social media website. Being unaware that you are redirected
+										to a phishing webpage, you input your credentials – and troubles begin.</p>
+									</div>
+								</div>
+							</div><!-- /12 -->
+							
+							<h3 class="l20-acc-13">Impersonation or BEC attacks</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish13.png" />
+										<p>Business Email Compromise (BEC) attacks are phishing emails that do not
+										have a payload such as a URL or attachment. Instead, they use
+										impersonation and knowledge of the company structure or common
+										transactions to convince employees to wire money or data, or to change
+										bank account information for pending payments. As per the latest figures
+										from the FBI, over the past years (particularly the last two), Business
+										Email Compromise (BEC) schemes have caused at least $3.1 billion in total
+										losses to roughly 22,000 organizations around the world. Ever since
+										January 2015, there has been a 1,300% surge in recognized exposed losses,
+										amounting to an average loss of $140,000 per scam.</p>
+									</div>
+								</div>
+							</div><!-- /13 -->
+							
+							<h3 class="l20-acc-14">Phishing via Social Media</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<img class="rimg right" src="./static/img/020/les2-phish14.png" />
+										<p>As with Smishing, these attack vectors (for instance, malicious links,
+										impersonation, etc.) get delivered through the new breed of social media
+										collaboration apps like WhatsApp, LinkedIn, Slack, Skype, Teams, Facebook
+										Messenger. While users have been trained to be suspicious of email, they
+										tend to be overly trusting when using IM tools.</p>
+									</div>
+								</div>
+							</div><!-- /14 -->
+							
+							<h3 class="l20-acc-15">Spear Phishing</h3>
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<p>Phishing and spear phishing are very common forms of attacks. The
+										difference between them is primarily a matter of targeting. Phishing
+										emails are sent to very large numbers of recipients, more or less at
+										random, with the expectation that only a small percentage will respond.
+										Spear Phishing has a few key differentiators:</p>
+										<ul>
+											<li>Spear phishing emails are carefully designed to get a
+											particular recipient to respond. The person targeted could be
+											anyone in the organization, or business.</li>
+											<li>Uses specific context to try to convince the target of its
+											legitimacy. For example, share online that you will be
+											participating in a marathon in New York soon, and you might get
+											an email from a colleague saying “Hello, while you’re in New
+											York you can train for your marathon with my friend Susan.
+											Contact here under this link.”</li>
+											<li>Adding personalized information (sender name, location, date,
+											references to a friend, etc.) can make more people trust the
+											email.</li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- /15 -->
+						</div><!-- /accordion -->
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(0)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<div class="col-6 right txtright">
+								<button class="but-next" title="Next lesson" onclick="Course.goLesson(30)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!-- /row-body row-2 -->
+		</div>
+	</div>
+</div>

@@ -1,0 +1,139 @@
+﻿<div class="lesson exam" id="lesson51">
+	<!-- If these values are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 5</p>
+							<h1>Exam: Phishing</h1>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- exam1 -->
+				<div class="row row-sect--exam">
+					<div class="col-12 col-block col-block-exam">
+						<div class="wrap-exam">
+							<div class="top-info">
+								<div class="row">
+									<div class="col-6">
+										<span class="n">1</span>
+										<!--<span> of </span><span class="cnt">9</span>-->
+										<span class="question">--question--</span>
+									</div>
+									<div class="col-6 txtright">
+										<p>Please select the correct answer</p>
+									</div>
+								</div>
+							</div>
+						
+							<div class="block-question">
+								<div class="row">
+									<div class="col-12">
+										<p class="question2">question2</p>
+
+										<div class="block-answers">
+											<div class="answer answer-1" onclick="Exam.selAnswer(1)">
+												<span class="indicator">&nbsp;</span>
+												<span class="answer-text">answer</span>
+											</div>
+											<div class="answer answer-2" onclick="Exam.selAnswer(2)">
+												<span class="indicator">&nbsp;</span>
+												<span class="answer-text">answer</span>
+											</div>
+											<div class="answer answer-3" onclick="Exam.selAnswer(3)">
+												<span class="indicator">&nbsp;</span>
+												<span class="answer-text">answer</span>
+											</div>
+											<div class="answer answer-4" onclick="Exam.selAnswer(4)">
+												<span class="indicator">&nbsp;</span>
+												<span class="answer-text">answer</span>
+											</div>
+											<div class="answer answer-5" onclick="Exam.selAnswer(5)">
+												<span class="indicator">&nbsp;</span>
+												<span class="answer-text">answer</span>
+											</div>
+											<div class="answer answer-6" onclick="Exam.selAnswer(6)">
+												<span class="indicator">&nbsp;</span>
+												<span class="answer-text">answer</span>
+											</div>
+										</div>
+										
+										<div class="block-feedback">
+											<div class="feedback-icon">
+												<img class="i-incorrect" src="./static/exam/img/i-incorrect.png">
+												<img class="i-correct" src="./static/exam/img/i-correct.png">
+											</div>
+											<div class="label label-incorrect">Incorrect</div>
+											<div class="label label-correct">Correct</div>
+											<div class="feedback-text">
+												--remark--
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- /block-question -->
+
+							<div class="bot-buttons">
+								<div class="row">
+									<!-- submit answer -->
+									<div class="col-6 right txtright col-but-submit">
+										<button class="but-next but-submit" title="Submit answer" onclick="Exam.submitAnswer()">
+											Submit
+										</button>
+									</div>
+									<!-- next question -->
+									<div class="col-6 right txtright col-but-next-q">
+										<button class="but-next but-next-q" title="Next question" onclick="Exam.nextQuestion()">
+											Next
+										</button>
+									</div>
+								</div>
+							</div>
+						</div><!-- /wrap-exam -->
+					</div>
+						
+					<div class="col-12 col-block col-block-exam-results">
+						<h2>Exam Results</h2>
+						<h3>Your result is: <span class="l">5</span> out of <span class="r">10</span></h3>
+						<table>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+				</div><!-- /row-sect--exam -->
+
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(50)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<div class="col-6 right txtright">
+								<button class="but-next but-next-lesson" title="Next lesson" onclick="Course.goLesson(52)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- /row-body row-2 -->
+		</div>
+	</div>
+</div>

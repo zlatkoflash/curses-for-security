@@ -1,0 +1,436 @@
+﻿<div class="lesson intro" id="lesson10">
+	<!-- If these values ​​are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 1</p>
+							<h1>Introduction - What is phishing?</h1>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- social engineering -->
+				<div class="row row-sect--ltxt-rvideo">
+					<div class="col-x l">
+						<h2>What is a social engineering attack?</h2>
+						<p>
+							To launch a social engineering attack, an attacker uses human interaction
+							(social skills) to obtain or compromise information about a company or its
+							computer systems. The attacker can easily pretend to be a repairman, or a
+							new intern or employee, and they could actually have identification that
+							says they work for your institution. They'll try to gain your confidence
+							and will ask questions that will help them piece together enough information
+							to infiltrate your institution's network. If an attacker is not able to
+							gather enough information from one source, they will try to contact someone
+							else, using the information gleaned from the first person they interacted
+							with (you) to add to their credibility and story.
+						</p>
+					</div>
+					<div class="col-x r">
+						<!--
+							.brd-block has rounded border and bgcolor = #fff
+							paddings = 0
+						-->
+						<div class="brd-block">
+							<div class="vplayer">
+								<video class="video-js" id="Phishing" controls="" preload="auto"
+									poster="./static/video/bg-video.jpg">
+									<source src="./static/video/short0010.mp4" type="video/mp4" />
+									<source src="./static/video/short0010.webm" type="video/webm" />
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- what is phishing -->
+				<div class="row row-sect--gtxtcenter">
+					<div class="col-12">
+						<div class="phish">
+							<img src="./static/img/010/i-phish.png">
+						</div>
+						<h2>What is phishing?</h2>
+						<p>
+							Phishing is a form of social engineering. In this type of cybercrime, one or
+							more targets are contacted via email, telephone, or text message by someone
+							posing as a legitimate institution. Their purpose is to lure individuals into
+							providing sensitive data such as personally identifiable information, banking
+							and credit card details, and passwords. Nowadays, it is far easier for a
+							criminal to manipulate you to do something than it is to manually hack into
+							your computer or your company’s network.
+						</p>
+					</div>
+				</div>
+				
+				<!-- everyone is a target -->
+				<div class="row row-sect--target">
+					<div class="col-12">
+						<h2>
+							Everyone is a
+							<span>Target</span>
+							Always Be Aware of Phishing
+						</h2>
+					</div>
+				</div>
+
+
+				<!-- email example -->
+				<div class="row row-sect--email-example">
+					<!--
+						.col-block has rounded border and bgcolor = #fff
+						paddings are adaptive
+					-->
+					<div class="col-12 col-block phishing">
+						<div class="row">
+							<div class="col-7">
+								<h2>Email Phishing</h2>
+								<p>
+									Criminals send phishing emails that appear
+									to come from valid sources in an attempt to trick you into revealing
+									personal, financial or company information.
+								</p>
+							</div>
+							<div class="col-5 col-whatlook">
+								<div class="wrap">
+									<h4>What to look out for?</h4>
+									<p>Spear phishing is harder to spot...</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-block emailbox">
+								<div class="row">
+									<div class="lmenu col-x">
+										<div class="wrap">
+											<div class="item inbox">Inbox</div>
+											<div class="item">Sent Mail</div>
+											<div class="item">Starred</div>
+											<div class="item">All Mail</div>
+											<div class="item">Junk</div>
+											<div class="item">Deleted</div>
+											<div class="item">Categorized</div>
+										</div>
+									</div>
+									
+									<div class="rbody col-x">
+										<div class="em-block left">
+											<span class="bold">Date:</span>
+											<span class="toexplain toexplain1">12.07.2017 02:14am</span>
+											<span class="explainer explainer1">Suspicious Date and Time</span>
+										</div>
+										<div class="clear"></div>
+										<div class="em-block left">
+											<span class="bold">Subject:</span>
+											<span class="toexplain toexplain2">Important - Internet downtime</span>
+											<span class="explainer explainer2">Sense of Urgency</span>
+										</div>
+										<div class="clear"></div>
+										<div class="em-block left">
+											<span class="bold">From:</span>
+											<span class="toexplain toexplain3">IT@yourcompany.com</span>
+											<span class="explainer explainer3">Spoofed Sender Address</span>
+										</div>
+										<div class="clear"></div>
+										<div class="em-block left">
+											<span class="bold">To:</span>
+											<span>you@yourdomain.com</span>
+										</div>
+										<div class="clear"></div>
+										<div class="hr"></div>
+										<p>
+											Hi all,
+										</p>
+										<p>
+											Next week we will experience internet downtime due to a network
+											upgrade from BT. Although expected overnight, this period of no
+											connectivity might carry over to the following morning.
+										</p>
+										<p>
+											For more information on dates and arrangements made around this
+											issue please go to
+										</p>
+										<div class="em-block left">
+											<span class="toexplain toexplain4">
+												<a href="javascript:void(0)">www.bt.co.uk/broadband-down<span class="stime">time</span>/0ert16%<span>reg556</span></a>
+												<span class="explainer explainer4">
+													Misleading and<br>
+													Invalid Link
+												</span>
+											</span>
+										</div>
+										<div class="clear"></div>
+
+										<p>
+											Regards,<br class="br-600">
+											<span class="toexplain toexplain5">
+											 	<a href="javascript:void(0)">http://www.ma1ware-bounc1ng.biz</a>
+												<span class="explainer explainer4a">
+													Misleading and Invalid Link
+												</span>
+											</span>
+										</p>
+										<div class="em-block-it left">
+											<span class="toexplain toexplain6">IT Departament</span>
+											<span class="explainer explainer5">Spoofed Signature</span>
+										</div>
+										<div class="clear"></div>
+										<p>&nbsp;</p>
+									</div>
+								</div><!-- /row -->
+							</div><!-- /emailbox -->
+						</div>
+					</div>
+				</div>
+
+
+				<!-- 8 tips -->
+				<div class="row row-sect--tips">
+					<div class="col-12 col-block">
+						<h2>8 Tips to spot phishing scams</h2>
+
+						<div class="col-tipsn" data-txt="Tip ">
+							<!-- Tips numbers are generated -->
+						</div>
+							
+						<div class="col-12 col-block">
+							<div class="col-tips">
+								<div class="top-fr">
+									<div class="wrap">
+										<div class="row">
+											<div class="col-x col-sequence">
+												<span>TIP</span>
+												<span class="n">1</span>
+												<!-- uncomment if you want
+												<span>out of</span>
+												<span class="cnt">x</span>
+												-->
+											</div>
+											<div class="col-x col-prevnext right txtright">
+												<button class="but-prev">
+													<span class="i-but-lt">&nbsp;</span>
+													<span class="txt">Back</span>
+												</button>
+												<button class="but-next">
+													<span class="txt">Next</span>
+													<span class="i-but-gt">&nbsp;</span>
+												</button>
+											</div>
+										</div>
+
+										<div class="brd"></div>
+									</div>
+								</div>
+					
+								<div class="tips-slider">
+
+									<div class="tip tip1">
+										<!-- if you want to align vcenter - use "row-txt flex" -->
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<div>
+													<h4>Look for messages with many spelling errors and visual mistakes.</h4>
+													<p>If the text contains many errors, you should be careful. Also look
+													at the websites you are guided to and notice whether the displayed menu
+													actually works or if it generates error messages.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip1.png">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tip tip2">
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<h4>Be wary of giving sensitive data</h4>
+													<p>Whenever you are prompted to divulge personal data in order to update
+													or verify, you should be especially careful. Never enter general username
+													and password information on websites which were opened via a link in an
+													email unless you know its exact background and it corresponds to your
+													company policy.</p>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip2.png">
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="tip tip3">
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<h4>Beware also when senders act trustworthy and confidential.</h4>
+													<p>Even if you have received the email from your best friend, you should
+													always remember that the message could be corrupt. Therefore, you should
+													always be cautious. This also applies to emails from official
+													organizations such as banks, tax authorities, online stores, travel
+													agencies, airlines, etc. Even emails from your own employer are sometimes
+													infected. It is ultimately not so difficult to make imposter, phishing
+													emails which appear identical to the real messages of legitimate
+													organizations.</p>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip3.png">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tip tip4">
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<h4>Do not automatically trust a well-designed website even if it
+													appears exactly as the original.</h4>
+													<p>Sometimes the phishing emails and websites look just like the real
+													ones. It depends on how well the phisher has done his &ldquo;homework.&rdquo;
+													The links, however, are likely to be wrong with misspellings or links
+													to completely different pages (such as www.paypaul.com instead of
+													www.paypal.com). If the page to be visited is a well-known site which
+													you visit frequently, you can also add it to your favorites or manually
+													type the page address in your browser instead of clicking on the link.</p>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip4.png">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tip tip5">
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<h4>Beware, if you do not know the sender of the email.</h4>
+													<p>If possible, do not open any emails from unknown senders. If you do,
+													do not click any link contained in it or at least move your mouse over
+													the link to reveal the real target destination. Often the recipient
+													copy ledger (cc:&hellip;) shows the email is being sent to numerous
+													other recipients.</p>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip5.png">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tip tip6">
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<h4>Be especially careful when the email is not appropriately
+													addressed or contains awkward language.</h4>
+													<p>Be suspicious of emails which open with a generic greeting (such
+													as using the non-personalized salutation of To Whom It May Concern)
+													or an inconsistent style (such as colleagues who previously addressed
+													you on a first name basis are now using last names only). The same
+													applies to emails that are written suddenly in a foreign language
+													differing from the usual language.</p>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip6.png">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tip tip7">
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<h4>Mistrust emails prompting you for a quick action.</h4>
+													<p>Emails that call for an immediate reaction (such as, prompting for
+													an immediate login to an account) convey a sense of importance typical
+													of phishing attacks. A clear warning is when there is a hint in the
+													email that the data must be entered within a short time period.</p>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip7.png">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tip tip8">
+										<div class="row row-txt">
+											<div class="col-5 l">
+												<div class="tip-col-wrap">
+													<h4>Be very careful regarding any email attachments</h4>
+													<p>Files (for example, programs or even office documents) you
+													receive via email may contain lethal malware. So remain cautious
+													and only open email that you expect and trust.</p>
+												</div>
+											</div>
+											<div class="col-7 r">
+												<div class="tip-col-wrap tip-col-wrap-img">
+													<img src="./static/img/010/tip8.png">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- /tips-slider -->
+							</div>
+						</div>
+					</div><!-- /col-block -->
+				</div>
+
+
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(0)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<div class="col-6 right txtright">
+								<button class="but-next" title="Next lesson" onclick="Course.goLesson(20)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!-- /row-body row-2 -->
+		</div>
+	</div>
+</div>

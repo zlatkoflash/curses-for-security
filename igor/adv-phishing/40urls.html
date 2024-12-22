@@ -1,0 +1,340 @@
+﻿<div class="lesson urls" id="lesson40">
+	<!-- If these values ​​are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 4</p>
+							<h1>Phishing URLs and internet domains</h1>
+							<p>
+								Hackers use disguised links to lure their victims to fake or infected
+								websites. In this chapter you will learn how to decipher the links of
+								any attack.
+							</p>
+							<p>&nbsp;</p>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- URLs -->
+				<div class="row row-sect--gtxt">
+					<div class="col-x col-txt-howlinks">
+						<h2>How Links Are Formed?</h2>
+						<p>
+							What is the key to reading URLs in links? First, remember that within a link,
+							the important part lies between the double forward-slash “//” and the first
+							single slash, as shown in the example below. To interpret the URL, go to the
+							first single forward slash and then back up from there. The area after the
+							first forward slash contains information about directories, subdirectories,
+							filenames, and file types.
+						</p>
+					</div>
+					<div class="col-x col-howlinks">
+						<div class="howlinks">
+							<div class="r1">
+								<div class="titem r1c1">protocol</div>
+								<div class="titem r1c2">3rd-level<br>domain</div>
+								<div class="titem r1c3">2nd-level<br>domain</div>
+								<div class="titem r1c4">top-level<br>domain</div>
+								<div class="titem r1c5">directory</div>
+								<div class="titem r1c6">file</div>
+							</div>
+							<img class="url-r1" src="./static/img/040/url-r1.png">
+
+							<img class="url-r2" src="./static/img/040/url-r2.png">
+							<img class="url-r3" src="./static/img/040/url-r3.png">
+							<div class="r2">
+								<div class="titem r2c1">subdomain<br>name</div>
+								<div class="titem r2c2">domain<br>name</div>
+								<div class="titem r2c3">page</div>
+							</div>
+
+							<img class="url-r4" src="./static/img/040/url-r4.png">
+							<div class="r3">
+								<div class="titem r3c1">host name</div>
+								<div class="titem r3c2">path</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- What could a phishing URL look like? -->
+				<div class="row row-sect--gtxt">
+					<div class="col-12 col-block col-whatcould">
+						<div class="row">
+							<div class="col-12">
+								<h2>What Could A Phishing URL Look Like?</h2>
+								<p>
+									The attacker must intelligently choose the domain names as the goal
+									is to convince users that the web address is authentic. Let’s analyze
+									the phishing example below.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-tbl-whatcould">
+								<div class="httpline">
+									<span class="http">http://</span>
+									<span class="white">&nbsp;</span>
+									<span class="subitem2">paypal</span>
+									<span class="white">.</span>
+									<span class="subitem1">com-<wbr>webappsuserid<wbr>29348325<wbr>limited</span>
+									<span class="white">.</span>
+									<span class="domname">active-userid.com</span>
+									<span class="white">&nbsp;</span>
+									<span class="path">/webapps/89980/</span>
+								</div>
+								<div class="explainer">
+									<div class="item">
+										<span class="ltxt">protocol</span>
+										<span class="rtxt http">http://</span>
+									</div>
+									<div class="item">
+										<span class="ltxt">Domain name</span>
+										<span class="rtxt domname">active-userid.com</span>
+									</div>
+									<div class="item">
+										<span class="ltxt">path</span>
+										<span class="rtxt path">/webapps/89980/</span>
+									</div>
+									<div class="item">
+										<span class="ltxt">Subdomain item1</span>
+										<span class="rtxt subitem1">com-<wbr>webappsuserid<wbr>29348325<wbr>limited</span>
+									</div>
+									<div class="item">
+										<span class="ltxt">Subdomain item2</span>
+										<span class="rtxt subitem2">paypal</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<p>
+									Although the real domain name is active-userid.com, the attacker tried
+									to make the domain look like paypal.com by adding FreeURL. When users
+									see paypal.com at the beginning of the URL, they may easily decide to
+									trust the site and even share their sensitive information with it. This
+									method is frequently used by attackers.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Cybersquatting And Typosquatting -->
+
+				<div class="row row-sect--gtxt">
+					<div class="col-12 col-block col-cybersq">
+						<div class="row">
+							<div class="col-12">
+								<h2>Cybersquatting And Typosquatting</h2>
+								<p>
+									Other methods that are often used by attackers are Cybersquatting
+									and Typosquatting.
+								</p>
+								<ul>
+									<li>
+										<strong>Cybersquatting</strong>
+										(also known as domain squatting) involves registering, marketing, 
+										or using a domain name with ill intent to profit from the goodwill 
+										of a trademark belonging to someone else. Let’s say the name of your 
+										company is “abcompany,” and you register your domain as abcompany.com. 
+										If you neglect to purchase abcompany.net, abcompany.org, and abcompany.biz, 
+										phishers can easily register them as their own and use them for fraudulent 
+										purposes such as phishing. The cybersquatter may also offer to sell these 
+										additional domains to you at an inflated price.
+									</li>
+									<li>
+										<strong>Typosquatting</strong>,
+										also called URL hijacking, is a form of cybersquatting which exploits typographical
+										errors made by Internet users when inputting a website address into a web browser. 
+										Most of these errors are hard to notice while quick reading, hence the danger. 
+										URLs created by Typosquatters are almost indistinguishable from those of their respective 
+										trusted domains. A user may accidentally enter an incorrect website address or click a 
+										link which looks like a trusted domain and end up visiting an alternative website owned 
+										by a phisher. 
+									</li>
+								</ul>
+								
+								<p class="p1">
+									A famous example of Typosquatting is <strong>goggle.com</strong>,
+									an extremely dangerous website. Another similar one is 
+									<strong>yutube.com</strong>, which targets 
+									<strong>Youtube users</strong>.
+								</p>
+								<p class="p2">
+									Similarly, <span class="bstrong">www.airfrance.com</span> has been
+									typosquatted as <span class="bstrong">www.arifrance.com</span>,
+									diverting users to a website peddling discount travel. 
+								</p>
+								<p class="p3">
+									Other examples include <strong>paywpal.com</strong>,
+									<strong>microroft.com</strong>, <strong>applle.com</strong>,
+									<strong>appie.com</strong>.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Subdomains -->
+
+				<div class="row row-sect--gtxt">
+					<div class="col-12 col-block col-subdoms">
+						<div class="row">
+							<div class="col-12">
+								<h2>Subdomains</h2>
+								<p class="p1">
+									If you visit a website and notice “www1”, “www2”, or other “www#” in
+									the URL, what does this mean? Simply put, very popular websites may
+									have multiple servers working in a load-balancing configuration to
+									serve content when requested. Therefore, the respective company may
+									use this numbering strategy for clarity. Seeing a numbered server in
+									a URL is not in itself an indicator of a phishing site.
+								</p>
+								<p class="p2">
+									To help users quickly determine the top-level and secondary domains within
+									a URL, many companies and organizations have started to use “domain
+									highlighting.” When a user visits a site, part of the URL will dim after
+									a few seconds, leaving the top-level and secondary domains dark. For example: 
+								</p>
+								
+								<div class="info">
+									<div class="info-wrap">
+										<img src="./static/img/040/i-lock.png">
+										<span class="green">PayPal, Inc. (US)</span>
+										<span class="vdelim">|</span> <span>https://www.paypal.com/home</span>
+									</div>
+									<div class="reload">
+										<img src="./static/img/040/i-reload.png">
+									</div>
+								</div>
+								
+								<p class="p3">
+									It’s a good habit to always look for the signs that mark a website legitimate
+									and secure:
+								</p>
+								<ul>
+									<li>the closed padlock,</li>
+									<li>https://, and</li>
+									<li>
+										the company name highlighted within the URL. Some browsers may also add
+										the company name in green in front of the URL (as in the PayPal example above).
+									</li>
+								</ul>
+								<p class="p4">
+									If a site’s certificate is expired or otherwise invalid, some browsers, such as
+									Internet Explorer and Firefox, or security services will warn users. If you
+									wonder whether it is safe to proceed through the warning, use other available
+									indicators (review the URL again) to help determine whether the site is
+									legitimate. If in doubt, do not proceed.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Moreurl -->
+
+				<div class="row row-sect--gtxt">
+					<div class="col-12 col-block col-moreurl">
+						<div class="row">
+							<div class="col-12">
+								<h2>More URL Examples</h2>
+								<p class="p1">
+									Now that you’re armed with this background information, let’s look
+									at some more examples.
+								</p>
+								<ul class="num">
+									<li>
+										Nowadays, people are fairly used to seeing and using commercial sites, such as: 
+										<span class="bstrong">http://www.amazon.com</span>. This is a well-known site, 
+										and the URL doesn’t include any suspicious modifications. 
+									</li>
+									<li>
+										URLs can be formed in almost any fashion, allowing website owners to build unique 
+										site names. Unfortunately, this also makes it easy for phishers to do the same, meaning 
+										they can build site names that closely resemble legitimate and trusted websites. 
+										For example, a simple period can make a lot of difference:<br>
+										<span class="bstrong">http://www.ama.zon.com/<wbr>gp/cart/view.html/<wbr>ref=nav_cart</span>
+										<p class="p2">
+											If a person were to click on the link above, instead of going to amazon.com
+											they will be directed to zon.com, which could be a site registered by phishers.
+										</p>
+									</li>
+									<li>
+										Don’t trust links with the “@” symbol in the URL, like in this example: 
+										<strong>http://</strong><span class="bstrong">amazon.com@66.161.153.155</span>/<strong>catalog</strong>
+										<p class="p3">
+											Clicking on the link above will direct you to the IP address 66.161.153.155,
+											not to amazon.com. 
+											And if you see the “@” symbol, be particularly careful as phishers routinely
+											use this URL-manipulation tactic.
+										</p>
+									</li>
+									<li>
+										What about this type of URL? 
+										<strong>http://209.131.36.158/<wbr>amazon.com/<wbr>index.jsp</strong>
+										<p class="p4">
+											Similarly to what we saw in #3 above, this URL will direct the user
+											to the specified IP address, not amazon.com which is listed after the first
+											single forward slash.
+										</p>
+									</li>
+									<li>
+										What if you see a URL similar to the one below – whether you’re asked to click it or you notice it loading in your browser: 
+										<strong>http://www.google.com/<wbr>url?q=http://<wbr>www.badsite.com</strong>
+										<p class="p5">
+											This sample URL will refer a person from one site (in this case, google.com) 
+											to another, i.e., badsite.com (note the “=http://” nomenclature which allows
+											this). 
+											Referrals are not in themselves bad, but a referral could lead to a phishing
+											site.
+											In this case, badsite.com doesn’t look to be legitimate. 
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(0)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<div class="col-6 right txtright">
+								<button class="but-next" title="Next lesson" onclick="Lesson40.butNext(); Course.goLesson(50)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!-- /row-body row-2 -->
+		</div>
+	</div>
+</div>
+
+<style>

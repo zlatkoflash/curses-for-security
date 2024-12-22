@@ -1,0 +1,476 @@
+<div class="quiz-m quiz-q3" data-cntans="3">
+	<!-- VENMO -->
+<style>
+.quiz-q3 .two-cols {
+	padding-top:28px;
+}
+
+.quiz-q3 .two-cols div.wrap {
+	width:608px;
+	margin:0 auto;
+}
+
+.quiz-q3 .two-cols .phone {
+	float:left;
+	border:11px solid #c4c4c4;
+	border-radius:41px;
+	width:283px;
+	height:543px;
+}
+
+.quiz-q3 .two-cols .phone.phone1 {
+	background-color:#f7f7f8;
+	margin-right:20px;
+}
+.quiz-q3 .two-cols .phone.phone2 {
+	background-color:#999999;
+	margin-left:20px;
+}
+
+.quiz-q3 .two-cols .phone1-bg {
+	position:absolute;
+	top:0; left:13px;
+}
+.quiz-q3 .two-cols .phone1b-bg {
+	position:absolute;
+	display:none;
+	top:0; left:10px;
+}
+
+.quiz-q3 .two-cols .phone2-bg {
+	position:absolute;
+	top:0; left:13px;
+}
+.quiz-q3 .two-cols .phone2b-bg {
+	position:absolute;
+	display:none;
+	top:0; left:-3px;
+}
+
+.quiz-q3 span.a {
+	color:#3a90e1;
+	text-decoration:underline;
+}
+
+/* phone 1 and 2 */
+.quiz-q3 .phone h2 {
+	display:inline-block;
+	font-size:17px;
+	font-family:'Inter';
+	font-weight:500;
+	color:#52505a;
+	margin:74px 0 0 14px;
+}
+
+.quiz-q3 .phone span.inbox {
+	background-color:#eeeeee;
+	border-radius:3px;
+	font-size:9px;
+	font-weight:400;
+	color:#222222;
+	line-height:10px;
+	margin: 0 0 0px 7px;
+	padding: 2px 3px;
+	font-family: 'Inter';
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.quiz-q3 .phone .profile {
+	display:inline-block;
+	padding:15px 0 0 12px;
+	vertical-align: top;
+}
+
+.quiz-q3 .phone .sender {
+	display:inline-block;
+	font-family:arial;
+	font-size:12px;
+	color:#47474f;
+	vertical-align: top;
+	padding: 18px 0 0 3px;
+}
+.quiz-q3 .phone .sender strong {
+	font-family:'Inter';
+	font-weight:600;
+	font-size:14px;
+	line-height:14px;
+	color:#3f3c48;
+}
+
+.quiz-q3 .phone img.venmo-box {
+	display:block;
+	margin:13px auto 0 auto;
+}
+
+.quiz-q3 .phone .boxwhite {
+	display:block;
+	margin:9px auto 0 auto;
+	width:238px;
+	height:165px;
+	background-color:#fff;
+	font-family: 'Nunito Sans';
+	font-size:14px;
+	font-weight:400;
+	color:#000;
+	line-height:17px;
+	padding: 13px 19px;
+}
+.quiz-q3 .phone .boxwhite p {
+	font:inherit;
+	color:inherit;
+}
+.quiz-q3 .phone .boxwhite p.dear {
+	padding-bottom:6px;
+}
+
+.quiz-q3 .phone .boxwhite strong {
+	font-weight:700;
+}
+
+.quiz-q3 .phone1 .footer {
+	font-family: 'Nunito Sans';
+	font-size:11px;
+	font-weight:400;
+	line-height:13.6px;
+	padding:8px 0 0 30px;
+}
+
+/* phone 2 */
+.quiz-q3 .phone.phone2 span.inbox {
+	background-color:#8f8f8f;
+	color:#000;
+}
+
+.quiz-q3 .phone.phone2 h2,
+.quiz-q3 .phone.phone2 .sender strong {
+	color: #000;
+}
+
+.quiz-q3 .phone2 .white-top {
+	background-color:#fff;
+	border-radius:8px 8px 0 0;
+	height:28px;
+	width:248px;
+	margin:-31px auto 0 auto;
+	font-family:arial;
+	font-size:12px;
+	padding:4px 0 0 11px;
+}
+.quiz-q3 .phone2 .white-top span.hide-prev {
+	display:inline-block;
+	text-align:right;
+	font-size:11px;
+	width:105px;
+}
+
+.quiz-q3 .phone2 .venmo-blue {
+	margin:0 auto 0 auto;
+	width:248px;
+	background-color:#008dff;
+	text-align: center;
+	font-size: 1px;
+}
+.quiz-q3 .phone2 .venmo-blue img {
+	max-width: 100%;
+}
+
+.quiz-q3 .phone2 .black-bot {
+	margin:0 auto 0 auto;
+	background-color:#303235;
+	width:248px;
+	height:42px;
+	border-radius:0 0 8px 8px;
+	z-index:2;
+}
+
+.quiz-q3 .phone.phone2 .boxwhite {
+	background-color:transparent;
+	margin: -17px auto 0 auto;
+	z-index:1;
+	height:22px;
+	padding-bottom:0;
+}
+
+.quiz-q3 .phone2 .box-menu {
+	background-color:#f5f5f5;
+	width:248px;
+	margin:0 auto 0 auto;
+	border-radius:8px;
+	z-index:3;
+}
+.quiz-q3 .phone2 .box-menu .item {
+	border-bottom:1px solid #dcdcdc;
+	font-size: 14px;
+	font-family:'Nunito Sans';
+	line-height:14px;
+	padding:14px 0 14px 12px;
+}
+.quiz-q3 .phone2 .box-menu .item:last-child {
+	border-bottom:0 none;
+}
+</style>
+	<div class="two-cols">
+		<div class="wrap">
+			<div class="phone phone1">
+				<img class="phone1-bg" src="./static/spot-quiz/img/pages/venmo-phone1a-bg.png">
+				<img class="phone1b-bg" src="./static/spot-quiz/img/pages/venmo-phone1b-bg.png">
+				<h2>Welcome to Venmo!</h2>
+				<span class="inbox">Inbox</span>
+				<br>
+				<div class="profile">
+					<img src="./static/spot-quiz/img/profile-mob.png">
+				</div>
+				<div class="sender">
+					<strong>Venmo</strong>
+					<div class="yel_lighting yel_lighting1" data-id="1">
+						<span>&lt;venmo@venmo.com&gt;</span>
+					</div>
+					<div class="yn_menu dn_menu yn_menu1" data-id="1" data-ans="0"></div>
+					<br>
+					to John Smith <img src="./static/spot-quiz/img/pages/down-arr-mob.png">
+				</div>
+				<div class="pointsmsg pointsmsg1" data-id="1"></div>
+				<div class="lifemsg lifemsg1" data-id="1"></div>
+				<div>
+					<div class="d_buble d_buble1 d_buble_top" data-id="1">
+						<h2>Solution</h2>
+						The sender email has no typo or strange domain name. It appears to be safe.
+					</div>
+				</div>
+
+				<img class="venmo-box" src="./static/spot-quiz/img/pages/venmo-box.png">
+				
+				<div class="boxwhite">
+					<p class="dear"><strong>Dear John,</strong></p>
+					<p>Welcome to Venmo!</p>
+					<div>
+						<div class="d_buble d_buble2 d_buble_bot" data-id="2">
+							<h2>Solution</h2>
+							Confirmation emails are common and this one appears to be safe
+						</div>
+					</div>
+					<div class="yel_lighting yel_lighting2" data-id="2">
+						<p>
+							<span class="a">Verify your email address</span> so we can make sure to let
+							you know when you get paid.
+						</p>
+					</div>
+					<div class="yn_menu dn_menu yn_menu2" data-id="2" data-ans="0"></div>
+					<div class="pointsmsg pointsmsg2" data-id="2"></div>
+					<div class="lifemsg lifemsg2" data-id="2"></div>
+					<p>
+						Thanks,<br>
+						Team Venmo
+					</p>
+				</div>
+				<div class="footer">
+					Team Venmo • <span class="a">https://venmo.com</span><br>
+					159 W. 25th St., New York, NY 10001
+				</div>
+			</div>
+			
+			<div class="phone phone2">
+				<img class="phone2-bg" src="./static/spot-quiz/img/pages/venmo-phone2-bg.png">
+				<img class="phone2b-bg" src="./static/spot-quiz/img/pages/venmo-phone2b-bg.png">
+				<h2>Welcome to Venmo!</h2>
+				<span class="inbox">Inbox</span>
+				<br>
+				<div class="profile">
+					<img src="./static/spot-quiz/img/profile-mob.png">
+				</div>
+				<div class="sender">
+					<strong>Venmo</strong>
+					<br>
+					to John Smith
+				</div>
+				<div class="white-top">
+					<div class="yel_lighting yel_lighting3" data-id="3">
+						<span>https://venmo.com</span>
+					</div>
+					<span class="hide-prev">Hide preview</span>
+					<div class="yn_menu dn_menu yn_menu3" data-id="3" data-ans="0"></div>
+					<div class="pointsmsg pointsmsg3" data-id="3"></div>
+					<div class="lifemsg lifemsg3" data-id="3"></div>
+					<div class="d_buble d_buble3 d_buble_top" data-id="3">
+						<h2>Solution</h2>
+						Always check your links on mobile devices by holding down your finger on the link,
+						which pops up the real address so you can make sure it goes to the right place. In
+						this case, you can see that the link and the according domain are the same as the
+						sender organization. Therefore, it appears to be safe.
+					</div>
+				</div>
+				<div class="venmo-blue">
+					<img src="./static/spot-quiz/img/pages/venmo-box.png">
+				</div>
+				<div class="black-bot"></div>
+				
+				<div class="boxwhite">
+					<p class="dear"><strong>Dear John,</strong></p>
+				</div>
+				<div class="box-menu">
+					<div class="item">Open in Browser</div>
+					<div class="item">Copy link URL</div>
+					<div class="item">Share link</div>
+					<div class="item">Help</div>
+					<div class="item">Send feedback</div>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+<style>
+/* yel_lighting, yn_menu, pointsmsg, lifemsg */
+.quiz-q3 .yel_lighting {
+	display:inline-block;
+}
+.quiz-q3 .yn_menu,
+.quiz-q3 .pointsmsg,
+.quiz-q3 .lifemsg {
+	position:absolute;
+}
+
+.quiz-q3 .yn_menu1 {
+	top: 42px;
+	left: 0;
+}
+.quiz-q3 .yn_menu2 {
+	bottom:-11px;
+	left: 0;
+}
+
+.quiz-q3 .yn_menu3 {
+	top:30px;
+	left: 0;
+}
+	
+.quiz-q3 .yel_lighting1 {
+	padding: 2px 0;
+}
+
+.quiz-q3 .yel_lighting2 {
+	padding: 6px 6px;
+	margin: 3px 0;
+}
+
+.quiz-q3 .yel_lighting3 {
+	padding: 2px 8px;
+}
+
+.quiz-q3 .pointsmsg1 {
+	top:150px;
+	left:40px;
+}
+.quiz-q3 .pointsmsg2 {
+	top:150px;
+	left:40px;
+}
+.quiz-q3 .pointsmsg3 {
+	top:150px;
+	left:40px;
+}
+
+.quiz-q3 .lifemsg1 {
+	top:-10px;
+	left:40px;
+}
+.quiz-q3 .lifemsg2 {
+	top:-40px;
+	left:40px;
+}
+.quiz-q3 .lifemsg3 {
+	top:-40px;
+	left:40px;
+}
+
+.quiz-q3 .d_buble1 {
+	top:-4px; right:0;
+	width:90%;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m.quiz-q3 .d_buble1.d_buble_top:before {
+	left:50%;
+}
+
+.quiz-q3 .d_buble2 {
+	bottom:0; right:0;
+	width:90%;
+}
+.quiz-q3 .d_buble3 {
+	top:33px; left:0;
+	width:100%;
+}
+
+/* responsive */
+@media screen and (max-width:768px) {
+	.quiz-q3 .two-cols div.wrap {
+		margin: 0;
+		width:auto;
+	}
+
+	.quiz-q3 .two-cols .phone {
+		position:absolute;
+		float:none;
+	}
+	
+	.quiz-q3 .two-cols .phone.phone1 {
+		left:0;
+		top:-17px;
+	}
+	.quiz-q3 .two-cols .phone.phone2 {
+		right:0;
+		top:337px;
+	}
+	
+	.quiz-q3 .d_buble3 {
+		top: auto;
+		bottom: 33px;
+	}
+
+	.row-sect--gamespot .wrap-quiz .quiz-m.quiz-q3 .d_buble3.d_buble_top:before {
+		display:none;
+	}
+	.quiz-q3 .d_buble3:after {
+		content: "";
+		position: absolute;
+		width:30px;
+		left:18px; bottom:-36px;
+		height: 50px;
+		background: url(./static/spot-quiz/img/i-corner.png) top left no-repeat;
+		pointer-events:none;
+	}
+}
+
+@media screen and (max-width:450px) {
+	.quiz-q3 .yn_menu1 {
+		left: -43px;
+	}
+}
+
+@media screen and (max-width:350px) {
+	.quiz-q3 .two-cols .phone {
+		width:256px;
+		border: 7px solid #c4c4c4;
+	}
+	
+	.quiz-q3 .two-cols .phone1-bg,
+	.quiz-q3 .two-cols .phone2-bg {
+		display:none;
+	}
+	.quiz-q3 .two-cols .phone1b-bg,
+	.quiz-q3 .two-cols .phone2b-bg {
+		display:block;
+	}
+	
+	.quiz-q3 .phone2 .white-top {
+		width: 237px;
+	}
+	.quiz-q3 .phone2 .venmo-blue {
+		width: 237px;
+	}
+	.quiz-q3 .phone2 .black-bot {
+		width: 237px;
+	}
+}
+</style>
+</div>

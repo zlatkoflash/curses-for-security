@@ -1,0 +1,144 @@
+﻿<!-- Quiz (see static/phish-pages/css/quiz.css) -->
+<div class="lesson phishpages" id="lesson52">
+	<!-- If these values are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 5</p>
+							<h1>Exam: Phishing pages</h1>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-sect--phishpages">
+					<div class="col-12 col-block">
+						<div class="row row-title-progress">
+							<div class="col-6">
+								<h2>Phishing Pages</h2>
+							</div>
+							<div class="col-6">
+								<div class="quiz-progress">
+									<div class="results">
+										<div class="row row-results-desktop">
+											<div class="col-x left quiz-round">
+												<span>Question</span>
+												<span class="n">1</span>
+												<span>of</span>
+												<span class="cnt">2</span>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-12 rects">
+												<!-- spans -->
+											</div>
+										</div>
+										<div class="row row-results-mobile">
+											<div class="col-x left quiz-round">
+												<span>Question</span>
+												<span class="n">1</span>
+												<span>of</span>
+												<span class="cnt">2</span>
+											</div>
+											<div class="col-12 col-line"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /row-title-progress -->
+
+						<div class="wrap-quiz">
+							<div class="col-block">
+								<div class="question">--Question title--</div>
+
+								<div class="quiz-pages">
+								</div>
+
+								<div class="question2">--Question2 title--</div>
+								<div class="check-question">
+									<div class="chbox item0" data-weight="1">
+										<span class="check">&nbsp;</span>
+										<span class="label">-</span>
+									</div>
+									<div class="chbox item1" data-weight="2">
+										<span class="check">&nbsp;</span>
+										<span class="label">-</span>
+									</div>
+									<div class="chbox item2" data-weight="4">
+										<span class="check">&nbsp;</span>
+										<span class="label">-</span>
+									</div>
+									<div class="chbox item3" data-weight="8">
+										<span class="check">&nbsp;</span>
+										<span class="label">-</span>
+									</div>
+									<div class="chbox item4" data-weight="16">
+										<span class="check">&nbsp;</span>
+										<span class="label">-</span>
+									</div>
+								</div>
+								<div class="answer answer-correct">
+									<img src="./static/phish-pages/img/i-correct.png">
+									<h3>Correct</h3>
+									<p>Good job, keep it up.</p>
+								</div>
+								<div class="answer answer-incorrect">
+									<img src="./static/phish-pages/img/i-incorrect.png">
+									<h3>Incorrect</h3>
+									<p class="strong">Correct Answer:</p>
+									<p class="corr-ans">&nbsp;</p>
+								</div>
+							</div>
+						</div><!-- /wrap-quiz -->
+						
+						<div class="but-prev-next-q">
+							<!--
+							<button class="but-prev" title="Prev question" onclick="PhishPages.prevQuestion()">
+								<span class="i-but-lt">&nbsp;</span>
+								<span>Back</span>
+							</button>
+							-->
+							<button class="but-next" title="Next question" onclick="PhishPages.nextQuestion()">
+								<span>Next</span>
+								<span class="i-but-gt">&nbsp;</span>
+							</button>
+						</div>
+					</div><!-- /col-block -->
+				</div><!-- /row-sect--phishpages -->
+				
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(50)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<!--
+							<div class="col-6 right txtright">
+								<button class="but-next but-next-lesson" title="Next lesson" onclick="Course.goLesson(53)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+							-->
+						</div>
+					</div>
+				</div>
+			</div><!-- /row-body row-2 -->
+		</div>
+	</div>
+</div>

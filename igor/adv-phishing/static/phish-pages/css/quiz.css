@@ -1,0 +1,305 @@
+﻿/* progress */
+.row-sect--phishpages .row-results-mobile {
+	display:none;
+}
+
+.row-sect--phishpages .quiz-progress .quiz-round span {
+	font-size:14px;
+	font-weight:400;
+	line-height:1.5;
+	color:#7f7f7f;
+}
+
+.row-sect--phishpages .quiz-progress .rects {
+	font-size:1px;
+	padding-top:6px;
+}
+
+.row-sect--phishpages .quiz-progress .rects span {
+	display: inline-block;
+	height: 6px;
+	border-radius: 50px;
+	background-color: #e7e7e7;
+	margin-right: 3px;
+}
+.row-sect--phishpages .quiz-progress .rects span:last-child {
+	margin-right: 0;
+}
+.row-sect--phishpages .quiz-progress .rects span.bad {
+	background-color: #f57979;
+}
+.row-sect--phishpages .quiz-progress .rects span.ok {
+	background-color: #1c7b82;
+}
+
+/* responsive */
+@media screen and (max-width:1024px) {
+	.row-sect--phishpages .row-title-progress .col-6 {
+		width:100%;
+	}
+	
+	.row-sect--phishpages .row-results-desktop {
+		display:none;
+	}
+	.row-sect--phishpages .row-results-mobile {
+		display:block;
+		padding-top:13px;
+	}
+	.row-sect--phishpages .quiz-progress .rects { padding-top: 27px; }
+	.row-sect--phishpages .quiz-progress .rects span { height: 4px; }
+	
+	.row-sect--phishpages .quiz-progress .quiz-round span {
+		font-weight:500;
+	}
+	
+	.row-sect--phishpages .row-results-mobile .col-line {
+		height:1px;
+		background-color:#e7e7e7;
+		margin-top:13px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.row-sect--phishpages .row-results-mobile {
+		padding-top: 5px;
+    }
+}
+
+/* wrap-quiz */
+.row-sect--phishpages .wrap-quiz {
+	margin-top:34px;
+}
+
+.lesson .row-sect--phishpages .wrap-quiz .col-block {
+	padding:24px 24px;
+	background-color:#f9f9f9;
+}
+
+.row-sect--phishpages .wrap-quiz .quiz-pages {
+	background-color:#fff;
+	border:1px solid #e1e7e5;
+	margin-top:30px;
+	border-radius:12px;
+	min-height:530px;
+}
+
+/* question */
+.row-sect--phishpages .wrap-quiz .question {
+	font-size:16px;
+	font-weight:600;
+	line-height:1.4;
+	color:#545454;
+}
+
+.row-sect--phishpages .wrap-quiz .question2 {
+	font-family:'Nunito Sans';
+	font-size:28px;
+	font-weight:800;
+	line-height:1.2;
+	color:#1f1f1f;
+	padding:33px 0 30px 0;
+}
+
+.row-sect--phishpages .wrap-quiz .check-question .chbox {
+	background-color:#fff;
+	padding:15px 12px 14px 55px;
+	border:1px solid #fff;
+	border-radius:8px;
+	margin-bottom:12px;
+	cursor:pointer;
+}
+.row-sect--phishpages .wrap-quiz .check-question .chbox.last {
+	margin-bottom:0;
+}
+
+.row-sect--phishpages .wrap-quiz .check-question .chbox:hover {
+	border-color:#e1e7e5;
+}
+
+.row-sect--phishpages .wrap-quiz .check-question .chbox span.check {
+	display:inline-block;
+	width:20px; height:20px;
+	position: absolute;
+	top:18px; left:17px;
+	background-image:url(../img/checkbox.png);
+	background-position:0 0;
+	vertical-align:top;
+}
+.row-sect--phishpages .wrap-quiz .check-question .chbox.checked span.check {
+	background-position:0 -20px;
+}
+
+.row-sect--phishpages .wrap-quiz .check-question .chbox span.label {
+	display:inline-block;
+	font-size:16px;
+	font-weight:600;
+	line-height:1.4;
+}
+
+.row-sect--phishpages .wrap-quiz .check-question .chbox.correct {
+	background-color:#e9f7f8;
+	border-color:#27acb6;
+}
+.row-sect--phishpages .wrap-quiz .check-question .chbox.incorrect {
+	background-color:#ffeeee;
+	border-color:#ff5656;
+}
+
+.row-sect--phishpages .wrap-quiz .check-question .chbox.correct span.check {
+	background-position:0 -40px;
+}
+.row-sect--phishpages .wrap-quiz .check-question .chbox.checked.correct span.check {
+	background-position:0 -20px;
+}
+
+.row-sect--phishpages .wrap-quiz .answer {
+	padding-left:50px;
+	margin-top:40px;
+}
+.row-sect--phishpages .wrap-quiz .answer img {
+	display:inline-block;
+	position:absolute;
+	top:0; left:6px;
+}
+.row-sect--phishpages .wrap-quiz .answer h3 {
+	font-family:'Nunito Sans';
+	font-size:30px;
+	font-weight:800;
+	line-height:1.05;
+	color:#424242;
+}
+.row-sect--phishpages .wrap-quiz .answer p {
+	font-size:14px;
+	font-weight:400;
+	line-height:1.5;
+	color:#555555;
+}
+.row-sect--phishpages .wrap-quiz .answer p.strong {
+	font-weight:600;
+}
+
+/* prev/next question */
+.row-sect--phishpages .but-prev-next-q {
+	text-align:right;
+	padding-top:36px;
+}
+
+@media screen and (max-width:1024px) {
+	.lesson .row-sect--phishpages .wrap-quiz .col-block {
+		padding: 24px 16px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.row-sect--phishpages .wrap-quiz {
+		margin-top: 15px;
+	}
+
+	.lesson .row-sect--phishpages .wrap-quiz .col-block {
+		padding: 0;
+		background-color:transparent;
+		border:0 none;
+	}
+	
+	.row-sect--phishpages .wrap-quiz .quiz-pages {
+		margin-top: 23px;
+	}
+	
+	.row-sect--phishpages .wrap-quiz .question2 {
+		font-size:18px;
+		color:#2c2c2c;
+		padding-top:23px;
+		padding-bottom:21px;
+	}
+	
+	.row-sect--phishpages .wrap-quiz .check-question .chbox {
+		background-color:#f9f9f9;
+		margin-bottom:6px;
+		padding:10px 12px 10px 48px;
+	}
+	.row-sect--phishpages .wrap-quiz .check-question .chbox span.label {
+		font-size:14px;
+		font-weight:500;
+		line-height:1.4;
+	}
+	.row-sect--phishpages .wrap-quiz .check-question .chbox span.check {
+		top:13px;
+		left:11px;
+	}
+	
+	.row-sect--phishpages .wrap-quiz .answer {
+		padding-left:41px;
+		margin-top:30px;
+	}
+	.row-sect--phishpages .wrap-quiz .answer.answer-correct {
+		padding-left: 42px;
+	}
+	.row-sect--phishpages .wrap-quiz .answer-correct img {
+		width:24px;
+		top:1px; left:5px;
+	}
+	.row-sect--phishpages .wrap-quiz .answer-incorrect img {
+		width:23px;
+		left:4px;
+	}
+	.row-sect--phishpages .wrap-quiz .answer h3 {
+		font-size: 24px;
+		padding-bottom: 4px;
+	}
+}
+
+@media screen and (max-width: 389px) {
+	.lesson .row-sect--phishpages .col-block {
+		padding: 15px 10px 20px 10px;
+	}
+}
+
+/* pages */
+.row-sect--phishpages .wrap-quiz .quiz-pages .d_buble {
+	position: absolute;
+	display: none;
+	z-index: 4;
+	background-color: #27acb6;
+	border: 2px solid #27acb6;
+	padding: 8px 13px;
+	border-radius: 13px;
+	font-family: 'Nunito Sans';
+	font-size: 16px;
+	line-height:1.5;
+	color: #fff;
+	cursor:pointer;
+}
+.row-sect--phishpages .wrap-quiz .quiz-pages .answered .d_buble {
+	display:block;
+}
+
+.row-sect--phishpages .wrap-quiz .quiz-pages .d_buble h2 {
+	display: block;
+	font-family: 'Nunito Sans';
+	font-size: 18px;
+	font-weight:600;
+	line-height:1.36;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.row-sect--phishpages .wrap-quiz .quiz-pages .d_buble_top:before {
+	content: "";
+	position: absolute;
+	width:30px;
+	left:18px; top:-36px;
+	height: 50px;
+	background: url(../img/i-corner.png) top left no-repeat;
+	transform: rotate(180deg) scaleX(-1);
+	pointer-events:none;
+}
+.row-sect--phishpages .wrap-quiz .quiz-pages .d_buble_bot:after {
+	content: "";
+	position: absolute;
+	width:30px;
+	left:18px; bottom:-36px;
+	height: 50px;
+	background: url(../img/i-corner.png) top left no-repeat;
+	pointer-events:none;
+}

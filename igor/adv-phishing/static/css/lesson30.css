@@ -1,0 +1,116 @@
+﻿#lesson30 .row-sect--game2,
+#lesson30 .row-sect--game3 {
+	margin-top:80px;
+}
+
+#lesson30 .col-block .ltxt h2 {
+	font-size:34px;
+	line-height:1.21;
+	font-family:Inter;
+	font-weight:600;
+	color:#1e1e1e;
+	padding-bottom:34px;
+}
+#lesson30 .col-block .ltxt h2 span {
+	color:inherit;
+}
+
+#lesson30 .col-block .ltxt h4 {
+	display:inline-block;
+	background-color:#e9f7f8;
+	border-radius:8px;
+	font-family:Inter;
+	font-size:16px;
+	font-weight:600;
+	color:#1c7b82;
+	line-height:1.21;
+	padding:8px 12px;
+	margin-bottom:16px;
+}
+
+#lesson30 .col-block .ltxt p {
+	font-size:18px;
+	line-height:1.5;
+	color:#7c7c7c;
+	padding-bottom:10px;
+}
+
+#lesson30 .col-block .row-butprog {
+	padding-top:30px;
+}
+
+#lesson30 .col-block .col-x.but-play {
+	width:45%;
+}
+
+#lesson30 .col-block .but-play button.but-next {
+	background-color:#1c7b82;
+	min-width:124px;
+	padding: 12px 0px;
+}
+
+#lesson30 .col-block .col-x.progress {
+	width:55%;
+	text-align:right;
+}
+
+#lesson30 .col-block .title-progress {
+	display:inline-block;
+	line-height: 45px;
+}
+
+#lesson30 .col-block .title-progress .bar {
+	display:inline-block;
+	width:105px;
+	background-color: #e7e7e7;
+	border-radius: 20px;
+}
+#lesson30 .col-block .title-progress .perc {
+	height:10px;
+	background-color:#93d6db;
+	border-radius:20px;
+}
+#lesson30 .col-block .title-progress span {
+	display:inline-block;
+	font-size:16px;
+	color:#7c7c7c;
+	padding-left:4px;
+}
+
+#lesson30 .col-block .rimg {
+	display:block;
+    text-align:right;
+	font-size:1px;
+}
+#lesson30 .col-block .rimg img {
+	max-width:90%;
+}
+
+#lesson30 .col-block .rimg-mobile {
+	display:none;
+    text-align: center;
+}
+#lesson30 .col-block .rimg-mobile img {
+	max-width:90%;
+}
+
+@media screen and (max-width:768px) {
+	#lesson30 .col-block .col-6.ltxt {
+		width:100%;
+	}
+	
+	#lesson30 .col-block .rimg {
+		display:none;
+	}
+
+	#lesson30 .col-block .rimg-mobile {
+		display:block;
+	}
+}
+
+@media screen and (max-width:360px) {
+	#lesson30 .col-block .title-progress span {
+		font-size: 14px;
+		padding-left: 0px;
+	}
+}

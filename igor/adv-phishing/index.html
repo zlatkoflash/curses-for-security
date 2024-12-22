@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description">
+	<meta content="" name="author">
+	<title>Advanced Phishing Awareness Course</title>
+
+	<link href="./static/img/favicon.png" rel="shortcut icon" type="image/png" />
+
+	<link href="./static/css/fonts/poppins.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/fonts/inter.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/fonts/nunitosans.css" rel="stylesheet" type="text/css" />
+	<link href="./static/slick/slick-theme.css" type="text/css" rel="stylesheet">
+	<link href="./static/slick/slick.css" type="text/css" rel="stylesheet">
+	<link href="./static/tips/css/tips.css" rel="stylesheet" type="text/css" />
+	<link href="./static/exam/css/exam.css" rel="stylesheet" type="text/css" />
+
+	<link href="./static/css/common.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/header.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/accordion.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/lessons.css" rel="stylesheet" type="text/css" />
+
+	<link href="./static/css/lesson0.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/lesson10.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/lesson20.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/lesson30.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/lesson40.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/lesson50.css" rel="stylesheet" type="text/css" />
+	<link href="./static/css/lesson300.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="./static/videojs/video-js.css" type="text/css" />
+	<link rel="stylesheet" href="./static/css/video.css" type="text/css" />
+
+	<link href="./static/tips/css/tips.css" rel="stylesheet" type="text/css" />
+	<link href="./static/exam/css/exam.css" rel="stylesheet" type="text/css" />
+	<link href="./static/phish-quiz/css/quiz.css" rel="stylesheet" type="text/css" />
+	<link href="./static/spot-quiz/css/quiz.css" rel="stylesheet" type="text/css" />
+	<link href="./static/phish-master/css/quiz.css" rel="stylesheet" type="text/css" />
+	<link href="./static/phish-pages/css/quiz.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="disable-scroll">
+
+
+<div class="content page-wrap">
+	<div class="header">
+		<div class="contentwrap">
+			<div class="row">
+				<div class="row-body row-1">
+					<div class="left logo">
+						<img src="./static/img/logo.png" />
+					</div>
+					
+					<!--
+					top header menu on roll over no bold: underline, the first item that have dropdown no need for effect.
+					-->
+					<div class="menu">
+						<ul class="nav">
+							<li class="menu-mode1 menu-mode2">
+								<a class="first" href="javascript:void(0)">MY COURSES <img class="icon" src="./static/img/i-caretdown.png"></a>
+								<ul>
+									<li><a href="javascript:Course.goLesson(10)">LESSON 1 - Introduction - What is phishing?</a></li>
+									<li><a href="javascript:Course.goLesson(20)">LESSON 2 - Phishing techniques</a></li>
+									<li><a href="javascript:Course.goLesson(30)">LESSON 3 - Phishing games</a></li>
+									<li><a href="javascript:Course.goLesson(40)">LESSON 4 - Phishing URLs and internet domains</a></li>
+									<li><a href="javascript:Course.goLesson(50)">LESSON 5 - Phishing exam</a></li>
+								</ul>
+							</li>
+							<li class="menu-mode1">
+								<a class="first" onclick="Course.goLesson(300)" href="javascript:void(0)">STATISTICS</a>
+							</li>
+							<li class="menu-mode1">
+								<a class="first" href="javascript:void(0)">CONTACT US</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="right home">
+						<img onclick="location.reload()" src="./static/img/i-home.png">
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="row-body">
+					<div class="col-7 title">
+						<h1>Advanced Phishing Awareness Course</h1>
+						<p>
+							This course will teach you to spot phishing emails, avoid traps, and protect your data.
+							With progress tracking, you can learn at your own pace. Stay safe with advanced phishing
+							awareness!
+						</p>
+					</div>
+					<div class="info">
+						<div class="wrap">
+							<div class="lineexp">
+								<img src="./static/img/000/i-duration.png">
+								<h4>Duration</h4>
+								<span>30-60 min</span>
+							</div>
+							<div class="lineexp">
+								<img src="./static/img/000/i-experience.png">
+								<h4>Recommended experience</h4>
+								<span>Beginner level</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bot-space"></div>
+		</div>
+	</div><!-- /header -->
+	
+	<div class="lessons">
+		<div class="lesson" id="lesson0">
+			<div class="contentwrap">
+				<div class="row">
+					<div class="row-body row-2">
+						<h2>What you'll learn</h2>
+						
+						<div class="what-learn">
+							<div class="row">
+								<div class="col-x learn-block l">
+									<div class="learn-icon">
+										<img src="./static/img/000/i-lock.png">
+									</div>
+									<h3>Enhanced Protection Against Phishing Attacks</h3>
+									<p>Learn to identify sophisticated and professional phishing emails
+									that may appear legitimate at first glance.</p>
+									<div class="vspace1"></div>
+								</div>
+								<div class="col-x mid"></div>
+								<div class="col-x learn-block r">
+									<div class="learn-icon">
+										<img src="./static/img/000/i-chlist.png">
+									</div>
+									<h3>Progress Tracking</h3>
+									<p>Easily monitor your learning progress through a user-friendly
+									interface and resume from where you left off.</p>
+									<div class="vspace1"></div>
+								</div>
+							</div>
+							<div class="vspace"></div>
+							<div class="row">
+								<div class="col-x learn-block l">
+									<div class="learn-icon">
+										<img src="./static/img/000/i-stop.png">
+									</div>
+									<h3>Skill in Avoiding Data Breaches</h3>
+									<p>Acquire the knowledge to avoid clicking on malicious links and
+									downloading harmful attachments, thereby safeguarding your
+									confidential information.</p>
+									<div class="vspace1"></div>
+								</div>
+								<div class="col-x mid"></div>
+								<div class="col-x learn-block r">
+									<div class="learn-icon">
+										<img src="./static/img/000/i-lamp.png">
+									</div>
+									<h3>Up-to-Date Knowledge</h3>
+									<p>Stay informed about the latest phishing tactics and prevention
+									strategies, keeping your skills sharp in an ever-evolving digital
+									landscape.</p>
+									<div class="vspace1"></div>
+								</div>
+							</div>
+							<div class="vspace"></div>
+							<div class="row">
+								<div class="col-x learn-block l">
+									<div class="learn-icon">
+										<img src="./static/img/000/i-zoom.png">
+									</div>
+									<h3>Improved Email Judgment</h3>
+									<p>Develop the ability to distinguish between legitimate and
+									fraudulent emails, reducing the risk of falling victim to scams.</p>
+									<div class="vspace1"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row-body row-3">
+						<h2>Course Program</h2>
+					</div>
+					
+					<div class="chapters">
+						<div class="row-body row-4">
+							<div class="row">
+								<div class="col-4 chapter chapter1" data-id="10">
+									<div class="brd">
+										<h5>LESSON 1</h5>
+										<h3>Introduction - What is phishing?</h3>
+										<p>
+											This lesson provides an overview of phishing attacks. In addition
+											to general tips and hints for the detection of phishing emails,
+											the topic is accompanied by a short video.
+										</p>
+										<div class="vspace"></div>
+										
+										<div class="title-progress">
+											<span>2%</span>
+											<div class="vspace2"></div>
+											<div class="bar">
+												<div class="perc"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-4 chapter chapter2" data-id="20">
+									<div class="brd">
+										<h5>LESSON 2</h5>
+										<h3>Phishing techniques</h3>
+										<p>
+											Many users can identify phishing attacks conducted with fake emails
+											and links. However, this chapter goes a little deeper to explore all
+											the variations of this scam.
+										</p>
+										<div class="vspace"></div>
+										
+										<div class="title-progress">
+											<span>20%</span>
+											<div class="vspace2"></div>
+											<div class="bar">
+												<div class="perc"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-4 chapter chapter3" data-id="30">
+									<div class="brd">
+										<h5>LESSON 3</h5>
+										<h3>Phishing games</h3>
+										<p>
+											Test your knowledge on the topic of phishing with three short games:
+											Do you recognize the phishing emails and websites? Find out if you
+											could fall into the trap of an attacker.
+										</p>
+										<div class="vspace"></div>
+										
+										<div class="title-progress">
+											<span>0%</span>
+											<div class="vspace2"></div>
+											<div class="bar">
+												<div class="perc"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-4 chapter chapter4" data-id="40">
+									<div class="brd">
+										<h5>LESSON 4</h5>
+										<h3>Phishing URLs and internet domains</h3>
+										<p>
+											Hackers use disguised links to lure their victims to fake or infected
+											websites. In this chapter you will learn how to decipher the links
+											of any attack.
+										</p>
+										<div class="vspace"></div>
+										
+										<div class="title-progress">
+											<span>2%</span>
+											<div class="vspace2"></div>
+											<div class="bar">
+												<div class="perc"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-4 chapter chapter5" data-id="50">
+									<div class="brd">
+										<h5>LESSON 5</h5>
+										<h3>Phishing Quiz</h3>
+										<p>
+											Lets test your know-how.
+										</p>
+										<div class="vspace"></div>
+										
+										<div class="title-progress">
+											<span>95%</span>
+											<div class="vspace2"></div>
+											<div class="bar">
+												<div class="perc"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--
+Here is the html code for the components. When starting a lesson that uses the components,
+this code is copied into the lesson's html code.
+See also: js/course.js
+-->
+<div class="html-components" style="display:none">
+	<div class="LesProgress" data-partcx="20%">
+		<!-- We have 5 lessons. So one part should have a width of 20% (data-partcx) -->
+		<div class="parts">
+			<div class="part part-1" data-lesn="10">
+				<div class="black" data-full="Lesson 1" data-short="1"></div>
+				<div class="line">
+					<div class="white"></div>
+				</div>
+			</div>
+			<div class="part part-2" data-lesn="20">
+				<div class="black" data-full="Lesson 2" data-short="2"></div>
+				<div class="line">
+					<div class="white"></div>
+				</div>
+			</div>
+			<div class="part part-3" data-lesn="30">
+				<div class="black" data-full="Lesson 3" data-short="3"></div>
+				<div class="line">
+					<div class="white"></div>
+				</div>
+			</div>
+			<div class="part part-4" data-lesn="40">
+				<div class="black" data-full="Lesson 4" data-short="4"></div>
+				<div class="line">
+					<div class="white"></div>
+				</div>
+			</div>
+			<div class="part part-5" data-lesn="50">
+				<div class="black" data-full="Lesson 5" data-short="5"></div>
+				<div class="line">
+					<div class="white"></div>
+				</div>
+			</div>
+		</div>
+		<div class="perc">0%</div>
+	</div><!-- /LesProgress -->
+</div>
+
+<script>var pathStatic = "./static";</script>
+
+<script type="text/javascript" src="./static/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="./static/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./static/videojs/video.min.js"></script>
+<script type="text/javascript" src="./static/slick/slick.js"></script>
+<script type="text/javascript" src="./static/tips/tips2.js"></script>
+<script type="text/javascript" src="./static/exam/exam.js"></script>
+<script type="text/javascript" src="./static/exam/exam_js.js"></script>
+<script type="text/javascript" src="./static/phish-quiz/quiz.js"></script>
+<script type="text/javascript" src="./static/spot-quiz/quiz.js"></script>
+<script type="text/javascript" src="./static/phish-master/questions.js"></script>
+<script type="text/javascript" src="./static/phish-master/quiz.js"></script>
+<script type="text/javascript" src="./static/phish-pages/quiz.js"></script>
+
+<script type="text/javascript" src="./static/js/preloader.js"></script>
+<script type="text/javascript" src="./static/js/ocookies.js"></script>
+<script type="text/javascript" src="./static/js/course.js"></script>
+<script type="text/javascript" src="./static/js/lesson0.js"></script>
+<script type="text/javascript" src="./static/js/lesson10.js"></script>
+<script type="text/javascript" src="./static/js/lesson20.js"></script>
+<script type="text/javascript" src="./static/js/lesson30.js"></script>
+<script type="text/javascript" src="./static/js/lesson40.js"></script>
+<script type="text/javascript" src="./static/js/lesson50.js"></script>
+<script type="text/javascript" src="./static/js/lesson300.js"></script>
+
+<script type="text/javascript" src="./static/js/ext.js"></script>
+
+</body>
+</html>

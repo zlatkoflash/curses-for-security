@@ -1,0 +1,202 @@
+﻿<!-- Who Wants To Be Phish-Master? (see static/phish-master/css/quiz.css) -->
+<div class="lesson phishmaster" id="lesson33">
+	<!-- If these values are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 3</p>
+							<h1>Phishing games</h1>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-sect--phishmaster">
+					<audio class="background" src='./static/phish-master/mp3/background.mp3'></audio>
+					<audio class="rightsound" src='./static/phish-master/mp3/right.mp3'></audio>
+					<audio class="wrongsound" src='./static/phish-master/mp3/wrong.mp3'></audio>
+					<audio class="congrat" src='./static/phish-master/mp3/congrat.mp3'></audio>
+
+					<div class="col-12 col-block">
+						<div class="row row-title-progress">
+							<div class="col-6">
+								<h2>Who Wants to be a Phish-Master</h2>
+							</div>
+							<div class="col-6">
+								<div class="quiz-progress">
+									<div class="results">
+										<div class="row row-results-desktop">
+											<div class="col-x left quiz-round">
+												<span>Question</span>
+												<span class="n">1</span>
+												<span>of</span>
+												<span class="cnt">2</span>
+											</div>
+											<div class="col-x right level beginner">
+												<div class="txt">
+													<span class="ltxt">Level:</span>
+													<span class="beginner">Phishing Novice</span>
+													<span class="intermed">Phishing Intermediate</span>
+													<span class="expert">Phishing Expert</span>
+												</div>
+												<div class="priz level-0">
+													<img src="./static/phish-master/img/level.png">
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-12 rects">
+												<!-- spans -->
+											</div>
+										</div>
+										<div class="row row-results-mobile">
+											<div class="col-x left quiz-round">
+												<span class="n">1</span>
+												<span>of</span>
+												<span class="cnt">2</span>
+											</div>
+											<div class="col-x right level beginner">
+												<div class="txt">
+													<span class="ltxt">Level:</span>
+													<span class="beginner">Phishing Novice</span>
+													<span class="intermed">Phishing Intermediate</span>
+													<span class="expert">Phishing Expert</span>
+												</div>
+												<div class="priz level-0">
+													<img src="./static/phish-master/img/level.png">
+												</div>
+											</div>
+											<div class="col-12 col-line"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /row-title-progress -->
+
+						<div class="wrap-quiz">
+							<div class="row">
+								<div class="col-12 col-block">
+									<div class="row row-question">
+										<div class="col-12">
+											<div class="question-box">
+												Question
+											</div>
+										</div>
+									</div>
+
+									<div class="row row-answers">
+										<div class="col-right">
+											<div class="image">
+												<img src="./static/phish-master/img/ssl-secure.png">
+											</div>
+										</div>
+										<div class="col-left">
+											<!--div class="answer-box"-->
+												<div class="answer-1 answer" data-id="0">
+													<div class="big-text">A</div>
+													<div class="text"><span>Answer A</span></div>
+												</div>
+												<div class="answer-2 answer" data-id="1">
+													<div class="big-text">B</div>
+													<div class="text"><span>Answer B</span></div>
+												</div>
+												<div class="answer-3 answer" data-id="2">
+													<div class="big-text">C</div>
+													<div class="text"><span>Answer C</span></div>
+												</div>
+												<div class="answer-4 answer" data-id="3">
+													<div class="big-text">D</div>
+													<div class="text"><span>Answer D</span></div>
+												</div>
+											<!--/div-->
+										</div>
+									</div>
+
+									<div class="d-messages">
+										<div class="msg msg-bad">
+											<img src="./static/phish-master/img/i-close.png">
+											<h2>Oops!</h2>
+											<p>
+												Unfortunately, you were not successful this time. Please
+												try again or if you feel that you’re losing confidence – feel
+												free going back to watch a phishing video once again.
+											</p>
+											<button class="but-next" onclick="PhishMaster.start()">
+												<span class="i-but-reload">&nbsp;</span>
+												<span>Try Again</span>
+											</button>
+										</div>
+
+										<div class="msg msg-lev">
+											<img src="./static/phish-master/img/i-close.png">
+											<h2>Oops!</h2>
+											<p>
+												Not correct - but  you have reached level
+												<span class="n-level">1</span>.<br>
+												Feel free to try again reach to Expert level by answering
+												remaining questions.
+											</p>
+											<button class="but-next" onclick="PhishMaster.tryAgain()">
+												<span class="i-but-reload">&nbsp;</span>
+												<span>Try Again</span>
+											</button>
+										</div>
+
+										<div class="msg msg-expert">
+											<img src="./static/phish-master/img/i-check.png">
+											<h2>Well Done!</h2>
+											<p>
+												<strong>You reached the Expert level
+												<span class="n-level">1</span>.</strong><br>
+												You have just finished the phishing training part.
+												Do you «dare» to prove yourself in the anti-phishing
+												challenge?
+											</p>
+											<button class="but-next" onclick="Course.goLesson(30)">
+												<span>Finish Game</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /wrap-quiz -->
+					</div><!-- /col-block -->
+				</div><!-- /row-sect--phishmaster -->
+				
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(30)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<!--
+							<div class="col-6 right txtright">
+								<button class="but-next but-next-lesson" title="Next lesson" onclick="Course.goLesson(32)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+							-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

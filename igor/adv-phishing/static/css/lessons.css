@@ -1,0 +1,243 @@
+﻿/* common elements for lessons */
+
+.lesson .lesson-header {
+	padding-bottom:96px;
+}
+
+.lesson .lesson-header p.lesson-n {
+	font-family:'Nunito Sans';
+	font-size:16px;
+	font-weight:400;
+	line-height:1.5;
+	color:#555555;
+	padding:0;
+}
+
+.lesson .lesson-header h1 {
+	font-family:Inter;
+	font-size:52px;
+	font-weight:600;
+	line-height:1.2;
+	color:#000;
+	padding-bottom:36px;
+	letter-spacing: -2.6px;
+}
+
+.lesson .col-block {
+	padding: 40px 40px;
+}
+
+/*.lesson .row-body .col-12.col-block {*/
+
+.lesson .col-block {
+	border-radius: 12px;
+	border: 1px solid #e7e7e7;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.lesson .brd-block {
+	border:1px solid #e1e7e5;
+	border-radius:12px;
+	background-color:#fff;
+}
+
+/* buttons */
+.bot-buttons {
+    padding-top:40px;
+	padding-bottom:40px;
+}
+
+button.but-prev {
+	font-family:'Inter', arial;
+	border:1px solid #f1f1f1;
+	background: #fff;
+	color:#555555;
+	font-size:16px;
+	font-weight:600;
+	line-height:21.82px;
+	border-radius:24px;
+	padding:12px 24px;
+	cursor:pointer;
+}
+button.but-prev:hover {
+	border-color:#e0e0e0;
+}
+
+button.but-next {
+	font-family:'Inter', arial;
+	background-color: #0f6976;
+	color:#fff;
+	font-size:16px;
+	font-weight:600;
+	line-height:21.82px;
+	border-radius:24px;
+	padding:12px 24px;
+	cursor:pointer;
+}
+button.but-next:hover {
+	background-color: #0e5966;
+}
+
+button.but-prev:disabled,
+button.but-next:disabled {
+	cursor:auto;
+	opacity:0.5;
+}
+
+.lesson-body button.but-prev,
+.lesson-body button.but-next {
+	height:38px;
+}
+
+button.but-prev svg {
+	width:8px;
+	vertical-align:middle;
+	margin-right:12px;
+	fill:#555555;
+}
+
+button.but-next svg {
+	width:8px;
+	vertical-align:middle;
+	margin-left:12px;
+	fill:#fff;
+}
+
+button.but-prev span {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left:13px;
+}
+
+button.but-next span {
+	color:#fff;
+	display: inline-block;
+	vertical-align: middle;
+	padding-right:13px;
+}
+
+button.but-prev span.i-but-lt,
+button.but-next span.i-but-lt {
+	background-image:url(../img/i-but-lt.png);
+	vertical-align:middle;
+	width:8px; height:14px;
+	padding-left:0;
+	padding-right:0;
+}
+
+button.but-prev span.i-but-gt,
+button.but-next span.i-but-gt {
+	background-image:url(../img/i-but-gt.png);
+	vertical-align:middle;
+	width:8px; height:14px;
+	padding-left:0;
+	padding-right:0;
+}
+
+button.but-prev span.i-but-reload,
+button.but-next span.i-but-reload{
+	background-image:url(../img/i-but-reload.png);
+	vertical-align:middle;
+	width:20px; height:18px;
+	padding-left:0;
+	padding-right:0;
+	margin-right:8px;
+}
+
+@media screen and (max-width: 1024px) {
+	.lesson .col-block {
+		padding: 20px 20px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.lesson .col-block {
+		padding: 20px 20px;
+	}
+}
+
+@media screen and (max-width:389px) {
+	.lesson .col-block {
+		padding: 10px 10px;
+    }
+
+	.lesson .lesson-header h1 {
+		font-size:44px;
+	}
+}
+
+
+
+/* LesProgress */
+.lesson .LesProgress {
+	width:61.5%;
+}
+
+.lesson .LesProgress div.parts {
+	float:left;
+	font-size:0;
+	width:calc(100% - 43px);
+}
+.lesson .LesProgress:after {
+	clear:both;
+	display: table;
+	content: " ";
+}
+
+.lesson .LesProgress .part {
+	display:inline-block;
+	background-color:#f1f1f1;
+	height:23px;
+	overflow: hidden;
+	border-right:1px solid #d7d7d7;
+}
+.lesson .LesProgress .part:first-child {
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.lesson .LesProgress .part:last-child {
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	border-right:0 none;
+}
+
+.lesson .LesProgress .part .line {
+	position:absolute;
+	top:0; left:0;
+	height:23px;
+	background-color:#27acb6;
+	overflow: hidden;
+}
+.lesson .LesProgress .part .black,
+.lesson .LesProgress .part .white {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:18px;
+	line-height:23px;
+	font-family:Inter;
+	font-size:12px;
+	font-weight:500;
+	text-align:center;
+}
+
+.lesson .LesProgress .part .black { z-index:1; }
+.lesson .LesProgress .part .white { z-index:2; color:#fff; }
+
+.lesson .LesProgress .perc {
+	float:left;
+	padding-left:12px;
+	width: 43px;
+	font-family: Inter;
+	font-size: 12px;
+	line-height:23px;
+	font-weight: 500;
+	color: #d7d7d7;
+}
+
+@media screen and (max-width:1024px) {
+	.lesson .LesProgress {
+		width:100%;
+	}
+}
+/* /LesProgress */

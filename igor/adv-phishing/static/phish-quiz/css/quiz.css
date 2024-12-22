@@ -1,0 +1,750 @@
+﻿/* quiz */
+
+.row-sect--gamephish .col-block {
+	border: 1px solid #e7e7e7;
+	border-radius: 12px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	min-height: 100px;
+}
+
+.row-sect--gamephish  .col-block .narrowscr {
+	display:none;
+}
+
+.row-sect--gamephish .col-block > h2 {
+	padding-bottom: 24px;
+}
+	
+.row-sect--gamephish .col-block .narrowscr h3 {
+	padding-top:15px;
+	padding-bottom:10px;
+}
+	
+.row-sect--gamephish  .col-block .narrowscr .line {
+	height:6px;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.row-sect--gamephish .wrap-quiz {
+	padding:0;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-body {
+	width:50%;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools {
+	width:50%;
+	padding-left:60px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap {
+	border: 1px solid #e7e7e7;
+	border-radius: 12px;
+	background-color: #fff;
+	height:515px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-progress .left {
+	padding-right:0;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .quiz-progress .right {
+	padding-left:0;
+}
+
+.row-sect--gamephish .quiz-progress span {
+	font-family:'Nunito Sans';
+	font-size:14px;
+	line-height:17px;
+	color:#7f7f7f;
+	vertical-align:middle;
+}
+.row-sect--gamephish .quiz-progress .correct img {
+	vertical-align:middle;
+}
+
+.row-sect--gamephish .quiz-progress .correct span.n {
+	color:#7dbda0;
+}
+
+.row-sect--gamephish .quiz-progress .rects span {
+	display:inline-block;
+	height:6px;
+	border-radius:50px;
+	background-color:#e7e7e7;
+	margin-right:3px;
+}
+.row-sect--gamephish .quiz-progress .rects span:last-child {
+	margin-right:0;
+}
+
+.row-sect--gamephish .quiz-progress .rects span.ok {
+	background-color:#1c7b82;
+}
+.row-sect--gamephish .quiz-progress .rects span.bad {
+	background-color:#f57979;
+}
+/*
+.row-sect--gamephish  .col-block > .quiz-progress {
+	display:none;
+}
+*/
+.row-sect--gamephish .wrap-quiz .quiz-tools .control-interface {
+	padding-top:70px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools h3 {
+	font-family:'Nunito Sans';
+	font-size:30px;
+	line-height:36px;
+	font-weight:800;
+	color:#1f1f1f;
+	padding-bottom:15px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .mid-text p,
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-text p {
+	font-family:'Nunito Sans';
+	font-size:14px;
+	line-height:19.1px;
+	font-weight:400;
+	color:#555555;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons {
+	padding:32px 0;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons div.row {
+	margin-left:-8px;
+	margin-right:-8px;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons div.row .col-6 {
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.quiz-btn {
+	border-radius:8px;
+	color:#fff;
+	font-family: 'Nunito Sans';
+	font-weight:700;
+	width:100%;
+	max-width:300px;
+	cursor:pointer;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.quiz-btn:disabled {
+	cursor:auto;
+	opacity:0.5;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.quiz-btn span {
+	display:block;
+	float:left;
+	line-height:52px;
+	margin-left:22px;
+	color:inherit;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.quiz-btn img {
+	display:block;
+	float:right;
+	margin-right:12px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.not-spam {
+	background-color:#1c7b82;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.not-spam:hover {
+	background-color:#0c6b72;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.spam {
+	background-color:#ff8282;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.spam:hover {
+	background-color:#ef7272;
+}
+
+/*
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons .left { padding-left:15px; }
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons .right { padding-right:15px; }
+*/
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-h {
+	cursor:pointer;
+	line-height:38px;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-h:disabled {
+	cursor:auto;
+	opacity:0.5;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-h span,
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-h img {
+	vertical-align:middle;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-h span {
+	font-family: 'Nunito Sans';
+	color:#555555;
+	font-weight:700;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-h img {
+	margin-right:3px;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.hint {
+	margin-right:23px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-prev {
+	font-family: 'Nunito Sans';
+	font-weight:700;
+	margin-right:5px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-next {
+	font-family: 'Nunito Sans';
+	font-weight:700;
+}
+
+/* mail-section */
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section {
+	position: absolute;
+	top: 0;
+	width:100%; height:100%;
+	opacity:0;
+	display:none;
+	overflow:hidden;
+	padding:15px;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section.active {
+	display:block;
+	opacity:1;
+}
+
+.row-sect--gamephish .mail-section .mail-body,
+.row-sect--gamephish .mail-section p {
+	font-family:'Nunito Sans';
+}
+
+.row-sect--gamephish .mail-section p {
+	padding-bottom:10px;
+}
+
+.row-sect--gamephish .mail-section .mail-body hr {
+	height:1px;
+	background-color:#eceff1;
+}
+
+.row-sect--gamephish .wrap-quiz .mail-section .design-features .left {
+	font-size:18px;
+	font-weight:400;
+	line-height:20px;
+	color:#313234;
+}
+
+.row-sect--gamephish .wrap-quiz .mail-section .padding-section {
+	padding-top:10px;
+}
+
+.row-sect--gamephish .wrap-quiz .mail-section .quiz_header img.avatar {
+	margin-top:9px;
+}
+
+.row-sect--gamephish .wrap-quiz .mail-section .quiz_header .header-text {
+	padding-left:51px;
+}
+.row-sect--gamephish .wrap-quiz .mail-section .quiz_header .mail-date {
+	font-size:10px;
+	font-weight:500;
+	color:#818488;
+}
+.row-sect--gamephish .wrap-quiz .mail-section .quiz_header h3.mail-author {
+	font-size:16px;
+	font-weight:700;
+	color:#313234;
+	padding:0;
+	line-height:20px;
+}
+.row-sect--gamephish .wrap-quiz .mail-section .quiz_header .answer-to {
+	font-size:12px;
+	font-weight:500;
+	color:#818488;
+}
+
+.row-sect--gamephish .wrap-quiz .mail-section .attach-area {
+	padding: 2px 0 3px;
+	border-top: 1px solid #eceff1;
+	overflow: hidden;
+	border-bottom: 1px solid #eceff1;
+}
+
+.row-sect--gamephish .wrap-quiz .mail-section .attach-area .message-label {
+	display:inline-block;
+	background: #f1f1f1 url(../img/sect-email.png) no-repeat;
+	background-position:5px center;
+	font-size: 12px;
+	font-weight:500;
+	line-height:12px;
+	color:#5c5f63;
+    margin-right:12px;
+	padding: 5px 5px 5px 27px;
+}
+.row-sect--gamephish .wrap-quiz .mail-section .attach-area .attachment {
+	display:inline-block;
+	background: url(../img/sect-attach.png) no-repeat;
+	font-size: 12px;
+	font-weight:500;
+	line-height:12px;
+	color:#5c5f63;
+	padding-left:19px;
+}
+
+.row-sect--gamephish .wrap-quiz .mail-section .mail-body {
+	padding-top:20px;
+}
+.row-sect--gamephish .wrap-quiz .mail-section .mail-body h3 {
+	font-size:32px;
+	font-weight:700;
+	color:#424242;
+	line-height:1;
+	padding:0 0 20px 0;
+}
+
+/* end-page */
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .end-page {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	opacity:0;
+	display:none;
+	text-align: center;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .end-page.active {
+	display:block;
+	opacity:1;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .end-page img {
+	margin-top:139px;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .end-page h2 {
+	text-align:center;
+	font-weight: 800;
+	font-size: 30px;
+	margin-top: 0px;
+	padding-top: 25px;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .end-page h4 {
+	text-align:center;
+	color:#555555;
+	font-size:14px;
+	font-weight:400;
+	padding:8px 10px;
+	margin:0;
+	line-height:14px;
+}
+
+/* a hover */
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .hover-popup-link {
+	color: black;
+	margin-top: 30px;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+	background: white;
+	padding: 1px 5px 0px;
+	font-size: 11px;
+	box-shadow: 0 0 5px -1px black;
+	min-width: 100px;
+	border-radius: 5px;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .hover-popup-link p {
+	margin: 0px;
+	font-size: 11px;
+	overflow-wrap:break-word;
+	line-height: 15px;
+	padding: 2px;
+}
+
+/* mail hint, solution */
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution {
+	position:absolute;
+	display:none;
+	z-index:4;
+	background-color:#6869c0;
+	border: 2px solid #6869c0;
+	padding: 8px 13px;
+	border-radius: 13px;
+	font-size: 12px;
+	color:#fff;
+	cursor:pointer;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint:after,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution:after {
+	content: "";
+	position: absolute;
+	width: 30px;
+	left: 0;
+	margin-top: 11px;
+	margin-left: 16px;
+	height: 50px;
+	background: url(../img/i-corner.png) top left no-repeat;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.top:after,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.top:after {
+	display:none;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.top:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.top:before {
+	content: "";
+	position: absolute;
+	width: 30px;
+	left: 0;
+	margin-top: -44px;
+	margin-left: 18px;
+	height: 50px;
+	background: url(../img/i-corner.png) top left no-repeat;
+	transform: rotate(180deg) scaleX(-1);
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.top.l75:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.top.l75:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.l75:after,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.l75:after {
+	left:75px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.top.l125:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.top.l125:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.l125:after,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.l125:after {
+	left:125px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.top.l50p:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.top.l50p:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint.l50p:after,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution.l50p:after {
+	left:50%;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint h2,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution h2 {
+	display:block;
+	font-family: 'Nunito Sans';
+	font-size:14px;
+	font-weight:bold;
+	line-height:22px;
+	margin:0;
+	padding:0;
+	color:#fff;
+}
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-hint h2:before,
+.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section .mail-solution h2:before {
+	content:"×";
+	display:block;
+	position:absolute;
+	top:-7px; right:-17px;
+	font-size:24px;
+	font-weight:600;
+	line-height:30px;
+	height:30px; width:30px;
+	color:#fff;
+	cursor:pointer;
+	z-index:1;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .control-try-again {
+	text-align:center;
+	padding-top:207px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .control-try-again button.but-prev {
+/*	padding:0 15px;*/
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .control-try-again button.but-prev img,
+.row-sect--gamephish .wrap-quiz .quiz-tools .control-try-again button.but-prev span {
+	vertical-align:middle;
+}
+
+/* bottom result: correct/incorrect */
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-text,
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result {
+	min-height:144px;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result .bot-result-inline {
+	text-align:left;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result img.bad,
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result img.ok {
+	display:inline-block;
+	vertical-align:middle;
+}
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result span.bad,
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result span.ok {
+	display:inline-block;
+	vertical-align:middle;
+	font-family:'Nunito Sans';
+	font-size:30px;
+	font-weight:600;
+	color:#424242;
+}
+
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result p.phish,
+.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result p.regular {
+	font-family: 'Nunito Sans';
+	font-weight:400;
+	color:#555555;
+	padding-left: 49px;
+	margin-top: -3px;
+}
+
+
+/* responsive */
+@media screen and (max-width:1200px) {
+	.row-sect--gamephish .wrap-quiz .quiz-body {
+		width: 59%;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap {
+		height: 576px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools {
+		width: 40.99%;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .control-interface {
+		padding-top: 24px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons .col-6 {
+		float: none;
+		width: 100%;
+		text-align: center;
+    }
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-text,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result {
+		min-height: 95px;
+	}
+}
+
+/*
+@media screen and (max-width:1024px) {
+	.row-sect--gamephish .wrap-quiz .quiz-body {
+		width: 70%;
+	}
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap {
+		height: 558px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools {
+		width: 30%;
+		padding-left:20px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .control-interface {
+		padding-top: 15px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools h3 {
+		font-size:26px;
+		line-height:29px;
+		text-align:center;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons {
+		padding: 20px 0;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons .col-6 {
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-text,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result {
+		min-height: 100px;
+	}
+}		
+
+@media screen and (max-width:800px) {
+*/
+
+@media screen and (max-width:1024px) {
+	.row-sect--gamephish .wrap-quiz .quiz-body,
+	.row-sect--gamephish .wrap-quiz .quiz-tools {
+		float:none;
+		width:100%;
+		padding-top:10px;
+		padding-left:0;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .control-try-again {
+		padding-top:20px;
+		padding-bottom:10px;
+	}
+
+	/* hide .quiz-tools .quiz-progress and show .col-block > .quiz-progress */
+	.row-sect--gamephish .quiz-tools .quiz-progress { display:none; }
+	.row-sect--gamephish .col-block .narrowscr { display:block; }
+	.row-sect--gamephish .control-interface h3.h3-isphish {display:none; }
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mid-text p,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-text p {
+		font-size: 16px;
+		line-height: 22.4px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.not-spam {
+		margin-bottom:13px;
+	}
+	
+    .row-sect--gamephish .wrap-quiz .quiz-tools .bot-text,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result {
+		min-height: 90px;
+		text-align:center;
+    }
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-result .bot-result-inline {
+		display:inline-block;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons .left,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons .right {
+		float:none;
+	}
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons .txtright {
+		text-align: center;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-h {
+		margin-bottom:30px;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-prev,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-next {
+		padding:16px 0;
+		min-width:153px;
+		margin-right:7px;
+		margin-left:7px;
+	}
+
+	/* mail-section */
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section {
+		padding:10px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.row-sect--gamephish .wrap-quiz .mail-section .mail-body {
+		padding-top: 10px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .mail-section .design-features .left {
+		height:22px;
+		overflow:hidden;
+	}
+
+	.row-sect--gamephish .wrap-quiz .mail-section .design-features .right {
+		display:none;
+	}
+
+	.row-sect--gamephish .wrap-quiz .mail-section .mail-body h3 {
+		font-size: 27px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons .col-6.right {
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	.row-sect--gamephish .quiz-progress .rects span { height: 4px; }
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.quiz-btn {
+		width:100%;
+		max-width:100%;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-prev,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-next {
+		display:block;
+		width:150px;
+		margin:0;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-prev { float:left; }
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-next { float:right; }
+	
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap,
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap p {
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width:390px) {
+	.row-sect--gamephish .wrap-quiz {
+		padding: 7px 0 0 0;
+    }
+	
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap {
+		font-size: 14px;
+	}
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap p {
+		font-size: 14px;
+	}
+/*
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.quiz-btn img {
+		height: 48px;
+	}
+	.row-sect--gamephish .wrap-quiz .quiz-tools .mail-buttons button.quiz-btn span {
+		line-height: 48px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons {
+		padding-bottom: 5px;
+    }
+*/	
+	/* mail-section */
+	.row-sect--gamephish .wrap-quiz .quiz-body .quiz-body-wrap .mail-section {
+		padding:5px;
+	}
+
+	.row-sect--gamephish .wrap-quiz .mail-section .quiz_header h3.mail-author {
+		font-size: 14px;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .mail-section .mail-body h3 {
+		font-size: 23px;
+		padding-bottom:13px;
+	}
+}
+
+/*
+@media screen and (max-width:360px) {
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-prev,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-next {
+        width: 130px;
+		min-width:120px;
+    }
+}
+*/
+@media screen and (max-width:360px) {
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-prev,
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-next {
+		float:none;
+		display:inline-block;
+		margin:0 40px;
+	}
+	
+	.row-sect--gamephish .wrap-quiz .quiz-tools .bot-mail-buttons button.but-prev {
+		margin-bottom:12px;
+	}
+}

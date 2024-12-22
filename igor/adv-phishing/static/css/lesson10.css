@@ -1,0 +1,587 @@
+﻿/* lesson10 */
+
+#lesson10 p {
+	font-family:Poppins;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.5;
+}
+
+@media screen and (max-width: 480px) {
+	#lesson10 p {
+		font-size:16px;
+	}
+}
+
+
+
+/*----
+Each .row-sect-- can be used in other lessons. In this case, copy the corresponding CSS block
+and replace in it #lesson10 with the identifier you need.
+----*/
+
+/* row-sect--ltxt-rvideo */
+/* --------------------- */
+#lesson10 .row-sect--ltxt-rvideo .l {
+	width:40%;
+	padding:0 48px 0 0;
+}
+
+#lesson10 .row-sect--ltxt-rvideo .l h2 {
+	padding-bottom:18px;
+}
+
+#lesson10 .row-sect--ltxt-rvideo .l p {
+	color:#7c7c7c;
+}
+
+#lesson10 .row-sect--ltxt-rvideo .r {
+	width:60%;
+}
+
+@media screen and (max-width:1200px) {
+	#lesson10 .row-sect--ltxt-rvideo .l,
+	#lesson10 .row-sect--ltxt-rvideo .r {
+		float:none;
+		width:100%;
+		padding:0;
+	}
+	
+	#lesson10 .row-sect--ltxt-rvideo .l { padding-bottom:18px; }
+}
+/* --------------------- */
+
+/* row-sect--gtxtcenter */
+/* -------------------- */
+#lesson10 .row-sect--gtxtcenter {
+	margin-top:80px;
+}
+
+#lesson10 .row-sect--gtxtcenter div.col-12 {
+	background-color:#f1f1f1;
+	border-radius:12px;
+	text-align:center;
+	padding:40px 80px;
+}
+
+#lesson10 .row-sect--gtxtcenter div.phish {
+	display:inline-block;
+	width:100px; height:100px;
+	text-align:center;
+	line-height:100px;
+	background-color:#fff;
+	border:1px solid #d7d7d7;
+	border-radius: 50%;
+}
+#lesson10 .row-sect--gtxtcenter div.phish img {
+	vertical-align:middle;
+}
+
+#lesson10 .row-sect--gtxtcenter h2 {
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#lesson10 .row-sect--gtxtcenter p {
+	color:#555555;
+}
+
+@media screen and (max-width:768px) {
+	#lesson10 .row-sect--gtxtcenter div.col-12 {
+		padding:40px 20px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	#lesson10 .row-sect--gtxtcenter div.col-12 {
+		padding:40px 16px;
+	}
+
+	#lesson10 .row-sect--gtxtcenter h2 {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+}
+/* -------------------- */
+
+/* row-sect--target */
+/* ---------------- */
+#lesson10 .row-sect--target {
+	padding-bottom: 20px;
+}
+
+#lesson10 .row-sect--target .col-12 {
+	padding-top: 64px;
+}
+
+#lesson10 .row-sect--target h2 span {
+	display: inline-block;
+	font-size: inherit;
+	line-height: 80px;
+	background-image: url(../img/010/targetx2.png);
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0 25px;
+}
+
+@media screen and (max-width:768px) {
+    #lesson10 .row-sect--target h2 span {
+		line-height: 66px;
+		padding: 0 17px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#lesson10 .row-sect--target h2 span {
+		line-height: 49px;
+		padding: 0 17px;
+	}
+}
+/* ---------------- */
+
+/* row-sect--email-example */
+/* ----------------------- */
+#lesson10 .row-sect--email-example .phishing .col-7 {
+	padding-right:25px;
+}
+
+#lesson10 .row-sect--email-example .phishing .col-7 h2 {
+    padding-bottom: 18px;
+}
+
+#lesson10 .row-sect--email-example .phishing .col-whatlook {
+    text-align: center;
+}
+
+#lesson10 .row-sect--email-example .phishing .col-whatlook .wrap {
+	background-color: #e9f7f8;
+	border-radius: 6px;
+	padding: 40px 20px;
+}
+
+#lesson10 .row-sect--email-example .phishing .col-whatlook h4 {
+	color:#1e1e1e;
+	font-family:'Poppins';
+	font-size: 22px;
+	font-weight: 800;
+	line-height:1.2;
+	padding:0 0 5px 0;
+}
+
+#lesson10 .row-sect--email-example .phishing .col-whatlook p {
+	font-weight:600;
+}
+
+@media screen and (max-width: 768px) {
+	#lesson10 .row-sect--email-example .phishing .col-7,
+	#lesson10 .row-sect--email-example .phishing .col-5 {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	#lesson10 .row-sect--email-example .phishing .col-whatlook {
+		margin-top:15px;
+	}
+
+	#lesson10 .row-sect--email-example .phishing .col-whatlook .wrap {
+		padding:24px 20px;
+	}
+	
+	#lesson10 .row-sect--email-example .phishing .col-whatlook h4 {
+		font-size:18px;
+	}
+	#lesson10 .row-sect--email-example .phishing .col-whatlook p {
+		font-size:16px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#lesson10 .row-sect--email-example .phishing .col-whatlook h4 {
+		font-size:16px;
+	}
+}
+
+/* emailbox */
+#lesson10 .row-sect--email-example .emailbox {
+	border: 1px solid #e7e7e7;
+	border-radius: 12px;
+	padding: 0;
+	/*box-shadow: 3px 0 12px 1px rgba(218, 219, 223, 0.6);*/
+	overflow: hidden;
+	margin-top:32px;
+}
+
+#lesson10 .row-sect--email-example .emailbox .lmenu.col-x {
+	padding-left:0;
+	padding-right:0;
+}
+
+#lesson10 .row-sect--email-example .emailbox .lmenu .wrap {
+	width: 212px;
+	height: 622px;
+	background-color: #f9f9f9;
+	border-radius: 12px 0 0 12px;
+}
+
+#lesson10 .row-sect--email-example .emailbox .lmenu .item {
+	background-color: #f9f9f9;
+	border-right: 1px solid #e7e7e7;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32.74px;
+	color: #7c7c7c;
+	padding: 14px 24px;
+}
+#lesson10 .row-sect--email-example .emailbox .lmenu .item.inbox {
+	background-color: #fff;
+	border-bottom: 1px solid #e7e7e7;
+	border-right: 0 none;
+	color: #1e1e1e;
+	border-radius: 12px 0 0 0;
+}
+
+#lesson10 .row-sect--email-example .emailbox .rbody {
+	width: 888px;
+	padding: 47px 27px 0 27px;
+	overflow: visible;
+}
+
+#lesson10 .row-sect--email-example .emailbox .em-block {
+	padding-bottom: 16px;
+}
+
+#lesson10 .row-sect--email-example .emailbox span.bold {
+	font-family:'Nunito Sans';
+	font-size:inherit;
+	font-weight: 700;
+	color: #434343;
+}
+
+#lesson10 .row-sect--email-example .emailbox span.toexplain {
+	color: #555555;
+	border-bottom: 2px solid #27acb6;
+	font-family:'Nunito Sans';
+	font-size:18px;
+}
+
+#lesson10 .row-sect--email-example .emailbox span.toexplain1 { padding-right:50px; }
+#lesson10 .row-sect--email-example .emailbox span.toexplain2 { padding-right:50px; }
+#lesson10 .row-sect--email-example .emailbox span.toexplain3 { padding-right:50px; }
+#lesson10 .row-sect--email-example .emailbox span.toexplain4 { padding-right:80px; }
+#lesson10 .row-sect--email-example .emailbox span.toexplain5 { padding-right:119px; }
+#lesson10 .row-sect--email-example .emailbox span.toexplain6 { padding-right:50px; }
+
+#lesson10 .row-sect--email-example .emailbox .explainer {
+	display:inline-block;
+	position:absolute;
+	font-family:'Nunito Sans';
+	font-size:16px;
+	font-weight:700;
+	line-height:16px;
+	color:#fff;
+	background-color:#27acb6;
+	border-radius:6px 6px 6px 0;
+	padding:9px 10px;
+	z-index:1;
+}
+
+#lesson10 .row-sect--email-example .emailbox .explainer1 { top:-8px; right:-199px; }
+#lesson10 .row-sect--email-example .emailbox .explainer2 { top:-8px; right:-129px; }
+#lesson10 .row-sect--email-example .emailbox .explainer3 { top:-8px; right:-186px; }
+#lesson10 .row-sect--email-example .emailbox .explainer4 {
+	top: 8px;
+	right: -110px;
+	border-radius: 6px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height:1.5;
+}
+#lesson10 .row-sect--email-example .emailbox .explainer4a { display:none; }
+#lesson10 .row-sect--email-example .emailbox .explainer5 { top:-8px; right:-147px; }
+
+#lesson10 .row-sect--email-example .emailbox p {
+    font-size: 18px;
+	font-family:'Nunito Sans';
+    padding-bottom: 27px;
+	color:#1e1e1e;
+}
+
+#lesson10 .row-sect--email-example .emailbox br.br-600 {
+	display:none;
+}
+
+#lesson10 .row-sect--email-example .emailbox .hr {
+	clear: both;
+	background-color: #e7e7e7;
+	height: 1px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+
+/* responsive for emailbox */
+@media screen and (max-width: 1440px) {
+	#lesson10 .row-sect--email-example .emailbox .rbody {
+		width: 760px;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox .rbody p {
+		padding-bottom:18px;
+	}
+}
+
+@media (max-width: 1279px) {
+	#lesson10 .row-sect--email-example .emailbox .rbody {
+		width: 760px;
+		padding: 47px 27px 0 27px;
+		overflow: visible;
+	}
+}
+
+@media (max-width: 1200px) {
+	#lesson10 .row-sect--email-example .emailbox .rbody {
+		width: 646px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#lesson10 .row-sect--email-example .emailbox .lmenu .wrap {
+		width: 154px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .lmenu .item {
+		font-size: 18px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .rbody {
+		width: 562px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox p,
+	#lesson10 .row-sect--email-example .emailbox a	{
+		font-size: 16px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .explainer4 { right: -61px; }
+}
+
+@media screen and (max-width: 800px) {
+	#lesson10 .row-sect--email-example .emailbox .rbody {
+		width: 527px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox span.toexplain4 span.stime { display:none; }
+}
+
+@media screen and (max-width: 768px) {
+	#lesson10 .row-sect--email-example .emailbox .col-7,
+	#lesson10 .row-sect--email-example .emailbox .col-5 {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox {
+		border: 0 none;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .col-x {
+		float: none;
+		width: 100%;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox .rbody {
+		padding-left:0;
+		padding-right:0;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .lmenu.col-x {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox .lmenu .wrap {
+		width: 100%;
+		height: auto;
+		background-color: #f1f1f1;
+		border-radius: 0;
+		padding: 5px 0;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .lmenu .item {
+		background-color: transparent;
+		padding: 2px 8px;
+		font-size:18px;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox .lmenu .item,
+	#lesson10 .row-sect--email-example .emailbox .lmenu .item.inbox {
+		display: inline-block;
+		border: 0 none;
+		border-radius: 5px;
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 639px) {
+	#lesson10 .row-sect--email-example .emailbox .lmenu .item {
+		padding: 2px 3px;
+		font-size:16px;
+		line-height:28px;
+	}
+/*	#lesson10 .row-sect--email-example .emailbox span.toexplain4 span.stime { display:none; }*/
+}
+
+@media (max-width: 600px) {
+/*	#lesson10 .row-sect--email-example .emailbox .rbody {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	*/
+
+	#lesson10 .row-sect--email-example .emailbox p,
+	#lesson10 .row-sect--email-example .emailbox a,
+	#lesson10 .row-sect--email-example .emailbox span,
+	#lesson10 .row-sect--email-example .emailbox span.bold,
+	#lesson10 .row-sect--email-example .emailbox span.toexplain {
+		font-size: 14px;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox .explainer {
+		font-size:14px;
+		padding:5px 7px;
+		border-radius: 6px;
+	}
+	#lesson10 .row-sect--email-example .emailbox .explainer1 {
+		top:7px;
+		right:-149px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .explainer2 {
+		top: -1px;
+		right: -62px;
+		width: 91px;
+		text-align: center;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .explainer3 {
+		top: 8px;
+		right: -137px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox span.toexplain4 {
+		padding-right:0;
+	}
+	#lesson10 .row-sect--email-example .emailbox span.toexplain4 a span { display:inline; }
+	#lesson10 .row-sect--email-example .emailbox .explainer4 {
+		right:-48px;
+		top: 33px;
+		padding:15px 7px;
+    }
+	#lesson10 .row-sect--email-example .emailbox .explainer4:before {
+		content:"";
+		display:inline-block;
+		position:absolute;
+		top:-13px;
+		left:50%;
+		height:20px; width:2px;
+		background-color:#27acb6;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox span.toexplain5 {
+		display: inline-block;
+		padding-right: 80px;
+	}
+	#lesson10 .row-sect--email-example .emailbox .explainer5 {
+		top: 8px;
+		right: -118px;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox br.br-600 {
+		display:block;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	#lesson10 .row-sect--email-example .emailbox .em-block {
+		padding-bottom: 32px;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox span.toexplain1 {
+		padding-right: 10px;
+	}
+
+    #lesson10 .row-sect--email-example .emailbox .explainer1 {
+		top: -10px;
+		right: -99px;
+		width: 100px;
+		text-align: center;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox span.toexplain2 {
+		padding-right: 0;
+	}
+	#lesson10 .row-sect--email-example .emailbox .explainer2 {
+		top: 23px;
+		right: 35px;
+        width:auto;
+		text-align: center;
+		border-radius: 0 0 6px 6px;
+    }
+
+	#lesson10 .row-sect--email-example .emailbox .explainer3 {
+		top: -5px;
+		right: -43px;
+		width: 82px;
+    }
+	
+	#lesson10 .row-sect--email-example .emailbox .explainer4 {
+		padding: 5px 7px;
+		border-radius: 0 0 6px 6px;
+		line-height: 16px;
+		top: 19px;
+		left: 45px;
+		right: auto;
+	}
+	#lesson10 .row-sect--email-example .emailbox .explainer4a {
+		display:inline-block;
+		border-radius:0 0 6px 6px;
+		top:22px; left:20px;
+	}
+
+	#lesson10 .row-sect--email-example .emailbox .explainer4 br { display: none; }
+	#lesson10 .row-sect--email-example .emailbox .explainer4:before { display:none; }
+	#lesson10 .row-sect--email-example .emailbox span.toexplain4 a span {
+		display: none;
+    }
+
+	#lesson10 .row-sect--email-example .emailbox .em-block-it {
+		margin-top:12px;
+	}
+	#lesson10 .row-sect--email-example .emailbox span.toexplain5 {
+		padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+	#lesson10 .row-sect--email-example .emailbox {
+		border: 0 none !important;
+	}
+	
+	#lesson10 .row-sect--email-example .emailbox .rbody {
+/*		padding-left: 10px;
+		padding-right: 10px;*/
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+/* --------------------- */
+/* rrow-sect--tips       */
+/* --------------------- */
+#lesson10 .row-sect--tips {
+	margin-top:80px;
+}

@@ -1,0 +1,256 @@
+﻿* {
+	margin:0; padding:0; border:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,
+img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,time,mark,audio,video
+{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+*,body {
+	font-family:'Poppins', arial;
+	font-size:16px;
+	background:#dddddd;
+	color:#555555;
+}
+
+* {
+	background-color:transparent;
+	position:relative;
+}
+
+div.content {
+	width:100%;
+	position:relative;
+	overflow:visible;
+	padding-bottom:90px;
+}
+
+/* disable scroll while loading */
+.disable-scroll {
+    overflow: hidden;
+}
+
+body > .page-wrap.sections-loading-completed {
+  pointer-events: auto;
+}
+
+body > .page-wrap:not(.sections-loading-completed) {
+  opacity: 0.3;
+  pointer-events: none;
+}
+/* --------------------------- */
+
+div.contentwrap {
+	position:relative;
+	display:block;
+	width:1440px;
+	margin:0 auto;
+}
+
+div.row {
+	margin-left:0;
+	margin-right:0;
+}
+
+.row-body {
+	width:100%;
+	padding:0 90px;
+}
+
+.row-body.row-2 {
+    background: #fafafa;
+    border-radius: 40px 40px 0 0;
+    padding-top: 90px;
+    margin-top: -40px;
+}
+
+.row-body.row-body-2 {
+    background: #fafafa;
+	padding-bottom:60px;
+}
+
+.row:before, .row:after, .row-body:after {
+	display: table;
+	content: " ";
+	background-color:transparent;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7,
+.col-8, .col-9, .col-10, .col-11, .col-12, .col-x {
+	position:relative;
+	float:left;
+	min-height:1px;
+	padding-left:0;
+	padding-right:0;
+	text-align:left;
+}
+
+.col-12 { width:100%; }
+.col-11 { width:91.6%; }
+.col-10 { width:83.3%; }
+.col-9 { width:75%; }
+.col-8 { width:66.6%; }
+.col-7 { width:58.3%; }
+.col-6 { width:50%; }
+.col-5 { width:41.6%; }
+.col-4 { width:33.3%; }
+.col-3 { width:25%; }
+.col-2 { width:16.6%; }
+.col-1 { width:8.3%; }
+.col-x { width:auto; }
+
+.w-12 { width:100%; }
+.w-11 { width:91.6%; }
+.w-10 { width:83.3%; }
+.w-9 { width:75%; }
+.w-8 { width:66.6%; }
+.w-7 { width:58.3%; }
+.w-6 { width:50%; }
+.w-5 { width:41.6%; }
+.w-4 { width:33.3%; }
+.w-3 { width:25%; }
+.w-2 { width:16.6%; }
+.w-1 { width:8.3%; }
+
+.abs { position:absolute; }
+.left { float:left; position:relative; }
+.right { float:right; position:relative; }
+.clear, .row:after, .row-body:after { clear:both; }
+.txtleft { text-align:left; }
+.txtright {text-align:right; }
+.txtcenter {text-align:center; }
+.upper { text-transform:uppercase; }
+a { color:#1c7b82; cursor:pointer; }
+strong { font-weight:bold; }
+
+h1, h2, h3, h4, h5 {
+	font-family:'Inter', arial;
+}
+
+h1 {
+	letter-spacing:-1px;
+	font-size:70px;
+	font-weight:600;
+	line-height:84px;
+	padding:0;
+}
+
+h2 {
+	font-family:Inter;
+	font-size:34px;
+	font-weight:600;
+	line-height:1.21;
+	letter-spacing:-1px;
+	color:#1e1e1e;
+	padding:0;
+}
+
+h3 {
+	font-size:24px;
+	line-height:29.05px;
+	font-weight:600;
+}
+
+p {
+	font-size:16px;
+	line-height:1.5; /* 24px */
+}
+
+/* lessons */
+div.content .lesson {
+	display:none;
+}
+
+/* the start page is visible immediately */
+div.content #lesson0 {
+	display:block;
+}
+
+/* common responsive */
+@media screen and (max-width:1440px) {
+	div.contentwrap {
+		width:1200px;
+	}
+
+	.row-body {
+		padding: 0 60px;
+	}
+
+	h1 {
+		font-size:62px;
+		line-height:74px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	div.contentwrap {
+		width:1024px;
+	}
+
+	.row-body {
+		padding: 0 40px;
+	}
+
+	h1 {
+		font-size:50px;
+		line-height:60px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	div.contentwrap {
+		width:800px;
+	}
+
+	.row-body {
+		padding: 0 20px;
+	}
+
+	h1 {
+		font-size:44px;
+		line-height:52.8px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	div.contentwrap {
+		width:768px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	div.contentwrap {
+		width:600px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	div.contentwrap {
+		width:100%;
+	}
+	
+	.row-body {
+		padding: 0 16px;
+	}
+
+	h1 {
+		font-size:44px;
+		line-height:52.8px;
+	}
+	
+	h2 {
+		font-size:28px;
+	}
+}
+
+@media screen and (max-width:389px) {
+	.row-body {
+		padding: 0 10px;
+	}
+}
+/* /common */

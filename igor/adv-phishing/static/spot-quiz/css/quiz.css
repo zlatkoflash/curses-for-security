@@ -1,0 +1,555 @@
+﻿/* progress */
+.row-sect--gamespot .row-results-mobile {
+	display:none;
+}
+
+.row-sect--gamespot .quiz-progress .quiz-round span {
+	font-size:14px;
+	font-weight:400;
+	line-height:1.5;
+	color:#7f7f7f;
+}
+
+.row-sect--gamespot .quiz-progress .quiz-q-lives {
+}
+
+.row-sect--gamespot .quiz-progress .quest-n {
+	display:inline-block;
+	background:url(../img/round.png) no-repeat;
+	padding-left:26px;
+	padding-right:20px;
+}
+.row-sect--gamespot .quiz-progress .quest-n span {
+	font-size:14px;
+	font-weight:400;
+	line-height:1.5;
+	color:#7f7f7f;
+	padding:0 2px;
+}
+.row-sect--gamespot .quiz-progress .quest-n span.n {
+	color:#1c7b82;
+}
+
+.row-sect--gamespot .quiz-progress .lives {
+	display:inline-block;
+	background: url(../img/lives.png) left top no-repeat;
+	width:80px; height:25px;
+	vertical-align: middle;
+}
+
+.row-sect--gamespot .quiz-progress .rects {
+	font-size:1px;
+	padding-top:6px;
+}
+
+.row-sect--gamespot .quiz-progress .rects span {
+	display: inline-block;
+	height: 6px;
+	border-radius: 50px;
+	background-color: #e7e7e7;
+	margin-right: 3px;
+}
+.row-sect--gamespot .quiz-progress .rects span:last-child {
+	margin-right: 0;
+}
+.row-sect--gamespot .quiz-progress .rects span.bad {
+	background-color: #f57979;
+}
+.row-sect--gamespot .quiz-progress .rects span.ok {
+	background-color: #1c7b82;
+}
+
+/* quiz */
+.row-sect--gamespot .wrap-quiz {
+	margin-top:34px;
+}
+
+.lesson .row-sect--gamespot .wrap-quiz .col-block {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.row-sect--gamespot .wrap-quiz .col-block.passed {
+	border-color:#27acb6;
+}
+.row-sect--gamespot .wrap-quiz .col-block.not-passed {
+	border-color:#ff8282;
+}
+
+.row-sect--gamespot .wrap-quiz .quiz-m {
+	display:none;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m.active {
+	display:block;
+}
+
+.row-sect--gamespot .col-butnext {
+	padding-top:40px;
+}
+
+/* pages */
+.row-sect--gamespot .wrap-quiz .quiz-pages {
+	height:600px;
+	overflow:hidden;
+/*	overflow:scroll;*/
+}
+
+.row-sect--gamespot .wrap-quiz .quiz-m div.yel_lighting {
+	background: rgba(196,214,241,0.28);
+	border-radius:12px;
+	border:2px solid #5a7993;
+	cursor:pointer;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m div.yel_lighting.blink {
+	animation: yel_light_blink 0.4s steps(2) infinite;
+}
+
+@keyframes yel_light_blink {
+	from { box-shadow:0 0 4px 2px #5a7993; }
+	to { box-shadow:none; }
+}
+
+.row-sect--gamespot .wrap-quiz .quiz-m div.yn_menu {
+	display: inline-block;
+	z-index: 101;
+	background-color:#fff;
+	padding:6px;
+	border:1px solid #d7d7d7;
+	border-radius:12px;
+	min-width:250px;
+	line-height:1.5;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m div.yn_menu ul {
+	list-style: none;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m div.yn_menu li {
+	display:inline-block;
+	font-size:16px;
+	font-weight:500;
+	color:#fff;
+	border-radius:8px;
+	padding:5px 14px 5px 44px;
+	background-repeat:no-repeat;
+	background-position:11px center;
+	cursor:pointer;
+	min-width:115px;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m div.yn_menu li.safe {
+	background-color:#1c7b82;
+	background-image:url(../img/i-safe.png);
+	margin-right:6px;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m div.yn_menu li.safe:hover {
+	background-color:#0e5966;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m div.yn_menu li.unsafe {
+	background-color:#ff8282;
+	background-image:url(../img/i-unsafe.png);
+}
+.row-sect--gamespot .wrap-quiz .quiz-m div.yn_menu li.unsafe:hover {
+	background-color:#ef7272;
+}
+
+.row-sect--gamespot .wrap-quiz .quiz-m div.pointsmsg {
+	display:none;
+	background-image:url(../img/i-check.png);
+	background-repeat:no-repeat;
+	background-position:11px center;
+	background-color:#fff;
+	font-family:'Nunito Sans';
+	font-size:24px;
+	font-weight:800;
+	line-height: normal;
+	padding:5px 14px 5px 44px;
+	border-radius:12px;
+	border:1px solid #27acb6;
+	z-index:102;
+}
+
+.row-sect--gamespot .wrap-quiz .quiz-m div.lifemsg {
+	display: none;
+	background-image:url(../img/i-heart.png);
+	background-repeat:no-repeat;
+	background-position:11px center;
+	background-color:#fff;
+	font-family:'Nunito Sans';
+	font-size:24px;
+	font-weight:800;
+	line-height: normal;
+	padding:5px 14px 5px 44px;
+	border-radius:12px;
+	border:1px solid #ff5656;
+	z-index:102;
+}
+
+.row-sect--gamespot .wrap-quiz .quiz-m .d_buble {
+	position: absolute;
+	display: none;
+	z-index: 4;
+	background-color: #27acb6;
+	border: 2px solid #27acb6;
+	padding: 8px 13px;
+	border-radius: 13px;
+	font-family: 'Nunito Sans';
+	font-size: 16px;
+	line-height:1.5;
+	color: #fff;
+	cursor:pointer;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m .d_buble.d_buble_show {
+	display: block;
+	pointer-events:none;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m .d_buble h2 {
+	display: block;
+	font-family: 'Nunito Sans';
+	font-size: 18px;
+	font-weight:600;
+	line-height:1.36;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m .d_buble h2:before {
+	content: "×";
+	display: block;
+	position: absolute;
+	top: -7px;
+	right: -17px;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 30px;
+	height: 30px;
+	width: 30px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 1;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m .d_buble_top:before {
+	content: "";
+	position: absolute;
+	width:30px;
+	left:18px; top:-36px;
+	height: 50px;
+	background: url(../img/i-corner.png) top left no-repeat;
+	transform: rotate(180deg) scaleX(-1);
+	pointer-events:none;
+}
+.row-sect--gamespot .wrap-quiz .quiz-m .d_buble_bot:after {
+	content: "";
+	position: absolute;
+	width:30px;
+	left:18px; bottom:-36px;
+	height: 50px;
+	background: url(../img/i-corner.png) top left no-repeat;
+	pointer-events:none;
+}
+
+/* messages */
+.row-sect--gamespot .wrap-quiz .pop-bg {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:100%;
+	border-radius:12px;
+	background-color:rgba(0,0,0,0.14);
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg {
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:386px;
+	margin-left:-193px;
+	margin-top:-90px;
+	background-color:#fff;
+	border-radius:12px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	padding:24px;
+	text-align:center;
+	z-index: 100;
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg span.close {
+	display: block;
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 30px;
+	height: 30px;
+	width: 30px;
+	color: #555;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg h4 {
+	font-size: 28px;
+	font-weight: 600;
+	color:#1e1e1e;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg .col-but {
+	padding-top:35px;
+	text-align:center;
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg button span {
+	font-family:'Nunito Sans';
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg.msg-endround {
+	margin-top:-150px;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endround .item {
+	line-height:1.9;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endround .r .item {
+	font-weight:600;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endround .i-item {
+	padding-left:22px;
+}
+.row-sect--gamespot .wrap-quiz .msg-endround .i-ans {
+	background: url(../img/i-round-ans.png) center left no-repeat;
+}
+.row-sect--gamespot .wrap-quiz .msg-endround .i-corr {
+	background: url(../img/i-round-corrans.png) center left no-repeat;
+}
+.row-sect--gamespot .wrap-quiz .msg-endround .i-time {
+	background: url(../img/i-round-time.png) center left no-repeat;
+}
+.row-sect--gamespot .wrap-quiz .msg-endround .i-compl {
+	background: url(../img/i-round-compl.png) center left no-repeat;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endround button.but-next span {
+	padding:0;
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg p {
+	padding-bottom:20px;
+}
+
+.row-sect--gamespot .wrap-quiz .pop-msg.msg-endlives {
+	margin-top:-150px;
+}
+.row-sect--gamespot .wrap-quiz .msg-endlives h4 {
+	color:#ff5656;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endquiz {
+	position:absolute;
+	top:0; left:0;
+	width:100%; height:100%;
+	border-radius:12px;
+	background-color:#fff;
+	padding:20px;
+	text-align:center;
+	z-index: 100;
+}
+.row-sect--gamespot .wrap-quiz .msg-endquiz .d-top {
+	background-color:#f9f9f9;
+	border-radius:12px;
+	text-align:center;
+	margin-bottom:24px;
+	padding: 15px 0;
+}
+.row-sect--gamespot .wrap-quiz .msg-endquiz .d-stars {
+	padding:53px 0 25px 0;
+}
+.row-sect--gamespot .wrap-quiz .msg-endquiz .star {
+	display:inline-block;
+	width:48px; height:48px;
+	margin:0 4px;
+	background: url(../img/i-star-grey.png) center left no-repeat;
+	background-size:100% 100%;
+}
+.row-sect--gamespot .wrap-quiz .msg-endquiz .star.green {
+	background: url(../img/i-star-green.png) center left no-repeat;
+	background-size: 100% 100%;
+}
+.row-sect--gamespot .wrap-quiz .msg-endquiz .star.greengrey {
+	background: url(../img/i-star-greengrey.png) center left no-repeat;
+	background-size: 100% 100%;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endquiz h4 {
+	display:none;
+	font-family:'Nunito Sans';
+	font-size:30px;
+	font-weight:800;
+	color:#1f1f1f;
+	line-height:1.3;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endquiz.great h4.great { display:block; }
+.row-sect--gamespot .wrap-quiz .msg-endquiz.good h4.good { display:block; }
+.row-sect--gamespot .wrap-quiz .msg-endquiz.bad h4.bad { display:block; }
+
+.row-sect--gamespot .wrap-quiz .msg-endquiz p {
+	font-size:16px;
+	line-height:1.4;
+	font-weight:400;
+	padding-bottom:25px;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endquiz .txt {
+	width:64%;
+	margin:0 auto;
+	padding-top:35px;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endquiz .d-top p {
+	font-weight:600;
+}
+.row-sect--gamespot .wrap-quiz .msg-endquiz p.strong {
+	font-weight:600;
+	color:#1f1f1f;
+	line-height:1.2;
+}
+
+.row-sect--gamespot .wrap-quiz .msg-endlives .col-but,
+.row-sect--gamespot .wrap-quiz .msg-endquiz .col-but {
+	text-align:center;
+}
+.row-sect--gamespot .wrap-quiz .msg-endlives .col-but button,
+.row-sect--gamespot .wrap-quiz .msg-endquiz .col-but button {
+	margin:0 6px;
+}
+.row-sect--gamespot .wrap-quiz .msg-endlives .col-but button.but-next,
+.row-sect--gamespot .wrap-quiz .msg-endquiz .col-but button.but-next {
+	padding:12px 24px;
+}
+
+/* responsive */
+@media screen and (max-width:1400px) {
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .txt {
+		width: 88%;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.lesson .row-sect--gamespot .wrap-quiz .col-block {
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.row-sect--gamespot .row-title-progress .col-6 {
+		width:100%;
+	}
+	
+	.row-sect--gamespot .row-results-desktop {
+		display:none;
+	}
+	.row-sect--gamespot .row-results-mobile {
+		display:block;
+		padding-top:13px;
+	}
+	.row-sect--gamespot .quiz-progress .rects { padding-top: 27px; }
+	.row-sect--gamespot .quiz-progress .rects span { height: 4px; }
+	
+	.row-sect--gamespot .quiz-progress .quiz-round span,
+	.row-sect--gamespot .quiz-progress .quest-n span {
+		font-weight:500;
+	}
+	
+	.row-sect--gamespot .row-results-mobile .col-line {
+		height:1px;
+		background-color:#e7e7e7;
+		margin-top:13px;
+	}
+
+	.row-sect--gamespot .wrap-quiz {
+		margin-top:20px;
+	}
+	
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .txt {
+		width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+	.row-sect--gamespot .wrap-quiz .quiz-pages {
+		height: 720px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.row-sect--gamespot .wrap-quiz .pop-msg {
+		padding:15px;
+		font-size: 14px;
+		left:0;
+		margin-left:15px;
+		width: calc(100% - 30px);
+	}
+	.row-sect--gamespot .wrap-quiz .pop-msg h4 {
+		font-size:18px;
+		font-weight:700;
+	}
+	
+	.row-sect--gamespot .wrap-quiz .msg-endround .col-7 {
+		width:77%;
+	}
+	.row-sect--gamespot .wrap-quiz .msg-endround .col-5 {
+		width:22%;
+	}
+	.row-sect--gamespot .wrap-quiz .msg-endround button.but-next {
+		width:100%;
+	}
+	
+	.row-sect--gamespot .wrap-quiz .msg-endlives button.but-prev,
+	.row-sect--gamespot .wrap-quiz .msg-endlives button.but-next {
+		width:100%;
+		margin:0;
+	}
+	.row-sect--gamespot .wrap-quiz .msg-endlives button.but-next {
+		margin-top:10px;
+	}
+	
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .txt {
+		padding-top:0;
+		text-align:left;
+	}
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .star {
+		width: 32px;
+		height: 32px;
+	}
+}
+
+@media screen and (max-width:430px) {
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .d-top {
+		padding: 15px 0 0 0;
+	}
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .d-stars {
+		padding: 20px 0 20px 0;
+	}
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .col-but button {
+		width: 100%;
+	}
+	.row-sect--gamespot .wrap-quiz .msg-endquiz .col-but button.but-next {
+		margin-top:10px;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.lesson .row-sect--gamespot .wrap-quiz .col-block {
+		padding-left:10px;
+		padding-right:10px;
+	}
+}
+
+@media screen and (max-width:350px) {
+	.row-sect--gamespot .wrap-quiz .msg-endquiz p {
+		font-size: 14px;
+	}
+}

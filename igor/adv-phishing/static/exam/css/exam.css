@@ -1,0 +1,206 @@
+﻿.row-sect--exam .bot-buttons {
+	padding-top:40px;
+    padding-bottom: 0;
+}
+
+.row-sect--exam .top-info {
+	padding-bottom: 6px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.row-sect--exam .top-info p {
+	font-weight: 500;
+	color: #555555;
+	font-size: 16px;
+}
+
+.row-sect--exam .top-info span.n,
+.row-sect--exam .top-info span.question {
+	font-size:14px;
+	color:#b1b1b1;
+	font-weight: 500;
+}
+
+.row-sect--exam .block-question p.question2 {
+	font-size:24px;
+	font-weight:600;
+	color:#2c2c2c;
+	line-height:28.8px;
+	margin-top:24px;
+	margin-bottom:24px;
+}
+
+.row-sect--exam .block-question .block-answers {
+	border:1px solid #e7e7e7;
+	border-radius:10px;
+}
+
+.row-sect--exam .block-question .block-answers .answer-text {
+    display: block;
+    position: relative;
+	font-size:16px;
+	line-height:28px;
+	color:#555555;
+    margin-left: 40px;
+}
+
+.row-sect--exam div.answer {
+	border-bottom:1px solid #e7e7e7;
+	padding:17px;
+	cursor:pointer;
+}
+.row-sect--exam .answer.last {
+	border-bottom:0 none;
+}
+
+.row-sect--exam .answer span.indicator {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/checkbox48.png);
+	background-size: 24px;
+	background-position: 0 0;
+	position: absolute;
+}
+.row-sect--exam .answer.type-radio span.indicator {
+	background-image: url(../img/radio48.png);
+}
+.row-sect--exam .answer.checked span.indicator {
+	background-position: 0 -24px;
+}
+.row-sect--exam .answer.incorrect span.indicator {
+	background-position: 0 24px;
+}
+.row-sect--exam .answer.correct span.indicator {
+	background-position: 0 48px;
+}
+
+.row-sect--exam .block-feedback {
+	padding-top:30px;
+}
+
+.row-sect--exam .block-feedback .feedback-icon {
+	text-align:center;
+}
+
+.row-sect--exam .block-feedback .feedback-icon img {
+	height: 40px;
+}
+
+.row-sect--exam .block-feedback .label {
+	text-align: center;
+	font-size: 18px;
+	color: #545454;
+}
+
+.row-sect--exam .block-feedback .feedback-text {
+	text-align: center;
+	font-size: 16px;
+	color: #545454;
+}
+
+/* results */
+.row-sect--exam .col-block-exam-results {
+	display:none;
+}
+
+.row-sect--exam .col-block-exam-results h2 {
+	padding-bottom: 20px;
+}
+
+.row-sect--exam .col-block-exam-results table {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:0px;
+	width:100%;
+}
+
+.row-sect--exam .col-block-exam-results table,
+.row-sect--exam .col-block-exam-results tr,
+.row-sect--exam .col-block-exam-results td {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	color:#1e1e1e;
+}
+
+.row-sect--exam .col-block-exam-results h3 {
+	padding-bottom:20px;
+}
+
+.row-sect--exam .col-block-exam-results td.q,
+.row-sect--exam .col-block-exam-results td.a {
+	padding-left: 24px;
+}
+
+.row-sect--exam .col-block-exam-results td.rem {
+	padding-bottom:20px;
+	color: #7c7c7c;
+	font-size: 14px;
+}
+
+.row-sect--exam .col-block-exam-results td.bad {
+	background-image: url(../img/0471-minus.png);
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position: left 5px;
+}
+
+.row-sect--exam .col-block-exam-results td.good {
+	background-image: url(../img/0471-check.png);
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	background-position: left 5px;
+}
+
+/* responsive for exam */
+@media screen and (max-width: 1024px) {
+	.row-sect--exam .block-question p.question2 {
+		font-size:22px;
+		line-height:26.4px;
+	}
+
+	.row-sect--exam .answer {
+		padding:11px;
+	}
+
+	.row-sect--exam .block-question .block-answers .answer-text {
+		font-size:18px;
+		line-height:25px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.row-sect--exam .block-question .block-answers .answer-text {
+		font-size:16px;
+		line-height:22.4px;
+	}
+	
+	.lesson.exam .top-info .col-6 {
+		float:none;
+		width:100%;
+		text-align:left;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.col-exam .row-sect--exam {
+		padding: 30px 10px;
+	}
+
+	.row-sect--exam .block-question p.question2 {
+		font-size:20px;
+		line-height:24px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.col-exam .row-sect--exam {
+		padding: 20px 0;
+	}
+	
+	.row-sect--exam .block-question p.question2 {
+		font-size:18px;
+		line-height:25.6px;
+	}
+}

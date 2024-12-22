@@ -1,0 +1,197 @@
+﻿<!-- Quiz (see static/phish-quiz/css/quiz.css) -->
+<div class="lesson gamephish" id="lesson32">
+	<!-- If these values are empty, there will be an empty header with min height -->
+	<input type="hidden" class="stitle" value="" />
+	<input type="hidden" class="sdescription" value="" />
+
+	<div class="contentwrap">
+		<div class="row">
+			<!--
+				.row-body.row-2 has margin-top: -40px;
+				it should be used at the beginning of a lesson 
+			-->
+			<div class="row-body row-2">
+
+				<div class="row">
+					<div class="col-12">
+						<div class="lesson-header">
+							<p class="lesson-n">Lesson 3</p>
+							<h1>Phishing games</h1>
+							<div class="LesProgress"><!-- filled in automatically --></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-sect--gamephish">
+					<div class="col-12 col-block">
+						<h2>Phish or real?</h2>
+						<div class="narrowscr">
+							<!-- filled in automatically -->
+							<div class="quiz-progress">
+							</div>
+							<div class="line"></div>
+							<h3>&nbsp;</h3>
+						</div>
+										
+						<div class="wrap-quiz">
+							<div class="row">
+								<div class="col-x left quiz-body">
+									<div class="quiz-body-wrap">
+										<!-- mail-section -->
+										
+										<div class="end-page">
+											<img src="./static/phish-quiz/img/quiz-end.png">
+											<h2>Quiz Completed</h2>
+											<h4>
+												You finished the phishing quiz.
+											</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-x right quiz-tools">
+									<div class="quiz-progress">
+										<div class="results">
+											<div class="row">
+												<div class="col-x left">
+													<span class="not-completed">Test</span>
+													<span class="n not-completed">1</span>
+													<span class="not-completed">of</span>
+													<span class="cnt not-completed">9</span>
+													<span class="completed">Completed</span>
+												</div>
+												<div class="col-x right txtright">
+													<div class="correct">
+														<img src="./static/phish-quiz/img/i-corrects.png">
+														<span>Correct:</span>
+														<span class="n">1</span>
+														<span>/</span>
+														<span class="cnt">9</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12 rects">
+													<!-- spans -->
+												</div>
+											</div>
+										</div>
+									</div>
+							
+									<div class="control-interface">
+										<h3 class="h3-isphish">Is this a phishing mail?</h3>
+										<div class="mid-text">
+											<p>
+												Find out if the email could be a phishing attempt and click
+												either "regular email" or "phishing email".
+											</p>
+										</div>
+										<div class="mail-buttons">
+											<div class="row">
+												<div class="col-6">
+													<button class="quiz-btn not-spam">
+														<span>Regular Mail</span>
+														<img src="./static/phish-quiz/img/i-reg-mail.png">
+													</button>
+												</div>
+												<div class="col-6">
+													<button class="quiz-btn spam">
+														<span>Phishing Mail</span>
+														<img src="./static/phish-quiz/img/i-phish-mail.png">
+													</button>
+												</div>
+											</div>
+										</div>
+										<div class="bot-text">
+											<p>
+												You can use hints during the game. The "next" button will
+												take you to the next game question.
+											</p>
+										</div>
+										<div class="bot-result">
+											<div class="bot-result-inline">
+											<img class="bad" src="./static/phish-quiz/img/i-close.png">
+											<img class="ok" src="./static/phish-quiz/img/i-check.png">
+											<span class="bad">Incorrect</span>
+											<span class="ok">Great Job!</span>
+											<p class="phish">This is a phishing mail.</p>
+											<p class="regular">This is a regular mail.</p>
+											</div>
+										</div>
+										<div class="bot-mail-buttons">
+											<div class="row">
+												<div class="left">
+													<button class="but-h hint">
+														<img src="./static/phish-quiz/img/i-hint.png">
+														<span>Hint</span>
+													</button>
+													<button class="but-h solution">
+														<img src="./static/phish-quiz/img/i-solution.png">
+														<span>Solution</span>
+													</button>
+												</div>
+												<div class="right txtright">
+													<button class="but-prev">
+														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1059.8 1792">
+															<path d="M1059.8,149c0,15.6-6.1,29.3-18.2,41.3L326,896l715.7,705.7c12.1,12,18.2,25.7,18.2,41.3s-6.1,29.3-18.2,41.3l-91.1,89.8
+															c-12.1,12-26.1,18-41.9,18c-15.8,0-29.7-6-41.9-18L18.2,937.3C6.1,925.3,0,911.6,0,896s6.1-29.3,18.2-41.3L866.8,18
+															c12.1-12,26.1-18,41.9-18c15.8,0,29.7,6,41.9,18l91.1,89.8C1053.8,119.7,1059.8,133.5,1059.8,149z">
+															</path>
+														</svg>
+														<span class="txt">Back</span>
+													</button>
+													<button class="but-next">
+														<span class="txt">Next</span>
+														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1059.8 1792">
+															<path d="M18.2,107.8L109.3,18c12.2-12,26.1-18,41.9-18C167,0,181,6,193.1,18l848.6,836.7c12.1,12,18.2,25.7,18.2,41.3
+															s-6.1,29.3-18.2,41.3l-848.6,836.8c-12.2,12-26.1,18-41.9,18c-15.8,0-29.8-6-41.9-18l-91.1-89.8C6.1,1672.3,0,1658.6,0,1643
+															s6.1-29.3,18.2-41.3L733.9,896L18.3,190.3C6.2,178.3,0.1,164.6,0.1,149C0.1,133.5,6.1,119.7,18.2,107.8z">
+															</path>
+														</svg>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="control-try-again">
+										<!--
+										If you want to enable run quiz again, please uncomment
+										<button class="but-prev">
+											<img src="./static/phish-quiz/img/i-rotate.png">
+											<span>Try Again</span>
+										</button>
+										-->
+									</div>
+								</div><!-- /quiz-tools -->
+							</div><!-- /row -->
+						
+						</div><!-- /wrap-quiz -->
+					</div><!-- /col-block -->
+
+				</div><!-- /row-sect--gamephish -->
+				
+				<div class="row">
+					<div class="bot-buttons">
+						<div class="row">
+							<div class="col-6 left">
+								<button class="but-prev" title="Main page" onclick="Course.goLesson(30)">
+									<span class="i-but-lt">&nbsp;</span>
+									<span>Back</span>
+								</button>
+							</div>
+
+							<div class="col-6 right txtright">
+								<button class="but-next but-next-lesson" title="Next lesson" onclick="Course.goLesson(30)">
+									<span>Next</span>
+									<span class="i-but-gt">&nbsp;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!-- /row-2 -->
+		</div>
+	</div>
+</div>
